@@ -1,0 +1,16 @@
+@import "../../../assets/sass/global";
+
+h3 {
+  text-align: center;
+  margin: 0;
+}
+
+.foot {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  margin: 10px;
+  color: $black;
+}

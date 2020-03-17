@@ -1,0 +1,102 @@
+@import "../rfs/scss";
+
+$font: "IBM Plex Sans", sans-serif;
+$white: #f7f7f7;
+$black: #071e22;
+$yellow: #eac435;
+$blue: #345995;
+$red: #fb4d3d;
+$blackOverlay: rgba($black, 0.75);
+$whiteOverlay: rgba($white, 0.5);
+$dropShadow: rgba($black, 0.25);
+$regular: 400;
+$bold: 700;
+$pieceWidth: 42vw; //30-45?
+$pieceHeight: $pieceWidth * 0.733;
+
+html {
+  scroll-behavior: smooth;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+
+body {
+  background: $white;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family: $font;
+  font-weight: $regular;
+  color: $black;
+  @include rfs(24px);
+  margin: 0px;
+}
+
+h1 {
+  font-family: $font;
+  font-weight: $bold;
+  font-style: italic;
+  color: $black;
+  @include rfs(60px);
+}
+
+h2 {
+  font-family: $font;
+  font-weight: $bold;
+  color: $black;
+  @include rfs(24px);
+}
+
+h3 {
+  font-family: $font;
+  font-weight: $bold;
+  color: $black;
+  @include rfs(14px);
+}
+
+#mini {
+  font-weight: $regular;
+  @include rfs(11px);
+}
+
+footer {
+  margin: 60px;
+}
+
+h4 {
+  font-family: $font;
+  font-weight: $bold;
+  color: $white;
+  @include rfs(36px);
+  margin: 0;
+}
+
+h5 {
+  font-family: $font;
+  font-weight: $regular;
+  color: $white;
+  font-style: italic;
+  @include rfs(16px);
+  margin: 0;
+}
+
+h6 {
+  font-family: $font;
+  font-weight: $bold;
+  color: $whiteOverlay;
+  @include rfs(16px);
+  margin: 0;
+}
+
+.card {
+  color: $white;
+  @include rfs(20px);
+}
