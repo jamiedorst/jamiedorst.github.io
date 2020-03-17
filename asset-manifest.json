@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a6eac423.chunk.css",
+    "main.js": "/static/js/main.8bbe89b6.chunk.js",
+    "main.js.map": "/static/js/main.8bbe89b6.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.fd7ed15f.chunk.js": "/static/js/2.fd7ed15f.chunk.js",
+    "static/js/2.fd7ed15f.chunk.js.map": "/static/js/2.fd7ed15f.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.f27274c6dd88b801c5dbfa8f4a9e2eb7.js": "/precache-manifest.f27274c6dd88b801c5dbfa8f4a9e2eb7.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.a6eac423.chunk.css.map": "/static/css/main.a6eac423.chunk.css.map",
+    "static/media/airbnb.png": "/static/media/airbnb.9c384b1c.png",
+    "static/media/blueBlob.png": "/static/media/blueBlob.e7f56e03.png",
+    "static/media/courseAdvisor.png": "/static/media/courseAdvisor.02d4039c.png",
+    "static/media/app.scss": "/static/media/fa-regular-400.a0e3ac82.ttf",
+    "static/media/illustration.png": "/static/media/illustration.aad7b4f7.png",
+    "static/media/macro.png": "/static/media/macro.094f4b2e.png",
+    "static/media/model.png": "/static/media/model.c55ad9ab.png",
+    "static/media/personality.png": "/static/media/personality.80b5dab3.png",
+    "static/media/photography.png": "/static/media/photography.c4830513.png",
+    "static/media/redBlob.png": "/static/media/redBlob.7276714b.png",
+    "static/media/resmed.png": "/static/media/resmed.e48b7fb9.png",
+    "static/media/yearbook.png": "/static/media/yearbook.ed9563da.png"
+  }
+}
