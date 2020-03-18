@@ -1,5 +1,7 @@
 import React from "react";
 import "./navbar.scss";
+import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 export default function Navbar() {
   return (
@@ -8,16 +10,16 @@ export default function Navbar() {
         <div className="leftNav">
           <li>
             <h2>
-              <a className="navItem" href="#work">
+              <HashLink className="navItem" to="/#work">
                 Work
-              </a>
+              </HashLink>
             </h2>
           </li>
           <li>
             <h2>
-              <a className="navItem" href="news.asp">
+              <Link className="navItem" to="/about">
                 About
-              </a>
+              </Link>
             </h2>
           </li>
           <li>
@@ -30,9 +32,9 @@ export default function Navbar() {
         </div>
         <li>
           <h1>
-            <a id="name" href="#home">
+            <HashLink id="name" to="/#home">
               Jamie Dorst
-            </a>
+            </HashLink>
           </h1>
         </li>
       </ul>

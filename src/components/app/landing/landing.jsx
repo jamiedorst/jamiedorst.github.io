@@ -14,6 +14,7 @@ import yearbook from "../../../assets/images/yearbook.png";
 import model from "../../../assets/images/model.png";
 import resmed from "../../../assets/images/resmed.png";
 import "./landing.scss";
+import { Link } from "react-router-dom";
 
 export default function Landing() {
   return (
@@ -33,17 +34,19 @@ export default function Landing() {
             CMU COURSE ADVISOR
         */}
         <section>
-          <div className="overlay">
-            <div className="details">
-              <h4 className="title">CMU Course Advisor</h4>
-              <h5>Ongoing since August 2019</h5>
-              <p className="card">
-                Creating a new way for CMU students to discover and learn about
-                possible courses.
-              </p>
-              <h6 className="tags">#UXDESIGNER #FRONTENDDEVELOPER</h6>
+          <Link className="navItem" to="/cmucourseadvisor">
+            <div className="overlay">
+              <div className="details">
+                <h4 className="title">CMU Course Advisor</h4>
+                <h5>Ongoing since August 2019</h5>
+                <p className="card">
+                  Creating a new way for CMU students to discover and learn
+                  about possible courses.
+                </p>
+                <h6 className="tags">#UXDESIGNER #FRONTENDDEVELOPER</h6>
+              </div>
             </div>
-          </div>
+          </Link>
           <img src={courseAdvisor} className="piece" alt="courseAdvisor" />
         </section>
         {/* 

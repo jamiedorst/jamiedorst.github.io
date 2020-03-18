@@ -1,13 +1,20 @@
 import React from "react";
 import "./app.scss";
 import Landing from "./landing";
+import CourseAdvisor from "./courseAdvisor";
+import About from "./about";
+// import Error from "./error";
+import { BrowserRouter as Switch, Route } from "react-router-dom";
 
-function App() {
+export default function App() {
   return (
-    <div className="app">
-      <Landing />
-    </div>
+    <>
+      <Switch>
+        <Route exact path="/" component={Landing} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/CMUCourseAdvisor" component={CourseAdvisor} />
+        {/* <Route component={Error} /> */}
+      </Switch>
+    </>
   );
 }
-
-export default App;

@@ -1,15 +1,22 @@
 {
-  "name": "optimal-react-file-structure",
+  "name": "jamiedorst.github.io",
+  "homepage": "https://jamiedorst.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "node-sass": "^4.13.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-router-dom": "^5.1.2",
+    "react-router-hash-link": "^1.2.2",
+    "react-router-scroll": "^0.4.4",
+    "react-router-scroll-top": "^0.2.1",
     "react-scripts": "3.0.1",
     "rfs": "^9.0.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

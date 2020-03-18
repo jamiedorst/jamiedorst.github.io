@@ -1,0 +1,94 @@
+@import "../../../assets/sass/global";
+
+#blueBlob {
+  position: absolute;
+  left: 47px;
+}
+
+#yellowBlob {
+  position: absolute;
+  top: 296px;
+  left: 54vw;
+  transform: translate(-50%, 0);
+}
+
+#redBlob {
+  position: absolute;
+  right: 32px;
+}
+
+.grid {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100vw;
+  margin-top: 30px;
+}
+
+.piece {
+  width: $pieceWidth;
+  height: $pieceHeight;
+  object-fit: cover;
+  margin: 10px;
+  box-shadow: 0px 6px 4px $dropShadow;
+  border-radius: 10px;
+}
+
+.piece:hover {
+  cursor: pointer;
+}
+
+#home {
+  position: relative;
+  height: 100vh;
+  display: flex;
+}
+
+.navbar {
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  width: $pieceWidth;
+  height: $pieceHeight;
+  background: $blackOverlay;
+  margin: 10px;
+  border-radius: 10px;
+  opacity: 0;
+  transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+}
+
+.overlay:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.details {
+  margin-left: 30px;
+  margin-right: 30px;
+  display: flex;
+  height: $pieceHeight;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.tags {
+  margin-top: auto;
+  margin-bottom: 30px;
+}
+
+.card {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.title {
+  margin-top: 40px;
+}
