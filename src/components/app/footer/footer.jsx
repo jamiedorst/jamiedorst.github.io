@@ -4,9 +4,9 @@ import "./footer.scss";
 export default function Footer() {
   return (
     <>
-      <h3>
+      <h6>
         designed and handcoded with <span class="far fa-heart"></span>
-      </h3>
+      </h6>
       <nav className="foot">
         <a className="icon" href="https://www.linkedin.com/in/jamiedorst/">
           <span className="fab fa-linkedin-in fa-md"></span>
@@ -18,7 +18,7 @@ export default function Footer() {
           <span className="fab fa-github fa-md"></span>
         </a>
       </nav>
-      <h3 id="mini">© 2020 Jamie Dorst</h3>
+      <h6 id="mini">© 2020 Jamie Dorst</h6>
     </>
   );
 }

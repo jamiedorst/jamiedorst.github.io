@@ -6,7 +6,7 @@ import { HashLink } from "react-router-hash-link";
 export default function Navbar() {
   return (
     <>
-      <ul>
+      <ul id="top">
         <div className="leftNav">
           <li>
             <h2>

@@ -15,17 +15,18 @@ import model from "../../../assets/images/model.png";
 import resmed from "../../../assets/images/resmed.png";
 import "./landing.scss";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 export default function Landing() {
   return (
     <>
       <header id="home">
-        <div className="blobs">
+        <div>
           <img src={blueBlob} id="blueBlob" alt="blueBlob" />
           <img src={yellowBlob} id="yellowBlob" alt="yellowBlob" />
           <img src={redBlob} id="redBlob" alt="redBlob" />
         </div>
-        <nav className="navbar" id="work">
+        <nav className="navbarHome" id="work">
           <Navbar />
         </nav>
       </header>
@@ -34,35 +35,42 @@ export default function Landing() {
             CMU COURSE ADVISOR
         */}
         <section>
-          <Link className="navItem" to="/cmucourseadvisor">
-            <div className="overlay">
-              <div className="details">
-                <h4 className="title">CMU Course Advisor</h4>
-                <h5>Ongoing since August 2019</h5>
-                <p className="card">
-                  Creating a new way for CMU students to discover and learn
-                  about possible courses.
-                </p>
-                <h6 className="tags">#UXDESIGNER #FRONTENDDEVELOPER</h6>
+          <div>
+            <HashLink className="navItem" to="/cmucourseadvisor#top">
+              <div className="overlay">
+                <div className="details">
+                  <h3 className="title">CMU Course Advisor</h3>
+                  <p className="date">Ongoing since August 2019</p>
+                  <p className="card">
+                    Creating a new way for CMU students to discover and learn
+                    about possible courses.
+                  </p>
+                  <h5 className="tags">#UXDESIGNER #FRONTENDDEVELOPER</h5>
+                </div>
               </div>
-            </div>
-          </Link>
+            </HashLink>
+          </div>
           <img src={courseAdvisor} className="piece" alt="courseAdvisor" />
         </section>
         {/* 
             RESMED
         */}
         <section>
-          <div className="overlay">
-            <div className="details">
-              <h4 className="title">ResMed</h4>
-              <h5>February 2020</h5>
-              <p className="card">
-                AR mobile app design for ResMed, an IoT medical device company.
-                Completed as part of my Interaction Design Studio II class.
-              </p>
-              <h6 className="tags">#UXDESIGNER</h6>
-            </div>
+          <div>
+            <Link className="navItem" to="/cmucourseadvisor">
+              <div className="overlay">
+                <div className="details">
+                  <h3 className="title">ResMed</h3>
+                  <p className="date">February 2020</p>
+                  <p className="card">
+                    AR mobile app design for ResMed, an IoT medical device
+                    company. Completed as part of my Interaction Design Studio
+                    II class.
+                  </p>
+                  <h5 className="tags">#UXDESIGNER</h5>
+                </div>
+              </div>
+            </Link>
           </div>
           <img src={resmed} className="piece" alt="resmed" />
         </section>
@@ -70,16 +78,21 @@ export default function Landing() {
             AIRBNB
         */}
         <section>
-          <div className="overlay">
-            <div className="details">
-              <h4 className="title">AirBnb Redesign</h4>
-              <h5>January 2019</h5>
-              <p className="card">
-                An AirBnb app redesign to practice my design fundamentals.
-                Completed as part of my application for the KP Fellows program.
-              </p>
-              <h6 className="tags">#UIDESIGNER</h6>
-            </div>
+          <div>
+            <Link className="navItem" to="/cmucourseadvisor">
+              <div className="overlay">
+                <div className="details">
+                  <h3 className="title">AirBnb Redesign</h3>
+                  <p className="date">January 2019</p>
+                  <p className="card">
+                    An AirBnb app redesign to practice my design fundamentals.
+                    Completed as part of my application for the KP Fellows
+                    program.
+                  </p>
+                  <h5 className="tags">#UIDESIGNER</h5>
+                </div>
+              </div>
+            </Link>
           </div>
           <img src={airbnb} className="piece" alt="airbnb" />
         </section>
@@ -87,17 +100,21 @@ export default function Landing() {
             MACROINVERTEBRATES
         */}
         <section>
-          <div className="overlay">
-            <div className="details">
-              <h4 className="title">Macroinvertebrates</h4>
-              <h5>October 2018 to May 2019</h5>
-              <p className="card">
-                Research on a new learning and teaching tool for aquatic insect
-                identification to support citizen scientists in pollution
-                prevention.
-              </p>
-              <h6 className="tags">#UIDESIGNER</h6>
-            </div>
+          <div>
+            <Link className="navItem" to="/cmucourseadvisor">
+              <div className="overlay">
+                <div className="details">
+                  <h3 className="title">Macroinvertebrates</h3>
+                  <p className="date">October 2018 to May 2019</p>
+                  <p className="card">
+                    Research on a new learning and teaching tool for aquatic
+                    insect identification to support citizen scientists in
+                    pollution prevention.
+                  </p>
+                  <h5 className="tags">#UIDESIGNER</h5>
+                </div>
+              </div>
+            </Link>
           </div>
           <img src={macro} className="piece" alt="macro" />
         </section>
@@ -105,16 +122,20 @@ export default function Landing() {
             PERSONALITY PICTURES
         */}
         <section>
-          <div className="overlay">
-            <div className="details">
-              <h4 className="title">Personality Pictures</h4>
-              <h5>January 2018</h5>
-              <p className="card">
-                A photography project to showcase the quirky members of my
-                robotics team and promote applications.
-              </p>
-              <h6 className="tags">#PHOTOGRAPHER</h6>
-            </div>
+          <div>
+            <Link className="navItem" to="/cmucourseadvisor">
+              <div className="overlay">
+                <div className="details">
+                  <h3 className="title">Personality Pictures</h3>
+                  <p className="date">January 2018</p>
+                  <p className="card">
+                    A photography project to showcase the quirky members of my
+                    robotics team and promote applications.
+                  </p>
+                  <h5 className="tags">#PHOTOGRAPHER</h5>
+                </div>
+              </div>
+            </Link>
           </div>
           <img src={personality} className="piece" alt="personality" />
         </section>
@@ -122,15 +143,19 @@ export default function Landing() {
             PHOTOGRAPHY
         */}
         <section>
-          <div className="overlay">
-            <div className="details">
-              <h4 className="title">Selected Photography</h4>
-              <h5>Ongoing</h5>
-              <p className="card">
-                Some of my favorite photos that I've taken over the years.
-              </p>
-              <h6 className="tags">#PHOTOGRAPHER</h6>
-            </div>
+          <div>
+            <Link className="navItem" to="/cmucourseadvisor">
+              <div className="overlay">
+                <div className="details">
+                  <h3 className="title">Selected Photography</h3>
+                  <p className="date">Ongoing</p>
+                  <p className="card">
+                    Some of my favorite photos that I've taken over the years.
+                  </p>
+                  <h5 className="tags">#PHOTOGRAPHER</h5>
+                </div>
+              </div>
+            </Link>
           </div>
           <img src={photography} className="piece" alt="photography" />
         </section>
@@ -138,16 +163,20 @@ export default function Landing() {
             DESIGN/ILLUSTRATION
         */}
         <section>
-          <div className="overlay">
-            <div className="details">
-              <h4 className="title">Design & Illustration</h4>
-              <h5>Ongoing</h5>
-              <p className="card">
-                Miscellaneous design/illustration projects I've done in my free
-                time.
-              </p>
-              <h6 className="tags">#GRAPHICDESIGNER</h6>
-            </div>
+          <div>
+            <Link className="navItem" to="/cmucourseadvisor">
+              <div className="overlay">
+                <div className="details">
+                  <h3 className="title">Design & Illustration</h3>
+                  <p className="date">Ongoing</p>
+                  <p className="card">
+                    Miscellaneous design/illustration projects I've done in my
+                    free time.
+                  </p>
+                  <h5 className="tags">#GRAPHICDESIGNER</h5>
+                </div>
+              </div>
+            </Link>
           </div>
           <img src={illustration} className="piece" alt="illustration" />
         </section>
@@ -155,16 +184,20 @@ export default function Landing() {
             YEARBOOK
         */}
         <section>
-          <div className="overlay">
-            <div className="details">
-              <h4 className="title">Yearbook</h4>
-              <h5>August 2017 to May 2018</h5>
-              <p className="card">
-                Photographs from my time as a yearbook photographer, showcasing
-                school sports, events, and people.
-              </p>
-              <h6 className="tags">#PHOTOGRAPHER</h6>
-            </div>
+          <div>
+            <Link className="navItem" to="/cmucourseadvisor">
+              <div className="overlay">
+                <div className="details">
+                  <h3 className="title">Yearbook</h3>
+                  <p className="date">August 2017 to May 2018</p>
+                  <p className="card">
+                    Photographs from my time as a yearbook photographer,
+                    showcasing school sports, events, and people.
+                  </p>
+                  <h5 className="tags">#PHOTOGRAPHER</h5>
+                </div>
+              </div>
+            </Link>
           </div>
           <img src={yearbook} className="piece" alt="yearbook" />
         </section>
@@ -172,16 +205,20 @@ export default function Landing() {
             3D MODELING/ANIMATION
         */}
         <section>
-          <div className="overlay">
-            <div className="details">
-              <h4 className="title">3D Modeling & Animation</h4>
-              <h5>September 2016 to May 2018</h5>
-              <p className="card">
-                3D models and animations I've created in Autodesk Maya for my
-                robotics team.
-              </p>
-              <h6 className="tags">#ANIMATOR</h6>
-            </div>
+          <div>
+            <Link className="navItem" to="/cmucourseadvisor">
+              <div className="overlay">
+                <div className="details">
+                  <h3 className="title">3D Modeling & Animation</h3>
+                  <p className="date">September 2016 to May 2018</p>
+                  <p className="card">
+                    3D models and animations I've created in Autodesk Maya for
+                    my robotics team.
+                  </p>
+                  <h5 className="tags">#ANIMATOR</h5>
+                </div>
+              </div>
+            </Link>
           </div>
           <img src={model} className="piece" alt="model" />
         </section>

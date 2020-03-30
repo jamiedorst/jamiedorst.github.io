@@ -8,11 +8,15 @@ $blue: #345995;
 $red: #fb4d3d;
 $blackOverlay: rgba($black, 0.75);
 $whiteOverlay: rgba($white, 0.5);
+$redOverlay: rgba($red, 0.2);
 $dropShadow: rgba($black, 0.25);
 $regular: 400;
 $bold: 700;
 $pieceWidth: 42vw; //30-45?
 $pieceHeight: $pieceWidth * 0.733;
+$fiveTwelveW: 41.67vw;
+$singleImgH: $fiveTwelveW * 0.977;
+$doubleImgH: 50vw * 0.951;
 
 html {
   scroll-behavior: smooth;
@@ -28,17 +32,15 @@ body {
   padding: 0;
 }
 
+footer {
+  margin: 60px;
+}
+
 a {
   text-decoration: none;
 }
 
-p {
-  font-family: $font;
-  font-weight: $regular;
-  color: $black;
-  @include rfs(24px);
-  margin: 0px;
-}
+// TEXT STYLES
 
 h1 {
   font-family: $font;
@@ -59,6 +61,38 @@ h3 {
   font-family: $font;
   font-weight: $bold;
   color: $black;
+  @include rfs(44px);
+}
+
+.title {
+  color: $white;
+  @include rfs(36px);
+}
+
+h4 {
+  font-family: $font;
+  font-weight: $bold;
+  color: $black;
+  @include rfs(32px);
+  text-align: center;
+}
+
+h5 {
+  font-family: $font;
+  font-weight: $bold;
+  color: $black;
+  @include rfs(22px);
+}
+
+.tags {
+  color: $whiteOverlay;
+  @include rfs(16px);
+}
+
+h6 {
+  font-family: $font;
+  font-weight: $bold;
+  color: $black;
   @include rfs(14px);
 }
 
@@ -67,36 +101,26 @@ h3 {
   @include rfs(11px);
 }
 
-footer {
-  margin: 60px;
-}
-
-h4 {
-  font-family: $font;
-  font-weight: $bold;
-  color: $white;
-  @include rfs(36px);
-  margin: 0;
-}
-
-h5 {
+p {
   font-family: $font;
   font-weight: $regular;
-  color: $white;
-  font-style: italic;
-  @include rfs(16px);
+  color: $black;
+  @include rfs(24px);
   margin: 0;
+  line-height: 38px;
 }
 
-h6 {
-  font-family: $font;
-  font-weight: $bold;
-  color: $whiteOverlay;
-  @include rfs(16px);
-  margin: 0;
+.blurb {
+  color: $blackOverlay;
 }
 
 .card {
   color: $white;
   @include rfs(20px);
+}
+
+.date {
+  font-style: italic;
+  color: $white;
+  @include rfs(16px);
 }
