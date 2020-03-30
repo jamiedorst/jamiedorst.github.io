@@ -24,9 +24,9 @@ export default function Navbar() {
           </li>
           <li>
             <h2>
-              <a className="navItem" href="contact.asp">
+              <HashLink className="navItem" to="/resume#top">
                 Resume
-              </a>
+              </HashLink>
             </h2>
           </li>
         </div>
