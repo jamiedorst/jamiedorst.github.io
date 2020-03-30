@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.8b143fe0.chunk.css",
-    "main.js": "/static/js/main.854e8bf7.chunk.js",
-    "main.js.map": "/static/js/main.854e8bf7.chunk.js.map",
+    "main.css": "/static/css/main.3e4227aa.chunk.css",
+    "main.js": "/static/js/main.41c99bb1.chunk.js",
+    "main.js.map": "/static/js/main.41c99bb1.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.5bc3ba55.chunk.js": "/static/js/2.5bc3ba55.chunk.js",
-    "static/js/2.5bc3ba55.chunk.js.map": "/static/js/2.5bc3ba55.chunk.js.map",
+    "static/js/2.fcedad0a.chunk.js": "/static/js/2.fcedad0a.chunk.js",
+    "static/js/2.fcedad0a.chunk.js.map": "/static/js/2.fcedad0a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8ff8a39fa47256e1931d1059fb978842.js": "/precache-manifest.8ff8a39fa47256e1931d1059fb978842.js",
+    "precache-manifest.97038b5985bd8c75c8c94eb3557d3d92.js": "/precache-manifest.97038b5985bd8c75c8c94eb3557d3d92.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.8b143fe0.chunk.css.map": "/static/css/main.8b143fe0.chunk.css.map",
+    "static/css/main.3e4227aa.chunk.css.map": "/static/css/main.3e4227aa.chunk.css.map",
     "static/media/airbnb.png": "/static/media/airbnb.9c384b1c.png",
     "static/media/backCA.png": "/static/media/backCA.6fe28bd0.png",
     "static/media/blueBlob.png": "/static/media/blueBlob.e7f56e03.png",
@@ -34,6 +34,7 @@
     "static/media/rateMyProf.png": "/static/media/rateMyProf.cf5fde81.png",
     "static/media/redBlob.png": "/static/media/redBlob.7276714b.png",
     "static/media/resmed.png": "/static/media/resmed.e48b7fb9.png",
+    "static/media/resume.pdf": "/static/media/resume.73fc0acb.pdf",
     "static/media/yearbook.png": "/static/media/yearbook.ed9563da.png"
   }
 }
