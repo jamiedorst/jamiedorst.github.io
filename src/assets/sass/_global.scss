@@ -66,6 +66,7 @@ h3 {
 
 .title {
   color: $white;
+  margin-bottom: 0;
   @include rfs(36px);
 }
 
