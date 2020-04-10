@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import App from "./components/app";
 import "./index.css";
 import * as serviceWorker from "./service-worker";
-import { BrowserRouter as Router } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 
 ReactDOM.render(
   <Router>

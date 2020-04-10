@@ -6,7 +6,7 @@ import Resmed from "./resmed";
 import Macroinvertebrates from "./macroinvertebrates";
 import About from "./about";
 import Resume from "./resume";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 
 export default function App() {
   return (
