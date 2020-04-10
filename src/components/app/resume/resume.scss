@@ -1,11 +1,6 @@
 @import "../../../assets/sass/global";
-
-.navbarPage {
-  height: auto;
-  top: 0;
-  width: 100vw;
-  margin-bottom: 100px;
-}
+@import "../../../assets/sass/page";
+@import "../../../assets/sass/yellow";
 
 .resume {
   display: block;
@@ -17,4 +12,12 @@
 
 #resLine {
   margin-bottom: 60px;
+}
+
+#resumeTop {
+  flex-direction: column;
+}
+
+#resumeBlob {
+  top: 500px;
 }

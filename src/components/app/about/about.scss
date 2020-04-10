@@ -1,1 +1,40 @@
 @import "../../../assets/sass/global";
+@import "../../../assets/sass/page";
+@import "../../../assets/sass/blue";
+
+#aboutSect {
+  width: 100vw;
+  @include media(">=desktop") {
+    display: flex;
+  }
+  @include media("<desktop") {
+    display: block;
+    text-align: center;
+  }
+
+  align-items: center;
+}
+
+#aboutImg {
+  @include media(">=desktop") {
+    padding-left: 16.67vw;
+  }
+  @include media("<desktop") {
+    max-width: 50%;
+  }
+}
+
+#aboutText {
+  @include media(">=desktop") {
+    padding-right: 10vw;
+    padding-left: 20px;
+  }
+  @include media("<desktop") {
+    width: 75%;
+    margin: auto;
+  }
+}
+
+#aboutTitle {
+  padding-bottom: 30px;
+}

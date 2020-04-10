@@ -12,7 +12,7 @@ import courseCat from "../../../assets/images/courseCat.png";
 import enr from "../../../assets/images/enr.png";
 import fce from "../../../assets/images/fce.png";
 import rateMyProf from "../../../assets/images/rateMyProf.png";
-import demo from "../../../assets/images/demo.mov";
+import CAdemo from "../../../assets/images/CAdemo.mov";
 import "./courseAdvisor.scss";
 
 export default function CourseAdvisor() {
@@ -23,38 +23,34 @@ export default function CourseAdvisor() {
           <Navbar />
         </nav>
         <div>
-          <img
-            src={courseAdvisorBlob}
-            className="courseAdvisorBlob"
-            alt="Blob"
-          />
+          <img src={courseAdvisorBlob} className="blob" alt="Blob" />
           <div className="topLayer">
             <div className="rightText head">
-              <h3 className="courseAdvisor">CMU Course Advisor</h3>
+              <h3 className="redText">CMU Course Advisor</h3>
               <p className="blurb">
                 A new way for Carnegie Mellon students to discover and learn
                 about classes.
               </p>
             </div>
-            <img src={courseAdvisorMac} id="courseAdvisorMac" alt="Mac" />
+            <img src={courseAdvisorMac} className="coverPhoto" alt="Mac" />
           </div>
         </div>
       </header>
       <main>
         <article className="overview">
-          <h4 className="courseAdvisor">OVERVIEW</h4>
+          <h4 className="redText">OVERVIEW</h4>
           <hr className="redLine" />
           <div>
             <div className="top sectionBreak">
               <section className="mainInfo">
-                <h5 className="courseAdvisor">PROBLEM</h5>
+                <h5 className="redText">PROBLEM</h5>
                 <p>
                   CMU students don’t have an easy way of discovering classes or
                   getting a real idea of what they’re actually like. The
                   resources that currently exist don’t address the questions
                   students actually tend to have.
                 </p>
-                <h5 className="courseAdvisor">SOLUTION</h5>
+                <h5 className="redText">SOLUTION</h5>
                 <p>
                   Our tool that allows students to browse classes, see relevant
                   insights about what they’re like, and view comments from
@@ -63,19 +59,19 @@ export default function CourseAdvisor() {
                   important to them.
                 </p>
               </section>
-              <aside>
-                <h5 className="courseAdvisor">ROLE</h5>
+              <aside className="sideInfo">
+                <h5 className="redText">ROLE</h5>
                 <p>UX Designer and Front End Developer</p>
-                <h5 className="courseAdvisor">TIMELINE</h5>
+                <h5 className="redText">TIMELINE</h5>
                 <p>Ongoing since August 2019</p>
-                <h5 className="courseAdvisor">TEAM</h5>
+                <h5 className="redText">TEAM</h5>
                 <p>Jamie Dorst, Andy Chen, Jesse Chan</p>
-                <h5 className="courseAdvisor">TOOLS</h5>
+                <h5 className="redText">TOOLS</h5>
                 <p>Sketch, Principle, React</p>
               </aside>
             </div>
             <section className="sectionBreak">
-              <h5 className="courseAdvisor">MY CONTRIBUTION</h5>
+              <h5 className="redText">MY CONTRIBUTION</h5>
               <p>
                 I took the initiative of making the original design for the
                 website so that we would have something to work with. I did a
@@ -91,18 +87,16 @@ export default function CourseAdvisor() {
               </p>
             </section>
             <section>
-              <h5 className="courseAdvisor sectionBreak">
-                WORKING FINAL PRODUCT
-              </h5>
-              <div className="working">
-                <img src={finalBlob} className="courseAdvisorBlob" alt="Blob" />
+              <h5 className="redText sectionBreak">WORKING FINAL PRODUCT</h5>
+              <div className="pad100top">
+                <img src={finalBlob} className="blob" alt="Blob" />
                 <div className="flexDisplay">
-                  <div className="stackedImages">
-                    <img src={backCA} id="back" alt="Screenshot" />
-                    <img src={frontCA} id="front" alt="Screenshot" />
+                  <div className="stackedImagesMac">
+                    <img src={backCA} className="backMac" alt="Screenshot" />
+                    <img src={frontCA} className="frontMac" alt="Screenshot" />
                   </div>
                   <div className="leftText">
-                    <h3 className="courseAdvisor">Advanced Search & Filter</h3>
+                    <h3 className="redText">Advanced Search & Filter</h3>
                     <p className="blurb">
                       Allows students to see the information that’s important to
                       them, and discover new classes that can fulfill their
@@ -110,21 +104,17 @@ export default function CourseAdvisor() {
                     </p>
                   </div>
                 </div>
-                <div className="flexDisplay">
-                  <div className="rightText" id="pad">
-                    <h3 className="courseAdvisor">
-                      Relevant Details & Reviews
-                    </h3>
+                <div className="flexDisplay m100top">
+                  <div className="rightText bottomInfo">
+                    <h3 className="redText">Relevant Details & Reviews</h3>
                     <p className="blurb">
-                      Students can finally get the information they actually
-                      want about the classes they’re interested in. Relevant
-                      quantitative data as well as personal reviews and tags
-                      from previous students give students a well rounded idea
-                      of what classes are like.
+                      Relevant quantitative data as well as personal reviews and
+                      tags from previous students give students a well rounded
+                      idea of what classes are like.
                     </p>
                   </div>
-                  <div className="soloImage">
-                    <img src={detailCA} id="alone" alt="Screenshot" />
+                  <div className="soloImageMac">
+                    <img src={detailCA} className="aloneMac" alt="Screenshot" />
                   </div>
                 </div>
               </div>
@@ -132,23 +122,21 @@ export default function CourseAdvisor() {
           </div>
         </article>
         <article className="overview">
-          <h4 className="courseAdvisor">RESEARCH</h4>
+          <h4 className="redText">RESEARCH</h4>
           <hr className="redLine" />
           <div>
             <section className="sectionBreak">
-              <h5 className="courseAdvisor">COMPETITIVE ANALYSIS</h5>
+              <h5 className="redText">COMPETITIVE ANALYSIS</h5>
               <p>
                 Our first step was to take a closer look at the resources that
                 currently exist for students, and figure out what their best and
                 worst features were. Based on this, we would know what features
                 we needed to include in our product, and why.
               </p>
-              <div className="flexDisplay compSect">
-                <div className="compImgSection">
-                  <img src={fce} className="compImg" alt="Screenshot" />
-                </div>
-                <div className="leftText">
-                  <h5 className="courseAdvisor">Faculty Course Evaluations</h5>
+              <div className="flexDisplay m70top sbsComp">
+                <img src={fce} className="sbsMac" alt="Screenshot" />
+                <div className="leftText pad50bottom sbsCompText">
+                  <h5 className="redText">Faculty Course Evaluations</h5>
                   <p>
                     Useful for getting a general idea of how well liked a class
                     is or how much time it will take.
@@ -161,12 +149,10 @@ export default function CourseAdvisor() {
                   </p>
                 </div>
               </div>
-              <div className="flexDisplay compSect">
-                <div className="compImgSection">
-                  <img src={rateMyProf} className="compImg" alt="Screenshot" />
-                </div>
-                <div className="leftText">
-                  <h5 className="courseAdvisor">RateMyProfessor</h5>
+              <div className="flexDisplay m70top sbsComp">
+                <img src={rateMyProf} className="sbsMac" alt="Screenshot" />
+                <div className="leftText pad50bottom sbsCompText">
+                  <h5 className="redText">RateMyProfessor</h5>
                   <p>
                     Gives a well rounded view by providing an overall rating of
                     the professor along with class tags and comments.
@@ -178,12 +164,10 @@ export default function CourseAdvisor() {
                   </p>
                 </div>
               </div>
-              <div className="flexDisplay compSect">
-                <div className="compImgSection">
-                  <img src={courseCat} className="compImg" alt="Screenshot" />
-                </div>
-                <div className="leftText">
-                  <h5 className="courseAdvisor">Course Catalog</h5>
+              <div className="flexDisplay m70top sbsComp">
+                <img src={courseCat} className="sbsMac" alt="Screenshot" />
+                <div className="leftText pad50bottom sbsCompText">
+                  <h5 className="redText">Course Catalog</h5>
                   <p>
                     The best source for accurate program requirements and
                     overall options.
@@ -196,12 +180,10 @@ export default function CourseAdvisor() {
                   </p>
                 </div>
               </div>
-              <div className="flexDisplay compSect">
-                <div className="compImgSection">
-                  <img src={enr} className="compImg" alt="Screenshot" />
-                </div>
-                <div className="leftText">
-                  <h5 className="courseAdvisor">Schedule of Classes</h5>
+              <div className="flexDisplay m70top sbsComp">
+                <img src={enr} className="sbsMac" alt="Screenshot" />
+                <div className="leftText pad50bottom sbsCompText">
+                  <h5 className="redText">Schedule of Classes</h5>
                   <p>
                     Helpful for seeing which classes are offered in any given
                     semester, along with other relevant information.
@@ -213,12 +195,10 @@ export default function CourseAdvisor() {
                   </p>
                 </div>
               </div>
-              <div className="flexDisplay compSect">
-                <div className="compImgSection">
-                  <img src={cmunits} className="compImg" alt="Screenshot" />
-                </div>
-                <div className="leftText">
-                  <h5 className="courseAdvisor">CMUnits Chrome Extension</h5>
+              <div className="flexDisplay m70top sbsComp">
+                <img src={cmunits} className="sbsMac" alt="Screenshot" />
+                <div className="leftText pad50bottom sbsCompText">
+                  <h5 className="redText">CMUnits Chrome Extension</h5>
                   <p>
                     Aggregates FCE data to show how many hours a class takes per
                     week on average.
@@ -235,11 +215,11 @@ export default function CourseAdvisor() {
           </div>
         </article>
         <article className="overview">
-          <h4 className="courseAdvisor">DESIGN</h4>
+          <h4 className="redText">DESIGN</h4>
           <hr className="redLine" />
           <div>
             <section className="sectionBreak">
-              <h5 className="courseAdvisor">IMPORTANT FEATURES</h5>
+              <h5 className="redText">IMPORTANT FEATURES</h5>
               <p>
                 Based on the competitive analysis, I made a list of important
                 features that I wanted to include in our site. First, I wanted
@@ -274,18 +254,18 @@ export default function CourseAdvisor() {
               </p>
             </section>
             <section className="sectionBreak">
-              <h5 className="courseAdvisor">INITIAL PROTOTYPE</h5>
+              <h5 className="redText">INITIAL PROTOTYPE</h5>
               <p>
                 After figuring out the most important features and creating some
                 basic wireframes, I put together this prototype using Sketch and
                 Principle.
               </p>
-              <video className="demoVid" controls>
-                <source src={demo} />
+              <video className="demoVidMac" controls>
+                <source src={CAdemo} />
               </video>
             </section>
             <section className="sectionBreak">
-              <h5 className="courseAdvisor">NEXT STEPS</h5>
+              <h5 className="redText">NEXT STEPS</h5>
               <p>
                 This prototype combined the positive features from the other
                 commonly used websites into one simple interface. However,

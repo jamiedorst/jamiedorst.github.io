@@ -1,0 +1,283 @@
+.navbarPage {
+  height: auto;
+  top: 0;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.blob {
+  width: 100vw !important;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+}
+
+.coverPhoto {
+  width: 50vw;
+}
+
+.blurb {
+  margin: 0;
+}
+
+.rightText {
+  text-align: right;
+  width: $fiveTwelveW;
+  margin: auto;
+}
+
+.leftText {
+  text-align: left;
+  width: $fiveTwelveW;
+  margin: auto;
+}
+
+.head {
+  @include media(">=desktop") {
+    width: 35vw !important;
+  }
+  @include media("<desktop") {
+    width: 40vw !important;
+  }
+}
+
+.phoneHead {
+  padding-bottom: 150px;
+}
+
+.topLayer {
+  width: 100vw;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.overview {
+  margin-top: 250px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainInfo {
+  @include media(">=desktop") {
+    width: 66.67%;
+    margin-right: 20px;
+  }
+  @include media("<desktop") {
+    width: 100%;
+  }
+}
+
+.sideInfo {
+  @include media(">=desktop") {
+    width: 33.33%;
+  }
+  @include media("<desktop") {
+    width: 100%;
+  }
+}
+
+.top {
+  @include media(">=desktop") {
+    display: flex;
+  }
+  @include media("<desktop") {
+    display: block;
+  }
+  width: 100%;
+}
+
+.sectionBreak {
+  padding-top: 100px;
+  width: 66.67vw;
+  margin: auto;
+}
+
+.stackedImagesMac {
+  width: 50vw;
+  height: $doubleMacH;
+}
+
+.backMac {
+  width: $fiveTwelveW;
+  position: absolute;
+  left: 0;
+}
+
+.frontMac {
+  width: $fiveTwelveW;
+  position: relative;
+  left: 8.33vw;
+  @include media(">=desktop") {
+    top: 75px;
+  }
+  @include media("<desktop", ">=tablet") {
+    top: 50px;
+  }
+  @include media("<tablet") {
+    top: 25px;
+  }
+}
+
+.aloneMac {
+  width: $fiveTwelveW;
+  position: absolute;
+  right: 0;
+}
+
+.soloImageMac {
+  width: $fiveTwelveW;
+  height: $singleMacH;
+}
+
+.stackedImagesPhone {
+  width: $fiveTwelveW;
+  height: $doublePhoneH;
+}
+
+.backPhoneLeft {
+  width: $twoHalf;
+  position: absolute;
+  left: 0;
+}
+
+.frontPhoneLeft {
+  width: $twoHalf;
+  position: relative;
+  left: 16.67vw;
+  @include media(">=desktop") {
+    top: 75px;
+  }
+  @include media("<desktop", ">=tablet") {
+    top: 50px;
+  }
+  @include media("<tablet") {
+    top: 25px;
+  }
+}
+
+.backPhoneRight {
+  width: $twoHalf;
+  position: absolute;
+  left: 58.33vw;
+}
+
+.frontPhoneRight {
+  width: $twoHalf;
+  position: relative;
+  left: 16.67vw;
+  @include media(">=desktop") {
+    top: 175px;
+  }
+  @include media("<desktop", ">=tablet") {
+    top: 125px;
+  }
+  @include media("<tablet") {
+    top: 75px;
+  }
+}
+
+.flexDisplay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sbsComp {
+  @include media(">=desktop") {
+    display: flex;
+  }
+  @include media("<desktop") {
+    display: block;
+    text-align: center;
+  }
+}
+
+.sbsCompText {
+  @include media(">=desktop") {
+    width: $fiveTwelveW;
+  }
+  @include media("<desktop") {
+    width: 100%;
+    text-align: left;
+  }
+}
+
+.bottomInfo {
+  @include media(">=desktop") {
+    margin-top: 7%;
+  }
+  @include media("<desktop") {
+    margin-top: 2%;
+  }
+}
+
+.pad100top {
+  padding-top: 100px;
+}
+
+.m100top {
+  margin-top: 100px;
+}
+
+.m70top {
+  margin-top: 70px;
+}
+
+.pad150bottom {
+  padding-bottom: 150px;
+}
+
+.pad50bottom {
+  padding-bottom: 50px;
+}
+
+.pad20right {
+  padding-right: 20px;
+}
+
+.demoVidMac {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.demoVidPhone {
+  height: 75vh;
+}
+
+.sbsMac {
+  @include media(">=desktop") {
+    width: $fiveTwelveW;
+    height: $fiveTwelveH;
+    padding-right: 20px;
+  }
+  @include media("<desktop") {
+    width: 100%;
+  }
+}
+
+.sbsPhone {
+  align-self: center;
+}
+
+.fullWidthImg {
+  max-width: 100%;
+}
+
+.phoneImg2 {
+  max-width: 50%;
+  object-fit: contain;
+}
+
+.phoneImg3 {
+  max-width: 33.33%;
+  object-fit: contain;
+}
+
+.phoneImg4 {
+  max-width: 25%;
+  object-fit: contain;
+}

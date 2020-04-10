@@ -1,0 +1,16 @@
+.blueText {
+  color: $blue;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.blueLine {
+  width: 60px;
+  color: $blue;
+  border: 2px solid;
+  border-radius: 2px;
+}
+
+.blueLight {
+  background-color: $blueOverlay;
+}

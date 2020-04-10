@@ -1,4 +1,5 @@
-@import "../rfs/scss";
+@import "../mixins/rfs/scss";
+@import "../mixins/include-media/dist/include-media";
 
 $font: "IBM Plex Sans", sans-serif;
 $white: #f7f7f7;
@@ -9,14 +10,21 @@ $red: #fb4d3d;
 $blackOverlay: rgba($black, 0.75);
 $whiteOverlay: rgba($white, 0.5);
 $redOverlay: rgba($red, 0.2);
+$blueOverlay: rgba($blue, 0.2);
+$yellowOverlay: rgba($yellow, 0.2);
 $dropShadow: rgba($black, 0.25);
 $regular: 400;
 $bold: 700;
-$pieceWidth: 42vw; //30-45?
-$pieceHeight: $pieceWidth * 0.733;
+$pieceWidth2: 42vw; //30-45?
+$pieceHeight2: $pieceWidth2 * 0.733;
+$pieceWidth1: 84vw; //30-45?
+$pieceHeight1: $pieceWidth1 * 0.733;
 $fiveTwelveW: 41.67vw;
-$singleImgH: $fiveTwelveW * 0.977;
-$doubleImgH: 50vw * 0.951;
+$fiveTwelveH: $fiveTwelveW * 0.574;
+$twoHalf: 20.8vw;
+$singleMacH: $fiveTwelveW * 0.977;
+$doubleMacH: 50 * 0.951;
+$doublePhoneH: 33.33 * 0.015;
 
 html {
   scroll-behavior: smooth;
@@ -42,39 +50,43 @@ a {
 
 // TEXT STYLES
 
+.bold {
+  font-weight: $bold;
+}
+
 h1 {
   font-family: $font;
   font-weight: $bold;
   font-style: italic;
   color: $black;
-  @include rfs(60px);
+  @include font-size(60px);
 }
 
 h2 {
   font-family: $font;
   font-weight: $bold;
   color: $black;
-  @include rfs(24px);
+  @include font-size(24px);
 }
 
 h3 {
   font-family: $font;
   font-weight: $bold;
   color: $black;
-  @include rfs(44px);
+  @include font-size(44px);
 }
 
 .title {
   color: $white;
   margin-bottom: 0;
-  @include rfs(36px);
+  @include font-size(36px);
 }
 
 h4 {
   font-family: $font;
   font-weight: $bold;
   color: $black;
-  @include rfs(32px);
+  @include font-size(32px);
   text-align: center;
 }
 
@@ -82,33 +94,37 @@ h5 {
   font-family: $font;
   font-weight: $bold;
   color: $black;
-  @include rfs(22px);
+  @include font-size(22px);
 }
 
 .tags {
   color: $whiteOverlay;
-  @include rfs(16px);
+  @include font-size(16px);
+}
+
+#back2top {
+  @include font-size(18px);
 }
 
 h6 {
   font-family: $font;
   font-weight: $bold;
   color: $black;
-  @include rfs(14px);
+  @include font-size(14px);
 }
 
 #mini {
   font-weight: $regular;
-  @include rfs(11px);
+  @include font-size(11px);
 }
 
 p {
   font-family: $font;
   font-weight: $regular;
   color: $black;
-  @include rfs(24px);
+  @include font-size(24px);
+  line-height: 1.6;
   margin: 0;
-  line-height: 38px;
 }
 
 .blurb {
@@ -117,11 +133,11 @@ p {
 
 .card {
   color: $white;
-  @include rfs(20px);
+  @include font-size(20px);
 }
 
 .date {
   font-style: italic;
   color: $white;
-  @include rfs(16px);
+  @include font-size(16px);
 }

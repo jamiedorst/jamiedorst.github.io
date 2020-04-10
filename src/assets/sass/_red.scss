@@ -1,0 +1,16 @@
+.redText {
+  color: $red;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.redLine {
+  width: 60px;
+  color: $red;
+  border: 2px solid;
+  border-radius: 2px;
+}
+
+.redlight {
+  background-color: $redOverlay;
+}

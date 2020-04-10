@@ -36,8 +36,8 @@ export default function Landing() {
         */}
         <section>
           <div>
-            <HashLink className="navItem" to="/cmucourseadvisor#top">
-              <div className="overlay">
+            <HashLink to="/cmucourseadvisor#top">
+              <div className="overlay1">
                 <div className="details">
                   <h3 className="title">CMU Course Advisor</h3>
                   <p className="date">Ongoing since August 2019</p>
@@ -57,8 +57,8 @@ export default function Landing() {
         */}
         <section>
           <div>
-            <Link className="navItem" to="/cmucourseadvisor">
-              <div className="overlay">
+            <HashLink to="/resmed#top">
+              <div className="overlay1">
                 <div className="details">
                   <h3 className="title">ResMed</h3>
                   <p className="date">February 2020</p>
@@ -70,7 +70,7 @@ export default function Landing() {
                   <h5 className="tags">#UXDESIGNER</h5>
                 </div>
               </div>
-            </Link>
+            </HashLink>
           </div>
           <img src={resmed} className="piece" alt="resmed" />
         </section>
@@ -79,8 +79,8 @@ export default function Landing() {
         */}
         <section>
           <div>
-            <Link className="navItem" to="/cmucourseadvisor">
-              <div className="overlay">
+            <Link to="/cmucourseadvisor">
+              <div className="overlay1">
                 <div className="details">
                   <h3 className="title">AirBnb Redesign</h3>
                   <p className="date">January 2019</p>
@@ -101,8 +101,8 @@ export default function Landing() {
         */}
         <section>
           <div>
-            <Link className="navItem" to="/cmucourseadvisor">
-              <div className="overlay">
+            <HashLink to="/macroinvertebrates#top">
+              <div className="overlay1">
                 <div className="details">
                   <h3 className="title">Macroinvertebrates</h3>
                   <p className="date">October 2018 to May 2019</p>
@@ -114,7 +114,7 @@ export default function Landing() {
                   <h5 className="tags">#UIDESIGNER</h5>
                 </div>
               </div>
-            </Link>
+            </HashLink>
           </div>
           <img src={macro} className="piece" alt="macro" />
         </section>
@@ -123,8 +123,8 @@ export default function Landing() {
         */}
         <section>
           <div>
-            <Link className="navItem" to="/cmucourseadvisor">
-              <div className="overlay">
+            <Link to="/cmucourseadvisor">
+              <div className="overlay1">
                 <div className="details">
                   <h3 className="title">Personality Pictures</h3>
                   <p className="date">January 2018</p>
@@ -144,8 +144,8 @@ export default function Landing() {
         */}
         <section>
           <div>
-            <Link className="navItem" to="/cmucourseadvisor">
-              <div className="overlay">
+            <Link to="/cmucourseadvisor">
+              <div className="overlay1">
                 <div className="details">
                   <h3 className="title">Selected Photography</h3>
                   <p className="date">Ongoing</p>
@@ -164,8 +164,8 @@ export default function Landing() {
         */}
         <section>
           <div>
-            <Link className="navItem" to="/cmucourseadvisor">
-              <div className="overlay">
+            <Link to="/cmucourseadvisor">
+              <div className="overlay1">
                 <div className="details">
                   <h3 className="title">Design & Illustration</h3>
                   <p className="date">Ongoing</p>
@@ -185,8 +185,8 @@ export default function Landing() {
         */}
         <section>
           <div>
-            <Link className="navItem" to="/cmucourseadvisor">
-              <div className="overlay">
+            <Link to="/cmucourseadvisor">
+              <div className="overlay1">
                 <div className="details">
                   <h3 className="title">Yearbook</h3>
                   <p className="date">August 2017 to May 2018</p>
@@ -206,8 +206,8 @@ export default function Landing() {
         */}
         <section>
           <div>
-            <Link className="navItem" to="/cmucourseadvisor">
-              <div className="overlay">
+            <Link to="/cmucourseadvisor">
+              <div className="overlay1">
                 <div className="details">
                   <h3 className="title">3D Modeling & Animation</h3>
                   <p className="date">September 2016 to May 2018</p>

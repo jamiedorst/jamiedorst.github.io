@@ -1,11 +1,11 @@
 @import "../../../assets/sass/global";
 
-h6 {
+.credit {
   text-align: center;
   margin: 0;
 }
 
-.foot {
+#foot {
   display: flex;
   justify-content: center;
 }
@@ -13,4 +13,25 @@ h6 {
 .icon {
   margin: 10px;
   color: $black;
+}
+
+#clickable {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+#back2top {
+  display: inline-block;
+  margin: auto;
+  color: $blackOverlay;
+}
+
+.blackLine {
+  display: inline-block;
+  width: 40px;
+  color: $blackOverlay;
+  border: 1px solid;
+  border-radius: 1px;
+  margin-bottom: 30px;
 }

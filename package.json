@@ -4,9 +4,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "include-media": "^1.4.9",
     "node-sass": "^4.13.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-photo-gallery": "^8.0.0",
     "react-router-dom": "^5.1.2",
     "react-router-hash-link": "^1.2.2",
     "react-router-scroll": "^0.4.4",

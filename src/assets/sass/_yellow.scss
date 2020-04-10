@@ -1,0 +1,16 @@
+.yellowText {
+  color: $yellow;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.yellowLine {
+  width: 60px;
+  color: $yellow;
+  border: 2px solid;
+  border-radius: 2px;
+}
+
+.yellowlight {
+  background-color: $yellowOverlay;
+}
