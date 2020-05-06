@@ -6,15 +6,11 @@ import yellowBlob from "../../../assets/images/yellowBlob.png";
 import redBlob from "../../../assets/images/redBlob.png";
 import courseAdvisor from "../../../assets/images/courseAdvisor.png";
 import macro from "../../../assets/images/macro.png";
-import airbnb from "../../../assets/images/airbnb.png";
 import personality from "../../../assets/images/personality.png";
-import photography from "../../../assets/images/photography.png";
-import illustration from "../../../assets/images/illustration.png";
-import yearbook from "../../../assets/images/yearbook.png";
-import model from "../../../assets/images/model.png";
+import kuri from "../../../assets/images/kuriCover.png";
+import design from "../../../assets/images/design.png";
 import resmed from "../../../assets/images/resmed.png";
 import "./landing.scss";
-import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
 export default function Landing() {
@@ -75,26 +71,26 @@ export default function Landing() {
           <img src={resmed} className="piece" alt="resmed" />
         </section>
         {/* 
-            AIRBNB
+            ACCEPTABLE ROBOT MOTION
         */}
         <section>
           <div>
-            <Link to="/cmucourseadvisor">
+            <HashLink to="/robotmotion#top">
               <div className="overlay1">
                 <div className="details">
-                  <h3 className="title">AirBnb Redesign</h3>
-                  <p className="date">January 2019</p>
+                  <h3 className="title">Acceptable Robot Motion</h3>
+                  <p className="date">January 2020 to May 2020</p>
                   <p className="card">
-                    An AirBnb app redesign to practice my design fundamentals.
-                    Completed as part of my application for the KP Fellows
-                    program.
+                    Research on what makes robot movements acceptable, what
+                    acceptable means, and what a better tool might look like for
+                    designing acceptable robot movements.
                   </p>
-                  <h5 className="tags">#UIDESIGNER</h5>
+                  <h5 className="tags">#UXRESEARCHER #RESEARCHASSISTANT</h5>
                 </div>
               </div>
-            </Link>
+            </HashLink>
           </div>
-          <img src={airbnb} className="piece" alt="airbnb" />
+          <img src={kuri} className="piece" alt="kuri" />
         </section>
         {/* 
             MACROINVERTEBRATES
@@ -111,7 +107,7 @@ export default function Landing() {
                     insect identification to support citizen scientists in
                     pollution prevention.
                   </p>
-                  <h5 className="tags">#UIDESIGNER</h5>
+                  <h5 className="tags">#UIDESIGNER #RESEARCHASSISTANT</h5>
                 </div>
               </div>
             </HashLink>
@@ -123,7 +119,7 @@ export default function Landing() {
         */}
         <section>
           <div>
-            <Link to="/cmucourseadvisor">
+            <HashLink to="/personalitypictures#top">
               <div className="overlay1">
                 <div className="details">
                   <h3 className="title">Personality Pictures</h3>
@@ -135,36 +131,16 @@ export default function Landing() {
                   <h5 className="tags">#PHOTOGRAPHER</h5>
                 </div>
               </div>
-            </Link>
+            </HashLink>
           </div>
           <img src={personality} className="piece" alt="personality" />
-        </section>
-        {/* 
-            PHOTOGRAPHY
-        */}
-        <section>
-          <div>
-            <Link to="/cmucourseadvisor">
-              <div className="overlay1">
-                <div className="details">
-                  <h3 className="title">Selected Photography</h3>
-                  <p className="date">Ongoing</p>
-                  <p className="card">
-                    Some of my favorite photos that I've taken over the years.
-                  </p>
-                  <h5 className="tags">#PHOTOGRAPHER</h5>
-                </div>
-              </div>
-            </Link>
-          </div>
-          <img src={photography} className="piece" alt="photography" />
         </section>
         {/* 
             DESIGN/ILLUSTRATION
         */}
         <section>
           <div>
-            <Link to="/cmucourseadvisor">
+            <HashLink to="/designillustration#top">
               <div className="overlay1">
                 <div className="details">
                   <h3 className="title">Design & Illustration</h3>
@@ -176,51 +152,9 @@ export default function Landing() {
                   <h5 className="tags">#GRAPHICDESIGNER</h5>
                 </div>
               </div>
-            </Link>
+            </HashLink>
           </div>
-          <img src={illustration} className="piece" alt="illustration" />
-        </section>
-        {/* 
-            YEARBOOK
-        */}
-        <section>
-          <div>
-            <Link to="/cmucourseadvisor">
-              <div className="overlay1">
-                <div className="details">
-                  <h3 className="title">Yearbook</h3>
-                  <p className="date">August 2017 to May 2018</p>
-                  <p className="card">
-                    Photographs from my time as a yearbook photographer,
-                    showcasing school sports, events, and people.
-                  </p>
-                  <h5 className="tags">#PHOTOGRAPHER</h5>
-                </div>
-              </div>
-            </Link>
-          </div>
-          <img src={yearbook} className="piece" alt="yearbook" />
-        </section>
-        {/* 
-            3D MODELING/ANIMATION
-        */}
-        <section>
-          <div>
-            <Link to="/cmucourseadvisor">
-              <div className="overlay1">
-                <div className="details">
-                  <h3 className="title">3D Modeling & Animation</h3>
-                  <p className="date">September 2016 to May 2018</p>
-                  <p className="card">
-                    3D models and animations I've created in Autodesk Maya for
-                    my robotics team.
-                  </p>
-                  <h5 className="tags">#ANIMATOR</h5>
-                </div>
-              </div>
-            </Link>
-          </div>
-          <img src={model} className="piece" alt="model" />
+          <img src={design} className="piece" alt="design and illustration" />
         </section>
       </main>
       <footer>

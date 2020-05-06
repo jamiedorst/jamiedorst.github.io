@@ -11,6 +11,8 @@ export default function About() {
         <nav className="navbarPage">
           <Navbar />
         </nav>
+      </header>
+      <main>
         <h4 className="blueText">ABOUT</h4>
         <hr id="resLine" className="blueLine" />
         <div id="aboutSect">
@@ -19,29 +21,30 @@ export default function About() {
             <h3 className="blueText" id="aboutTitle">
               Hi, I'm Jamie.
             </h3>
-            <p className="blurb">
-              I'm from the Bay Area, currently pursuing a double major in
-              Human-Computer Interaction and Psychology at Carnegie Mellon
-              University. I'm interested in the intersection of human behavior
-              and aesthetics, and how our decisions both inform and are informed
-              by the affordances around us.
+            <p>
+              This summer, I'm a UX Research intern at{" "}
+              <a className="linkObvi" href="https://www.vmware.com">
+                VMware
+              </a>{" "}
+              in my hometown of Palo Alto, CA.
             </p>
             <br />
-            <p className="blurb">
+            <p>
+              I'm currently pursuing a double major in Human-Computer
+              Interaction and Psychology at Carnegie Mellon University. I'm
+              interested in the intersection of human behavior and aesthetics,
+              and how our decisions both inform and are informed by the
+              affordances around us.
+            </p>
+            <br />
+            <p>
               When I'm not designing, you can find me baking, doing crossword
               puzzles, or curling up with a cozy blanket and my cats (yes, I'm a
-              cat person).
-            </p>
-            <br />
-            <p className="blurb">
-              I love learning about people–both as a designer and as a human.
-              Feel free to contact me if you want to learn more about me,
-              collaborate, or just chat!
+              cat person) and playing Animal Crossing.
             </p>
           </div>
         </div>
-      </header>
-      <main></main>
+      </main>
       <footer>
         <Footer />
       </footer>

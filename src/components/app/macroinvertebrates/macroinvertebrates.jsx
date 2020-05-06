@@ -5,6 +5,13 @@ import macroBlob from "../../../assets/images/macroBlob.png";
 import macroMac from "../../../assets/images/macroMac.png";
 import landing from "../../../assets/images/landing.png";
 import poster from "../../../assets/images/poster.png";
+import ephemeropteraFront from "../../../assets/images/ephemeropteraFront.png";
+import ephemeropteraBack from "../../../assets/images/ephemeropteraBack.png";
+import plecoptera from "../../../assets/images/plecoptera.png";
+import trichopteraFront from "../../../assets/images/trichopteraFront.png";
+import trichopteraBack from "../../../assets/images/trichopteraBack.png";
+import key from "../../../assets/images/key.png";
+import popUps from "../../../assets/images/popUps.png";
 import "./macroinvertebrates.scss";
 
 export default function Macroinvertebrates() {
@@ -99,8 +106,8 @@ export default function Macroinvertebrates() {
                 me to a world outside of class projects. On a separate, but also
                 significant note, this project also greatly reduced my
                 (gigantic!) fear of insects. I guess looking at very large, very
-                detailed images of anything would get you pretty comfortable
-                with it.
+                detailed images of bugs would get you pretty comfortable with
+                them.
               </p>
             </section>
           </div>
@@ -146,11 +153,63 @@ export default function Macroinvertebrates() {
                 Our website is a fantastic tool for citizen scientists looking
                 to train themselves on different specimen or compare specimen
                 directly to images we supply. However, when they are out by the
-                streams, internet connection is not always reliable, and having
-                a laptop or phone
+                streams, internet connection is not always reliable, so analog
+                materials can be very helpful. I took our high quality images
+                and turned them into printable sheets, each with one of the most
+                common orders. These are also extremely helpful for teaching
+                identification in a classroom setting.
+              </p>
+              <div className="flexDisplayWrap m70top">
+                <img
+                  src={ephemeropteraFront}
+                  className="macroImg"
+                  alt="Print-out"
+                />
+                <img
+                  src={ephemeropteraBack}
+                  className="macroImg"
+                  alt="Print-out"
+                />
+                <img
+                  src={plecoptera}
+                  className="fullWidthImg pad20bottom"
+                  alt="Print-out"
+                />
+                <img
+                  src={trichopteraFront}
+                  className="macroImg "
+                  alt="Print-out"
+                />
+                <img
+                  src={trichopteraBack}
+                  className="macroImg"
+                  alt="Print-out"
+                />
+              </div>
+            </section>
+            <section className="sectionBreak">
+              <h5 className="yellowText">INTERACTIVE DICHOTOMOUS KEY</h5>
+              <p>
+                Dichotomous keys are often used in identification activities.
+                However, those for aquatic insects were all analog, with only
+                drawings of insects, and they were decades old. I created a
+                digital and interactive dichotomous key, that takes advantage of
+                our high quality images and includes helpful pop-ups at each
+                decision point. It's been updated since I originally created it
+                in early 2019, but you can still{" "}
+                <a
+                  className="linkObvi"
+                  href="https://www.macroinvertebrates.org/key"
+                >
+                  check out the current version
+                </a>
+                .
               </p>
               <div className="flexDisplay m70top">
-                <img src={poster} className="fullWidthImg" alt="Poster" />
+                <img src={key} className="fullWidthImg" alt="Key" />
+              </div>
+              <div className="flexDisplay m70top">
+                <img src={popUps} className="fullWidthImg" alt="Pop-ups" />
               </div>
             </section>
           </div>

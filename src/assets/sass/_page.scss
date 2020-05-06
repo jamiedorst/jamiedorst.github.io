@@ -186,6 +186,13 @@
   align-items: center;
 }
 
+.flexDisplayWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .sbsComp {
   @include media(">=desktop") {
     display: flex;
@@ -237,6 +244,10 @@
 
 .pad20right {
   padding-right: 20px;
+}
+
+.pad20bottom {
+  padding-bottom: 20px;
 }
 
 .demoVidMac {

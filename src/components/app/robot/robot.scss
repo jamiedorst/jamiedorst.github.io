@@ -1,0 +1,51 @@
+@import "../../../assets/sass/global";
+@import "../../../assets/sass/page";
+@import "../../../assets/sass/blue";
+
+.linkObvi {
+  color: $black;
+  text-decoration: underline;
+}
+
+#kuri {
+  width: 20vw;
+  padding-right: 15%;
+}
+
+.kuriVid2 {
+  @include media(">=desktop") {
+    max-width: 47%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  @include media("<desktop") {
+    max-width: 100%;
+  }
+  padding-bottom: 20px;
+}
+
+.kuriVid3 {
+  @include media(">=desktop") {
+    max-width: 30%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  @include media("<desktop") {
+    max-width: 100%;
+  }
+  padding-bottom: 20px;
+}
+
+.kuriVidDemo {
+  max-width: 80%;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+#kuriDemo {
+  display: flex;
+  width: 45%;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
