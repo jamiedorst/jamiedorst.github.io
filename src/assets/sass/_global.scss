@@ -38,6 +38,7 @@ body {
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
+  @include font-size(24px);
 }
 
 footer {
