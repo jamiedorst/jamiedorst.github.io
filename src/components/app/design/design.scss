@@ -24,6 +24,8 @@
 
 .flexImg {
   margin: 10px;
+  -webkit-object-fit: cover;
+  -moz-object-fit: cover;
   object-fit: cover;
   max-height: 100vh;
   @include media(">=desktop") {
