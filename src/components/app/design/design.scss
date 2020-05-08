@@ -23,11 +23,11 @@
 }
 
 .flexImg {
+  display: flex;
+  align-self: center;
   margin: 10px;
-  -webkit-object-fit: cover;
-  -moz-object-fit: cover;
   object-fit: cover;
-  max-height: 100vh;
+  height: 1%;
   @include media(">=desktop") {
     width: 47%;
   }

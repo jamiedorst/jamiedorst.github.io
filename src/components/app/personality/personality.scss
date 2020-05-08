@@ -2,7 +2,7 @@
 @import "../../../assets/sass/page";
 @import "../../../assets/sass/red";
 
-#photoSect {
+.photoSect {
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -24,7 +24,8 @@
 
 .flexImgPort {
   margin: 10px;
-  object-fit: contain;
+  object-fit: cover;
+  height: 45%;
   @include media(">=desktop") {
     width: 30%;
   }
@@ -35,7 +36,8 @@
 
 .flexImgLand {
   margin: 10px;
-  object-fit: contain;
+  object-fit: cover;
+  height: 31.3%;
   @include media(">=desktop") {
     width: 47%;
   }

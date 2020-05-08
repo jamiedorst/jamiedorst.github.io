@@ -34,7 +34,7 @@ import will from "../../../assets/images/will.jpg";
 import yael from "../../../assets/images/yael.jpg";
 import "./personality.scss";
 
-export default function Design() {
+export default function Personality() {
   return (
     <>
       <header>
@@ -42,7 +42,7 @@ export default function Design() {
           <Navbar />
         </nav>
       </header>
-      <main id="photoSect">
+      <main className="photoSect">
         <h4 className="redText">PERSONALITY PICTURES</h4>
         <hr id="resLine" className="redLine" />
         <p className="photoText">

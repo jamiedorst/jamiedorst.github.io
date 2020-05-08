@@ -26,18 +26,18 @@ export default function Design() {
           done in my free time or for freelance projects.
         </p>
         <div id="flexImages">
-          <img src={rendering} className="flexImg " alt="Screenshot" />
-          <img src={grtCamp} className="flexImg " alt="Screenshot" />
+          <img src={rendering} className="flexImg " alt="Rendering Poster" />
+          <img src={grtCamp} className="flexImg " alt="GRT Camp Poster" />
           <img
             src={controllers}
             className="flexImg"
             id="banner"
-            alt="Screenshot"
+            alt="Controllers"
           />
-          <img src={david} className="flexImg " alt="Screenshot" />
-          <img src={ronan} className="flexImg " alt="Screenshot" />
-          <img src={lowPoly} className="flexImg " alt="Screenshot" />
-          <img src={dude} className="flexImg " alt="Screenshot" />
+          <img src={david} className="flexImg " alt="David" />
+          <img src={ronan} className="flexImg " alt="Ronan" />
+          <img src={lowPoly} className="flexImg " alt="Low Poly Portrait" />
+          <img src={dude} className="flexImg " alt="Dude" />
         </div>
       </main>
       <footer>

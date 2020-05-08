@@ -8,6 +8,7 @@ import Design from "./design";
 import Personality from "./personality";
 import About from "./about";
 import Robot from "./robot";
+import Photography from "./photography";
 import Resume from "./resume";
 import { HashRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -24,6 +25,7 @@ export default function App() {
           <Route path="/designillustration" component={Design} />
           <Route path="/personalitypictures" component={Personality} />
           <Route path="/robotmotion" component={Robot} />
+          <Route path="/photography" component={Photography} />
           <Route path="/resume" component={Resume} />
         </Switch>
       </Router>

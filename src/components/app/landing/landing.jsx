@@ -10,6 +10,7 @@ import personality from "../../../assets/images/personality.png";
 import kuri from "../../../assets/images/kuriCover.png";
 import design from "../../../assets/images/design.png";
 import resmed from "../../../assets/images/resmed.png";
+import photography from "../../../assets/images/z11.jpg";
 import "./landing.scss";
 import { HashLink } from "react-router-hash-link";
 
@@ -115,25 +116,28 @@ export default function Landing() {
           <img src={macro} className="piece" alt="macro" />
         </section>
         {/* 
-            PERSONALITY PICTURES
+            PHOTOGRAPHY
         */}
         <section>
           <div>
-            <HashLink to="/personalitypictures#top">
+            <HashLink to="/photography#top">
               <div className="overlay1">
                 <div className="details">
-                  <h3 className="title">Personality Pictures</h3>
-                  <p className="date">January 2018</p>
+                  <h3 className="title">Photography</h3>
+                  <p className="date">Ongoing</p>
                   <p className="card">
-                    A photography project to showcase the quirky members of my
-                    robotics team and promote applications.
+                    Some of my favorite photos I've taken over the years.
                   </p>
                   <h5 className="tags">#PHOTOGRAPHER</h5>
                 </div>
               </div>
             </HashLink>
           </div>
-          <img src={personality} className="piece" alt="personality" />
+          <img
+            src={photography}
+            className="piece"
+            alt="design and illustration"
+          />
         </section>
         {/* 
             DESIGN/ILLUSTRATION
@@ -155,6 +159,27 @@ export default function Landing() {
             </HashLink>
           </div>
           <img src={design} className="piece" alt="design and illustration" />
+        </section>
+        {/* 
+            PERSONALITY PICTURES
+        */}
+        <section>
+          <div>
+            <HashLink to="/personalitypictures#top">
+              <div className="overlay1">
+                <div className="details">
+                  <h3 className="title">Personality Pictures</h3>
+                  <p className="date">January 2018</p>
+                  <p className="card">
+                    A photography project to showcase the quirky members of my
+                    robotics team and promote applications.
+                  </p>
+                  <h5 className="tags">#PHOTOGRAPHER</h5>
+                </div>
+              </div>
+            </HashLink>
+          </div>
+          <img src={personality} className="piece" alt="personality" />
         </section>
       </main>
       <footer>
