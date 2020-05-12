@@ -14,7 +14,8 @@
     "react-router-scroll": "^0.4.4",
     "react-router-scroll-top": "^0.2.1",
     "react-scripts": "3.0.1",
-    "rfs": "^9.0.2"
+    "rfs": "^9.0.2",
+    "simple-react-lightbox": "^2.8.0-5"
   },
   "scripts": {
     "predeploy": "npm run build",

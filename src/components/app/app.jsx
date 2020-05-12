@@ -11,6 +11,7 @@ import Robot from "./robot";
 import Photography from "./photography";
 import Resume from "./resume";
 import { HashRouter as Router, Switch, Route } from "react-router-dom";
+import SimpleReactLightbox from "simple-react-lightbox";
 
 export default function App() {
   return (
@@ -25,7 +26,9 @@ export default function App() {
           <Route path="/designillustration" component={Design} />
           <Route path="/personalitypictures" component={Personality} />
           <Route path="/robotmotion" component={Robot} />
-          <Route path="/photography" component={Photography} />
+          <SimpleReactLightbox>
+            <Route path="/photography" component={Photography} />
+          </SimpleReactLightbox>
           <Route path="/resume" component={Resume} />
         </Switch>
       </Router>

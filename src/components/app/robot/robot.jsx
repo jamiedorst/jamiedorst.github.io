@@ -1,6 +1,6 @@
 import React from "react";
-import Navbar from "../navbar/navbar.jsx";
-import Footer from "../footer/footer.jsx";
+import Navbar from "../navbar";
+import Footer from "../footer";
 import robotBlob from "../../../assets/images/robotBlob.png";
 import roboBlob from "../../../assets/images/roboBlob.png";
 import kuri from "../../../assets/images/kuri.png";
@@ -94,19 +94,32 @@ export default function Robot() {
             <section className="sectionBreak">
               <h5 className="blueText">MY CONTRIBUTION</h5>
               <p>
-                I worked with Nik as part of an independent study in HCI during
-                my Spring semester. I assisted with a literature review,
-                creating animations in Autodesk Maya (using the{" "}
+                I worked with Nik Martelaro as part of an Independent Study in
+                HCI during my Spring semester at Carnegie Mellon. I performed a
+                literature review on other robot movement projects, created
+                animations in Autodesk Maya (using the{" "}
                 <a
                   className="linkObvi"
                   href="https://github.com/KuriRobot/Kuri-Documentation/blob/master/guides/behavior/creating-animations.md"
                 >
                   kuri robot
                 </a>
-                ), and running surveys and interviews. As the semester
-                progressed, we adapted our goals based on our findings, and
-                ended up with a better definition of what "acceptable" really
-                means, and some animations to exemplify that.
+                ), and ran surveys and interviews with these videos to explore
+                what “acceptable” really means. Over the course of the semester
+                I continuously adapted my goals based on my findings and ended
+                up with a better sense of what “acceptable” means and some
+                animations to exemplify that.
+              </p>
+              <br />
+              <p>
+                Over the course of the project, I became much more adept with
+                Maya, learning how to write scripts and fully automate the
+                rendering process, grew more familiar with various user testing
+                methods, and generally became more comfortable with
+                decision-making in a research environment. It helped me learn
+                how to adapt based on results, giving me a new angle I can use
+                in future design projects–the path I set out on doesn't have to
+                be the path I finish on.
               </p>
             </section>
           </div>
@@ -377,24 +390,6 @@ export default function Robot() {
                   <source src={omni} />
                 </video>
               </div>
-            </section>
-            <section className="sectionBreak">
-              <h5 className="blueText">REFLECTION</h5>
-              <p>
-                This project has been a great experience for me and has taught
-                me so much. I came in having some experience with Autodesk Maya,
-                but not knowing much about the world of robot motion design. I
-                became much more adept with Maya, learning how to write scripts
-                and fully automate the rendering process, grew more familiar
-                with various user testing methods, and generally became more
-                comfortable in a research environment–since this was an
-                independent study, much of the work I did and the directions I
-                went were decided myself, with guidance from Nik. This is truly
-                a fascinating field, and I expect it will only become more
-                relevant. I’m curious to see how this project evolves and
-                eventually what a possible interface for robot motion designers
-                could look like–we’ve really just scratched the surface.
-              </p>
             </section>
           </div>
         </article>

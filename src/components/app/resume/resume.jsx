@@ -1,6 +1,6 @@
 import React from "react";
-import Navbar from "../navbar/navbar.jsx";
-import Footer from "../footer/footer.jsx";
+import Navbar from "../navbar";
+import Footer from "../footer";
 import ResumeDoc from "../../../assets/documents/resume.pdf";
 import ResumeBlob from "../../../assets/images/resumeBlob.png";
 import "./resume.scss";

@@ -1,6 +1,6 @@
 import React from "react";
-import Navbar from "../navbar/navbar.jsx";
-import Footer from "../footer/footer.jsx";
+import Navbar from "../navbar";
+import Footer from "../footer";
 import jamie from "../../../assets/images/jamie.png";
 import "./about.scss";
 

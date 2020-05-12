@@ -1,6 +1,6 @@
 import React from "react";
-import Navbar from "../navbar/navbar.jsx";
-import Footer from "../footer/footer.jsx";
+import Navbar from "../navbar";
+import Footer from "../footer";
 import courseAdvisorBlob from "../../../assets/images/courseAdvisorBlob.png";
 import courseAdvisorMac from "../../../assets/images/courseAdvisorMac.png";
 import finalBlob from "../../../assets/images/finalBlob.png";
@@ -37,7 +37,7 @@ export default function CourseAdvisor() {
         </div>
       </header>
       <main>
-        <article className="overview">
+        <article className="overview" id="overview">
           <h4 className="redText">OVERVIEW</h4>
           <hr className="redLine" />
           <div>

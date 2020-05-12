@@ -1,6 +1,6 @@
 import React from "react";
-import Navbar from "../navbar/navbar.jsx";
-import Footer from "../footer/footer.jsx";
+import Navbar from "../navbar";
+import Footer from "../footer";
 import amaniel from "../../../assets/images/amaniel.jpg";
 
 import audrey from "../../../assets/images/audrey.jpg";

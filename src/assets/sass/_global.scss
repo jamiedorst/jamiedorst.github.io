@@ -107,6 +107,11 @@ h5 {
   @include font-size(18px);
 }
 
+.sectionText {
+  @include font-size(18px);
+  color: $blackOverlay;
+}
+
 h6 {
   font-family: $font;
   font-weight: $bold;
@@ -117,6 +122,10 @@ h6 {
 #mini {
   font-weight: $regular;
   @include font-size(11px);
+}
+
+.subSectionText {
+  color: $blackOverlay;
 }
 
 p {

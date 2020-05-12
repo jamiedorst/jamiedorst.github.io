@@ -9,21 +9,21 @@
   align-items: center;
 }
 
-.photoText {
-  width: 66.67%;
-}
-
 .photoGallery {
   padding-top: 100px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 95%;
+  max-width: 95vw;
 }
 .pgImg {
   object-fit: contain;
   max-height: 40vh;
   max-width: 95vw;
-  padding: 10px;
+  margin: 10px;
+}
+
+.pgImg:hover {
+  cursor: pointer;
 }
