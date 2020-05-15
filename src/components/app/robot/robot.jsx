@@ -178,14 +178,18 @@ export default function Robot() {
               <h5 className="blueText">SPRINT 1</h5>
               <p>
                 During my first two weeks on the project, we conducted a
-                thorough literature review and I then created two animations
-                based on what I had read and learned about. Based on my readings
-                of six papers surrounding the field of robot movements, I
-                created one animation that was "acceptable," and one that was
-                "unacceptable." This gave us a baseline to work off of about
-                what was definitely acceptable and what was definitely not.
-                Next, we had to figure out where that line was, and why it was
-                there.
+                thorough <span className="bluelight">literature review</span>{" "}
+                and I then created two animations based on what I had read and
+                learned about. Based on my readings of six papers surrounding
+                the field of robot movements, I created one animation that was
+                "acceptable," and one that was "unacceptable." This gave us a
+                baseline to work off of about what was definitely acceptable and
+                what was definitely not. Next, we had to figure out{" "}
+                <span className="bluelight">
+                  where that line was between unacceptable and acceptable, and
+                  why it was there
+                </span>
+                .
               </p>
               <div className="flexDisplayWrap m70top">
                 <video className="kuriVid2" autoPlay loop muted>
@@ -200,14 +204,20 @@ export default function Robot() {
               <h5 className="blueText">SPRINT 2</h5>
               <p>
                 In order to give us a better sense of where that line is drawn
-                between unacceptable and unacceptable movements, I created a
-                generative series of animations, each with a slightly higher
-                angle in head turn. To create these, I wrote a script using Maya
-                MEL that generated 10 Maya Binary files, and then used FFmpeg to
-                batch render them all at once and stitch the resulting images
-                together into videos. Streamlining this process was key to my
-                success here–it would have taken much longer and been much more
-                difficult had I not figured out how to create this workflow.
+                between unacceptable and unacceptable movements, I created a{" "}
+                <span className="bluelight">
+                  generative series of animations
+                </span>
+                , each with a slightly higher angle in head turn. To create
+                these, I wrote a script using Maya MEL that generated 10 Maya
+                Binary files, and then used FFmpeg to batch render them all at
+                once and stitch the resulting images together into videos.{" "}
+                <span className="bluelight">
+                  Streamlining this process was key
+                </span>{" "}
+                to my success here–it would have taken much longer and been much
+                more difficult had I not figured out how to create this
+                workflow.
               </p>
               <div className="flexDisplay m70top pad20bottom">
                 <video className="phoneImg2 pad20right" autoPlay loop muted>
@@ -253,17 +263,23 @@ export default function Robot() {
             <section className="sectionBreak">
               <h5 className="blueText">SPRINT 3</h5>
               <p>
-                After creating these videos, our next goal was to figure out
-                what people actually thought of them. Until this point, we had
-                been making assumptions about how the animations would be
-                interpreted based on our own opinions, but now we were ready to
-                get some outside feedback. I started by reviewing the literature
-                about common evaluation methods, then putting together a small
-                survey. Based on these results, we had a few more questions
-                about how the angle we're viewing from would affect how we
-                interpret the motions–Kuri was built to be on the floor in your
-                house. So, I created a few more animations where the viewer is
-                looking down at Kuri.
+                After creating these videos, our next goal was to{" "}
+                <span className="bluelight">
+                  learn what people actually thought
+                </span>{" "}
+                of them. Until this point, we had been making assumptions about
+                how the animations would be interpreted based on our own
+                opinions, but now we were ready to get some outside feedback. I
+                started by reviewing the literature about common evaluation
+                methods, then putting together a small survey. Based on these
+                results, we had a few more questions about{" "}
+                <span className="bluelight">
+                  how the angle we're viewing from would affect how we interpret
+                  the motions
+                </span>
+                –Kuri was designed to be on the floor in your house. So, I
+                created a few more animations where the viewer is looking down
+                at Kuri.
               </p>
               <div className="flexDisplay m70top pad20bottom">
                 <img
@@ -294,10 +310,16 @@ export default function Robot() {
                 the middle of the generative videos is where people started to
                 think something was off. However, some of the language that
                 people used to describe some movements was new to us–some videos
-                were described as threatening, judgemental, and evil. From here
-                I created a more structured survey that could further explore
-                people’s thoughts. The results of this survey pointed us in a
-                slightly new direction. What does “acceptable” actually mean?
+                were described as{" "}
+                <span className="bluelight">
+                  threatening, judgemental, and evil
+                </span>
+                . From here I created a more structured survey that could
+                further explore people’s thoughts. The results of this survey
+                pointed us in a slightly new direction.{" "}
+                <span className="bluelight">
+                  What does “acceptable” actually mean?
+                </span>
               </p>
               <div className="flexDisplay m70top pad20bottom">
                 <img src={cata} className="phoneImg2" alt="Survey" />
@@ -320,16 +342,16 @@ export default function Robot() {
                   Designing Robots with Movement in Mind
                 </a>
                 ,” Guy Hoffman and Wendy Ju write that robot movements should
-                “accurately [express] the robot’s purpose, intent, state, mood,
-                personality, attention, responsiveness, intelligence, and
-                capabilities.” However, does it need to mean all of those
-                things, or could the definition be simplified? Additionally,
-                what is “acceptable” could vary depending on the type of robot,
-                or even what we want it to mean–something like emotion may not
-                be integral to acceptability, but if the robot’s emotion greatly
-                impacts how its movements should be interpreted, then
-                comprehensible emotions should be a part of what makes a
-                movement acceptable. An example we came up with to further
+                <span className="bluelight">
+                  “accurately [express] the robot’s purpose, intent, state,
+                  mood, personality, attention, responsiveness, intelligence,
+                  and capabilities.”
+                </span>{" "}
+                But does it need to mean all of those things, or could it be
+                simplified? Additionally, what is “acceptable” could vary
+                depending on the type of robot, or even what we want it to
+                mean–something like emotion may or may not affect how a motion
+                should be interpreted. An example we came up with to further
                 explore acceptable versus unacceptable movements was having Kuri
                 move across a space in different ways, either with omnidrive or
                 tank drive.
@@ -353,26 +375,29 @@ export default function Robot() {
             <section className="sectionBreak">
               <h5 className="blueText">SPRINT 6</h5>
               <p>
-                In the final sprint of the project, I aimed to wrap up what I
-                had done in the weeks prior and come up with some exemplary
-                videos that showed what “acceptable” and “unacceptable” mean. I
-                started by conducting some individual interviews that were less
-                focused on specific thoughts and keywords, and more focused on
-                general feelings people had when they watched each video. I
-                wanted to get a better sense of what that unnamed uncomfortable
-                feeling is when you watch something that just doesn’t seem
-                right. Based on these interviews, I created a final survey that
-                brought together a few of the key points that seem to evoke that
-                squishy feeling–expectedness of a motion, creepiness of a
-                motion, and whether or not there seems to be something wrong
-                with the robot itself. This led to some more interesting and
-                mixed responses than we had gotten previously. While there were
-                often mixed responses about the expectedness and creepiness of
-                each motion, people tended to not think that anything was wrong
-                with the robot. This could provide some insight as to how we
-                might define acceptable–there seems to be a certain amount of
-                forgiveness toward robot motion simply because it is a robot.
-                What movements are excusable just because it’s a robot?
+                For the final sprint of the project, I started by conducting
+                interviews that were more focused on general feelings rather
+                than specific keywords. I wanted to understand{" "}
+                <span className="bluelight">
+                  what is that ambiguously uncomfortable feeling when you see a
+                  movement that just doesn’t seem right?
+                </span>{" "}
+                I then created a survey involving a few of the things that seem
+                to evoke that feeling–expectedness and creepiness of a motion,
+                and whether or not there seems to be something wrong with the
+                robot itself. This resulted in more mixed responses than we had
+                gotten previously.{" "}
+                <span className="bluelight">
+                  People typically didn't think the robot was broken
+                </span>
+                , but there was{" "}
+                <span className="bluelight">
+                  little consistency when it came to expectedness and creepiness
+                </span>
+                . This could provide some insight as to how we might move
+                forward in the project–robot motion affords more forgiveness
+                than we originally thought. How will this change what is
+                "acceptable"?
               </p>
               <div className="flexDisplay m70top pad20bottom">
                 <img src={surv2} className="phoneImg2" alt="Survey" />
@@ -381,14 +406,6 @@ export default function Robot() {
                   className="phoneImg2"
                   alt="Survey Results"
                 />
-              </div>
-              <div className="flexDisplay">
-                <video className="kuriVid2" autoPlay loop muted>
-                  <source src={tank} />
-                </video>
-                <video className="kuriVid2" autoPlay loop muted>
-                  <source src={omni} />
-                </video>
               </div>
             </section>
           </div>

@@ -101,13 +101,12 @@ export default function Macroinvertebrates() {
               </p>
               <br />
               <p>
-                Aside from improving my technical skills, this project gave me a
-                lot of newfound confidence in my design abilities and introduced
-                me to a world outside of class projects. On a separate, but also
+                Aside from improving my technical skills, this project gave me
+                newfound confidence in my design abilities and introduced me to
+                a world outside of class projects. On a separate, but also
                 significant note, this project also greatly reduced my
                 (gigantic!) fear of insects. I guess looking at very large, very
-                detailed images of bugs would get you pretty comfortable with
-                them.
+                detailed images of bugs gets you pretty comfortable with them.
               </p>
             </section>
           </div>

@@ -2,19 +2,24 @@
 
 #blueBlob {
   position: absolute;
-  left: 47px;
+  left: 3vw;
+  height: 71vh;
+  width: 46vw;
 }
 
 #yellowBlob {
   position: absolute;
-  top: 296px;
-  left: 54vw;
-  transform: translate(-50%, 0);
+  top: 32vh;
+  left: 32vw;
+  height: 41vh;
+  width: 41vw;
 }
 
 #redBlob {
   position: absolute;
-  right: 32px;
+  right: 3vw;
+  height: 83vh;
+  width: 40vw;
 }
 
 .grid {
@@ -23,7 +28,7 @@
   flex-wrap: wrap;
   justify-content: center;
   width: 100vw;
-  margin-top: 30px;
+  margin-top: 2vw;
 }
 
 .piece {
@@ -111,5 +116,5 @@
 }
 
 .title {
-  margin-top: 40px;
+  margin-top: 4vw;
 }

@@ -20,6 +20,7 @@ export default function App() {
         <Switch>
           <Route exact path="/" component={Landing} />
           <Route path="/about" component={About} />
+          <Route path="/resume" component={Resume} />
           <Route path="/cmucourseadvisor" component={CourseAdvisor} />
           <Route path="/resmed" component={Resmed} />
           <Route path="/macroinvertebrates" component={Macroinvertebrates} />
@@ -29,7 +30,6 @@ export default function App() {
           <SimpleReactLightbox>
             <Route path="/photography" component={Photography} />
           </SimpleReactLightbox>
-          <Route path="/resume" component={Resume} />
         </Switch>
       </Router>
     </>

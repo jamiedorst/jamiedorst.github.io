@@ -228,21 +228,21 @@ export default function Resmed() {
               </p>
               <br />
               <p>
-                <span className="blueLight">Distributors</span> act as the
+                <span className="bluelight">Distributors</span> act as the
                 middlemen between ResMed and healthcare providers. They get
                 devices from ResMed, and then sell those to respiratory
                 therapists. They have no direct contact with patients.
               </p>
               <br />
               <p>
-                <span className="blueLight">Respiratory Therapists</span> are
+                <span className="bluelight">Respiratory Therapists</span> are
                 most often referred to patients by their general practitioner.
                 They then work with the patient to find the right device, make a
                 sale, and help teach them about how to properly use it.
               </p>
               <br />
               <p>
-                <span className="blueLight">Patients</span> need to get a device
+                <span className="bluelight">Patients</span> need to get a device
                 to improve their health and quality of life. However, this can
                 be an inimidating endeavor, and the number of hoops they need to
                 jump through to finally get the device doesn't help. Our app
@@ -283,61 +283,47 @@ export default function Resmed() {
               <h5 className="blueText">SYNTHESIS</h5>
               <p>
                 Two channels of opportunity emerged from our reverse assumptions
-                activity: <span className="blueLight">pre-purchase</span> and{" "}
-                <span className="blueLight">post-purchase</span>.
+                activity: <span className="bluelight">pre-purchase</span> and{" "}
+                <span className="bluelight">post-purchase</span>.
               </p>
               <br />
               <p>
                 In the pre-purchase sector, we thought of a few different ideas.
-                The first was a{" "}
-                <span className="blueLight">
+                A{" "}
+                <span className="bluelight">
                   direct-to-consumer business model
-                </span>{" "}
-                that would help simplify the customer journey, and reduce the
-                amount of people the patient has to deal with in order to get a
-                device. The second was an{" "}
-                <span className="blueLight">online device-finder</span> that
-                would help users find the right device for them, not unlike a
-                virtual respiratory therapist. Our third idea involved{" "}
-                <span className="blueLight">device customization</span>. This
-                could help patients feel less dread about wearing a mask to
-                sleep every night for the rest of their lives–any opportunity to
-                make the process a little more fun could be the difference
-                between patients choosing ResMed or another company. Working in
-                the pre-purchase sector might help{" "}
-                <span className="blueLight">
+                </span>
+                , an <span className="bluelight">online device-finder</span>,
+                and a <span className="bluelight">device customizer</span>.
+                Working in the pre-purchase sector might help{" "}
+                <span className="bluelight">
                   offload some of the work for Respiratory Therapists
                 </span>
                 . Our ideas also{" "}
-                <span className="blueLight">
+                <span className="bluelight">
                   give the patient a sense of agency
                 </span>{" "}
                 in responding to their disease, which they currently lack.
               </p>
               <br />
               <p>
-                In the post-purchase sector, we thought of a few more ideas. The
-                first was a <span className="blueLight">hands-off setup</span>{" "}
-                that would leverage technology to make device setup easier than
-                it currently is. The second was integrating{" "}
-                <span className="blueLight">patient-family interaction</span>,
-                by providing relevant health data to the patient's loved ones or
-                caretakers. Our third idea revolved around{" "}
-                <span className="blueLight">in-app support</span>, providing
-                customers an easy way to receive help from an easily accessible
-                AI/chatbot. Working in the post-purchase sector would likely
-                mean a <span className="blueLight">longer-lasting app</span>.
-                But, these
-                <span className="blueLight">ideas largely exist already</span> ,
-                and we would merely be improving them.
+                In the post-purchase sector, we thought of a few more ideas. A{" "}
+                <span className="bluelight">hands-off setup</span>, better{" "}
+                <span className="bluelight">patient-family connection</span>,
+                and <span className="bluelight">in-app support</span>. Working
+                in the post-purchase sector would likely mean a{" "}
+                <span className="bluelight">longer-lasting app</span>. However,
+                these ideas largely exist already, and we would merely be
+                improving them.
               </p>
               <br />
               <p>
-                We decided that we wanted to innovate, and that even if our app
-                wasn't one that patients kept on their phone long after first
-                downloading it, that was ok, as long as it served its purpose.
-                So, we went with the pre-purchase sector, and tried to combine
-                our ideas into one cohesive app.
+                We decided that{" "}
+                <span className="bluelight">we wanted to innovate</span>, and
+                that even if our app wasn't one that patients kept on their
+                phone long after first downloading it, that was ok, as long as
+                it served its purpose. So, we went with the pre-purchase sector,
+                and tried to combine our ideas into one cohesive app.
               </p>
             </section>
             <section className="sectionBreak">
@@ -415,11 +401,11 @@ export default function Resmed() {
               <h5 className="blueText">FINAL PRODUCT</h5>
               <p>
                 Maskmaker: a new app built to{" "}
-                <span className="blueLight">
+                <span className="bluelight">
                   simplify the patient experience
                 </span>{" "}
                 by seamlessly guiding users through{" "}
-                <span className="blueLight">picking the perfect mask</span> for
+                <span className="bluelight">picking the perfect mask</span> for
                 them.
               </p>
               <div className="flexDisplay m70top pad150bottom">
@@ -429,7 +415,7 @@ export default function Resmed() {
               </div>
               <p>
                 With the AR try-on feature, patients can literally{" "}
-                <span className="blueLight">picture themselves</span> using
+                <span className="bluelight">picture themselves</span> using
                 ResMed.
               </p>
               <div className="flexDisplay m70top pad50bottom sbsComp">
@@ -448,27 +434,27 @@ export default function Resmed() {
                     Users are able to swipe through their best-fit masks, and
                     see what parts of their face would be covered. We provide a
                     short description that{" "}
-                    <span className="blueLight">
+                    <span className="bluelight">
                       highlights the features of each mask
                     </span>
                     , and then{" "}
-                    <span className="blueLight">
+                    <span className="bluelight">
                       displays which of the user's selected needs are met
                     </span>{" "}
                     by it. This snapshot allows users to{" "}
-                    <span className="blueLight">
+                    <span className="bluelight">
                       quickly become familiar with each mask
                     </span>
                     . Users can also swipe up for more information about each
                     mask, showing them{" "}
-                    <span className="blueLight">product highlights</span> and{" "}
-                    <span className="blueLight">fun facts.</span>
+                    <span className="bluelight">product highlights</span> and{" "}
+                    <span className="bluelight">fun facts.</span>
                   </p>
                 </div>
               </div>
               <p>
                 We also wanted to add{" "}
-                <span className="blueLight">
+                <span className="bluelight">
                   deliberate and delightful microinteractions
                 </span>{" "}
                 that would augment the experience of the app and also help us
@@ -486,10 +472,10 @@ export default function Resmed() {
                 <div className="sbsPhone sbsCompText">
                   <p>
                     When users first open the app, they're greeted with the{" "}
-                    <span className="blueLight">familiar ResMed logo</span> that
+                    <span className="bluelight">familiar ResMed logo</span> that
                     fades to a comforting message about what the app is here to
                     help them with. We wanted to ensure that new users would{" "}
-                    <span className="blueLight">
+                    <span className="bluelight">
                       trust they were in good hands
                     </span>
                     –the language we used was very deliberate.
@@ -508,7 +494,7 @@ export default function Resmed() {
                 <div className="sbsPhone sbsCompText">
                   <p>
                     The screens in between each step{" "}
-                    <span className="blueLight">
+                    <span className="bluelight">
                       keep users grounded and informed
                     </span>{" "}
                     about where they are in the process. We maintain this sense
@@ -519,14 +505,14 @@ export default function Resmed() {
               </div>
               <p>
                 Overall, our app achieves three main goals. It helps{" "}
-                <span className="blueLight">guide product development</span> by
+                <span className="bluelight">guide product development</span> by
                 uncovering patient preferences and revealing sales trends. It
                 also{" "}
-                <span className="blueLight">welcomes emerging technology</span>{" "}
+                <span className="bluelight">welcomes emerging technology</span>{" "}
                 through the AR try-on, as well as allowing technology to carry
                 more weight, relieving pressure from other stakeholders.
                 Finally, it helps{" "}
-                <span className="blueLight">build stronger relationships</span>{" "}
+                <span className="bluelight">build stronger relationships</span>{" "}
                 with patients by saving their prescription information and
                 catering to their individualized needs.
               </p>

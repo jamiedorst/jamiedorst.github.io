@@ -5,7 +5,8 @@
 }
 
 .yellowLine {
-  width: 60px;
+  width: 5vw;
+  min-width: 40px;
   color: $yellow;
   border: 2px solid;
   border-radius: 2px;

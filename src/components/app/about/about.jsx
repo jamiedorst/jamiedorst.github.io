@@ -22,19 +22,24 @@ export default function About() {
               Hi, I'm Jamie.
             </h3>
             <p>
-              This summer, I'm a UX Research intern at{" "}
-              <a className="linkObvi" href="https://www.vmware.com">
-                VMware
-              </a>{" "}
+              This summer, I'm a{" "}
+              <span className="bluelight">
+                UX Research Intern at{" "}
+                <a className="linkObvi" href="https://www.vmware.com">
+                  VMware
+                </a>
+              </span>{" "}
               in my hometown of Palo Alto, CA.
             </p>
             <br />
             <p>
-              I'm currently pursuing a double major in Human-Computer
-              Interaction and Psychology at Carnegie Mellon University. I'm
-              interested in the intersection of human behavior and aesthetics,
-              and how our decisions both inform and are informed by the
-              affordances around us.
+              I'm currently pursuing a double major in{" "}
+              <span className="bluelight">
+                Human-Computer Interaction and Psychology
+              </span>{" "}
+              at Carnegie Mellon University. I'm interested in the intersection
+              of human behavior and aesthetics, and how our decisions both
+              inform and are informed by the affordances around us.
             </p>
             <br />
             <p>

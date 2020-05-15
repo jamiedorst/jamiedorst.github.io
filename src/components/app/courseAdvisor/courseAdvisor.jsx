@@ -45,14 +45,15 @@ export default function CourseAdvisor() {
               <section className="mainInfo">
                 <h5 className="redText">PROBLEM</h5>
                 <p>
-                  CMU students don’t have an easy way of discovering classes or
-                  getting a real idea of what they’re actually like. The
-                  resources that currently exist don’t address the questions
-                  students actually tend to have.
+                  CMU students don’t have an easy way of discovering new classes
+                  or getting an idea of what they’re really like. The resources
+                  that currently exist don’t address the questions students
+                  actually tend to have or provide the information that would
+                  actually be helpful when deciding between classes.
                 </p>
                 <h5 className="redText">SOLUTION</h5>
                 <p>
-                  Our tool that allows students to browse classes, see relevant
+                  Our tool allows students to browse classes, see relevant
                   insights about what they’re like, and view comments from
                   students who have taken them previously. Filters allow
                   students to discover new classes based on criteria that’s
@@ -77,13 +78,9 @@ export default function CourseAdvisor() {
                 website so that we would have something to work with. I did a
                 competitive analysis against the other relevant websites that
                 CMU students currently use to see what features are most and
-                least helpful and relevant to our project.
-              </p>
-              <br />
-              <p>
-                I then edited my design based on my team’s feedback and coded
-                the entire front end–without having any previous knowledge of
-                HTML/CSS or React.
+                least helpful and relevant to our project. I then edited my
+                design based on my team’s feedback and coded the entire front
+                end–without having any previous knowledge of HTML/CSS or React.
               </p>
             </section>
             <section>
