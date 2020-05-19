@@ -23,8 +23,8 @@
   min-height: 300px;
   max-width: 95vw;
   margin: 10px;
-}
 
-.pgImg:hover {
-  cursor: pointer;
+  &:hover {
+    cursor: pointer;
+  }
 }

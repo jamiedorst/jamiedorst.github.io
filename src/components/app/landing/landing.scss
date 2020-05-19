@@ -44,10 +44,10 @@
   margin: 10px;
   box-shadow: 0px 6px 4px $dropShadow;
   border-radius: 10px;
-}
 
-.piece:hover {
-  cursor: pointer;
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 #home {
@@ -80,11 +80,11 @@
   margin: 10px;
   border-radius: 10px;
   opacity: 0;
-}
 
-.overlay1:hover {
-  cursor: pointer;
-  opacity: 1;
+  &:hover {
+    cursor: pointer;
+    opacity: 1;
+  }
 }
 
 .details {
