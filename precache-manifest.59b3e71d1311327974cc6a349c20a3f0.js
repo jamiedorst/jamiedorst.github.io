@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "512df249e4413e855ad06c4598712326",
+    "revision": "62ae8a8dff79374000bd69c2fbaad31b",
     "url": "/index.html"
   },
   {
-    "revision": "69ccbb677b4d0c1f4ab1",
-    "url": "/static/css/main.6613d4f7.chunk.css"
+    "revision": "d987aaf630b82f6934f3",
+    "url": "/static/css/main.de4a0db3.chunk.css"
   },
   {
-    "revision": "477dfa5534a8e752a183",
-    "url": "/static/js/2.c078ead6.chunk.js"
+    "revision": "633a46f21370b63b1f83",
+    "url": "/static/js/2.ba44b938.chunk.js"
   },
   {
-    "revision": "69ccbb677b4d0c1f4ab1",
-    "url": "/static/js/main.07b4c8be.chunk.js"
+    "revision": "d987aaf630b82f6934f3",
+    "url": "/static/js/main.e7ef9dab.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4377b36a87f1eadf12151bbe3cf68387",
     "url": "/static/media/amaniel.4377b36a.jpg"
+  },
+  {
+    "revision": "a4d2af0b725b2709a8ccf603c0a53d85",
+    "url": "/static/media/assistantCover.a4d2af0b.png"
   },
   {
     "revision": "ebf210c2fd9fe00745b5693b0f6b2c93",
@@ -500,6 +504,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ronan.9228a7bc.png"
   },
   {
+    "revision": "b7683252f5afa1ece3da19e2680b1fa7",
+    "url": "/static/media/sketches.b7683252.png"
+  },
+  {
     "revision": "c354379f8cbd8feda603a13c83c583fd",
     "url": "/static/media/stacy.c354379f.png"
   },
@@ -558,6 +566,30 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "357bfa2825d0a828de64958c583d3bf7",
     "url": "/static/media/victor.357bfa28.jpg"
+  },
+  {
+    "revision": "6365a870a30b5c0d0fc4ce430be0cd2c",
+    "url": "/static/media/vm1.6365a870.png"
+  },
+  {
+    "revision": "e3adf9ef462a0bcc6337d714c657c8d4",
+    "url": "/static/media/vm2.e3adf9ef.png"
+  },
+  {
+    "revision": "75ebdc56b7397874b57189bcafe0b870",
+    "url": "/static/media/vm3.75ebdc56.png"
+  },
+  {
+    "revision": "e2fbc4d8a28c25a582d4e5abadfdfeaa",
+    "url": "/static/media/vmBlob.e2fbc4d8.png"
+  },
+  {
+    "revision": "627de5eb17c06328e976078676a23cb1",
+    "url": "/static/media/vmCover.627de5eb.png"
+  },
+  {
+    "revision": "41c0ffcee8842e1799a97647219ec42f",
+    "url": "/static/media/vmFinalBlob.41c0ffce.png"
   },
   {
     "revision": "6e6dcedaf08f99a9b9645068392cb49d",
