@@ -11,6 +11,7 @@ import kuri from "../../../assets/images/kuriCover.png";
 import design from "../../../assets/images/design.png";
 import resmed from "../../../assets/images/resmed.png";
 import photography from "../../../assets/images/z11.jpg";
+import assistant from "../../../assets/images/assistantCover.png";
 import "./landing.scss";
 import { HashLink } from "react-router-hash-link";
 
@@ -94,6 +95,29 @@ export default function Landing() {
           <img src={kuri} className="piece" alt="kuri" />
         </section>
         {/* 
+            VIRTUAL ASSISTANT
+        */}
+        <section>
+          <div>
+            <HashLink to="/virtualassistant#top">
+              <div className="overlay1">
+                <div className="details">
+                  <h3 className="title">AI Virtual Assistant</h3>
+                  <p className="date">November 2019</p>
+                  <p className="card">
+                    A design challenge aimed at utilizing emerging technology to
+                    help tech companies retain talent; an AI-powered virtual
+                    assitant that serves to create a mental distance between
+                    remote workers and their workplace.
+                  </p>
+                  <h5 className="tags">#UXRESEARCHER #UXDESIGNER</h5>
+                </div>
+              </div>
+            </HashLink>
+          </div>
+          <img src={assistant} className="piece" alt="virtual assistant" />
+        </section>
+        {/* 
             MACROINVERTEBRATES
         */}
         <section>
@@ -114,6 +138,27 @@ export default function Landing() {
             </HashLink>
           </div>
           <img src={macro} className="piece" alt="macro" />
+        </section>
+        {/* 
+            DESIGN/ILLUSTRATION
+        */}
+        <section>
+          <div>
+            <HashLink to="/designillustration#top">
+              <div className="overlay1">
+                <div className="details">
+                  <h3 className="title">Design & Illustration</h3>
+                  <p className="date">Ongoing</p>
+                  <p className="card">
+                    Miscellaneous design/illustration projects I've done in my
+                    free time.
+                  </p>
+                  <h5 className="tags">#GRAPHICDESIGNER</h5>
+                </div>
+              </div>
+            </HashLink>
+          </div>
+          <img src={design} className="piece" alt="design and illustration" />
         </section>
         {/* 
             PHOTOGRAPHY
@@ -138,27 +183,6 @@ export default function Landing() {
             className="piece"
             alt="design and illustration"
           />
-        </section>
-        {/* 
-            DESIGN/ILLUSTRATION
-        */}
-        <section>
-          <div>
-            <HashLink to="/designillustration#top">
-              <div className="overlay1">
-                <div className="details">
-                  <h3 className="title">Design & Illustration</h3>
-                  <p className="date">Ongoing</p>
-                  <p className="card">
-                    Miscellaneous design/illustration projects I've done in my
-                    free time.
-                  </p>
-                  <h5 className="tags">#GRAPHICDESIGNER</h5>
-                </div>
-              </div>
-            </HashLink>
-          </div>
-          <img src={design} className="piece" alt="design and illustration" />
         </section>
         {/* 
             PERSONALITY PICTURES
