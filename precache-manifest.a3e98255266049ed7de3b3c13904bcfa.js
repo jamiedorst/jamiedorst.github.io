@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e0541e6a25f0b069a212fa44b84e3ed0",
+    "revision": "55742db7e2ade436b4304d1309db7dc6",
     "url": "/index.html"
   },
   {
-    "revision": "121d434441fde14d16bc",
+    "revision": "50b372bbc37b0070ebd8",
     "url": "/static/css/main.37fd0b74.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.a5d1ab56.chunk.js"
   },
   {
-    "revision": "121d434441fde14d16bc",
-    "url": "/static/js/main.09f7489c.chunk.js"
+    "revision": "50b372bbc37b0070ebd8",
+    "url": "/static/js/main.dd4d8a62.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/acceptableDef.3f94eec4.png"
   },
   {
-    "revision": "f804f9b6c2338d65bc285dcf7536f93b",
-    "url": "/static/media/alainlearnschem.f804f9b6.png"
+    "revision": "77a60a6964a1c0f9443a17c3bd0f9f89",
+    "url": "/static/media/alainlearnschem.77a60a69.png"
   },
   {
     "revision": "11dde34d004a4eef27938d6ae18413e6",
