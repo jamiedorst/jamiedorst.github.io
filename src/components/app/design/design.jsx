@@ -8,6 +8,8 @@ import dude from "../../../assets/images/dude.png";
 import grtCamp from "../../../assets/images/grtCamp.png";
 import rendering from "../../../assets/images/rendering.png";
 import ronan from "../../../assets/images/ronan.png";
+import alainplaysguitar from "../../../assets/images/alainplaysguitar.png";
+import alainlearnschem from "../../../assets/images/alainlearnschem.png";
 import "./design.scss";
 
 export default function Design() {
@@ -36,6 +38,8 @@ export default function Design() {
           />
           <img src={david} className="flexImg " alt="David" />
           <img src={ronan} className="flexImg " alt="Ronan" />
+          <img src={alainplaysguitar} className="flexImg " alt="Alain" />
+          <img src={alainlearnschem} className="flexImg " alt="Alain" />
           <img src={lowPoly} className="flexImg " alt="Low Poly Portrait" />
           <img src={dude} className="flexImg " alt="Dude" />
         </div>
