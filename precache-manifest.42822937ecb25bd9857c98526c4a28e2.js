@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "62ae8a8dff79374000bd69c2fbaad31b",
+    "revision": "e0541e6a25f0b069a212fa44b84e3ed0",
     "url": "/index.html"
   },
   {
-    "revision": "d987aaf630b82f6934f3",
-    "url": "/static/css/main.de4a0db3.chunk.css"
+    "revision": "121d434441fde14d16bc",
+    "url": "/static/css/main.37fd0b74.chunk.css"
   },
   {
-    "revision": "633a46f21370b63b1f83",
-    "url": "/static/js/2.ba44b938.chunk.js"
+    "revision": "b7cbf9c1cbf8b39bae6d",
+    "url": "/static/js/2.a5d1ab56.chunk.js"
   },
   {
-    "revision": "d987aaf630b82f6934f3",
-    "url": "/static/js/main.e7ef9dab.chunk.js"
+    "revision": "121d434441fde14d16bc",
+    "url": "/static/js/main.09f7489c.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -30,6 +30,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3f94eec474105cf47936dae48a699785",
     "url": "/static/media/acceptableDef.3f94eec4.png"
+  },
+  {
+    "revision": "f804f9b6c2338d65bc285dcf7536f93b",
+    "url": "/static/media/alainlearnschem.f804f9b6.png"
+  },
+  {
+    "revision": "11dde34d004a4eef27938d6ae18413e6",
+    "url": "/static/media/alainplaysguitar.11dde34d.png"
   },
   {
     "revision": "4377b36a87f1eadf12151bbe3cf68387",
