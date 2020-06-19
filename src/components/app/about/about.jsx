@@ -43,9 +43,10 @@ export default function About() {
             </p>
             <br />
             <p>
-              When I'm not designing, you can find me baking, doing crossword
-              puzzles, or curling up with a cozy blanket and my cats (yes, I'm a
-              cat person) and playing Animal Crossing.
+              Drop me a line if you want to chat about your latest baking
+              endeavors, any (Monday) NYT crossword puzzle, Animal
+              Crossing–preferably Wild World, or a project I could get involved
+              with.
             </p>
           </div>
         </div>
