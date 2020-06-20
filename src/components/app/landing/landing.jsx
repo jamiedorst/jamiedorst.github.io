@@ -20,9 +20,9 @@ export default function Landing() {
     <>
       <header id="home">
         <div>
-          <img src={blueBlob} id="blueBlob" alt="blueBlob" />
-          <img src={yellowBlob} id="yellowBlob" alt="yellowBlob" />
-          <img src={redBlob} id="redBlob" alt="redBlob" />
+          <img src={blueBlob} id="blueBlob" alt="Blue Blob" />
+          <img src={yellowBlob} id="yellowBlob" alt="Yellow Blob" />
+          <img src={redBlob} id="redBlob" alt="Red Blob" />
         </div>
         <nav className="navbarHome" id="work">
           <Navbar />
@@ -48,7 +48,11 @@ export default function Landing() {
               </div>
             </HashLink>
           </div>
-          <img src={courseAdvisor} className="piece" alt="courseAdvisor" />
+          <img
+            src={courseAdvisor}
+            className="piece"
+            alt="CMU Course Advisor Website Project"
+          />
         </section>
         {/* 
             RESMED
@@ -70,7 +74,7 @@ export default function Landing() {
               </div>
             </HashLink>
           </div>
-          <img src={resmed} className="piece" alt="resmed" />
+          <img src={resmed} className="piece" alt="ResMed Design Project" />
         </section>
         {/* 
             ACCEPTABLE ROBOT MOTION
@@ -92,7 +96,11 @@ export default function Landing() {
               </div>
             </HashLink>
           </div>
-          <img src={kuri} className="piece" alt="kuri" />
+          <img
+            src={kuri}
+            className="piece"
+            alt="Acceptable Robot Motion Research Project"
+          />
         </section>
         {/* 
             VIRTUAL ASSISTANT
@@ -115,7 +123,11 @@ export default function Landing() {
               </div>
             </HashLink>
           </div>
-          <img src={assistant} className="piece" alt="virtual assistant" />
+          <img
+            src={assistant}
+            className="piece"
+            alt="AI Virtual Assistant Design/Research Project"
+          />
         </section>
         {/* 
             MACROINVERTEBRATES
@@ -137,7 +149,11 @@ export default function Landing() {
               </div>
             </HashLink>
           </div>
-          <img src={macro} className="piece" alt="macro" />
+          <img
+            src={macro}
+            className="piece"
+            alt="Macroinvertebrates Research Project"
+          />
         </section>
         {/* 
             DESIGN/ILLUSTRATION
@@ -158,7 +174,11 @@ export default function Landing() {
               </div>
             </HashLink>
           </div>
-          <img src={design} className="piece" alt="design and illustration" />
+          <img
+            src={design}
+            className="piece"
+            alt="Freelance Design and Illustration"
+          />
         </section>
         {/* 
             PHOTOGRAPHY
@@ -178,11 +198,7 @@ export default function Landing() {
               </div>
             </HashLink>
           </div>
-          <img
-            src={photography}
-            className="piece"
-            alt="design and illustration"
-          />
+          <img src={photography} className="piece" alt="Photography" />
         </section>
         {/* 
             PERSONALITY PICTURES
@@ -203,7 +219,11 @@ export default function Landing() {
               </div>
             </HashLink>
           </div>
-          <img src={personality} className="piece" alt="personality" />
+          <img
+            src={personality}
+            className="piece"
+            alt="Personality Pictures Project"
+          />
         </section>
       </main>
       <footer>

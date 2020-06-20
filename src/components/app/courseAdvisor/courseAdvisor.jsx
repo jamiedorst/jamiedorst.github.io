@@ -32,7 +32,11 @@ export default function CourseAdvisor() {
                 about classes.
               </p>
             </div>
-            <img src={courseAdvisorMac} className="coverPhoto" alt="Mac" />
+            <img
+              src={courseAdvisorMac}
+              className="coverPhoto"
+              alt="Course Advisor Mac Mockup"
+            />
           </div>
         </div>
       </header>
@@ -89,8 +93,16 @@ export default function CourseAdvisor() {
                 <img src={finalBlob} className="blob" alt="Blob" />
                 <div className="flexDisplay">
                   <div className="stackedImagesMac">
-                    <img src={backCA} className="backMac" alt="Screenshot" />
-                    <img src={frontCA} className="frontMac" alt="Screenshot" />
+                    <img
+                      src={backCA}
+                      className="backMac"
+                      alt="Landing Page Screen"
+                    />
+                    <img
+                      src={frontCA}
+                      className="frontMac"
+                      alt="Search Results Screen"
+                    />
                   </div>
                   <div className="leftText">
                     <h3 className="redText">Advanced Search & Filter</h3>
@@ -111,7 +123,11 @@ export default function CourseAdvisor() {
                     </p>
                   </div>
                   <div className="soloImageMac">
-                    <img src={detailCA} className="aloneMac" alt="Screenshot" />
+                    <img
+                      src={detailCA}
+                      className="aloneMac"
+                      alt="Course Detail Screen"
+                    />
                   </div>
                 </div>
               </div>
@@ -131,7 +147,11 @@ export default function CourseAdvisor() {
                 we needed to include in our product, and why.
               </p>
               <div className="flexDisplay m70top sbsComp">
-                <img src={fce} className="sbsMac" alt="Screenshot" />
+                <img
+                  src={fce}
+                  className="sbsMac"
+                  alt="Faculty Course Evaluations Screenshot"
+                />
                 <div className="leftText pad50bottom sbsCompText">
                   <h5 className="redText">Faculty Course Evaluations</h5>
                   <p>
@@ -147,7 +167,11 @@ export default function CourseAdvisor() {
                 </div>
               </div>
               <div className="flexDisplay m70top sbsComp">
-                <img src={rateMyProf} className="sbsMac" alt="Screenshot" />
+                <img
+                  src={rateMyProf}
+                  className="sbsMac"
+                  alt="RateMyProfessor Screenshot"
+                />
                 <div className="leftText pad50bottom sbsCompText">
                   <h5 className="redText">RateMyProfessor</h5>
                   <p>
@@ -162,7 +186,11 @@ export default function CourseAdvisor() {
                 </div>
               </div>
               <div className="flexDisplay m70top sbsComp">
-                <img src={courseCat} className="sbsMac" alt="Screenshot" />
+                <img
+                  src={courseCat}
+                  className="sbsMac"
+                  alt="CMU Course Catalog Screenshot"
+                />
                 <div className="leftText pad50bottom sbsCompText">
                   <h5 className="redText">Course Catalog</h5>
                   <p>
@@ -178,7 +206,11 @@ export default function CourseAdvisor() {
                 </div>
               </div>
               <div className="flexDisplay m70top sbsComp">
-                <img src={enr} className="sbsMac" alt="Screenshot" />
+                <img
+                  src={enr}
+                  className="sbsMac"
+                  alt="CMU Schedule of Classes Screenshot"
+                />
                 <div className="leftText pad50bottom sbsCompText">
                   <h5 className="redText">Schedule of Classes</h5>
                   <p>
@@ -193,7 +225,11 @@ export default function CourseAdvisor() {
                 </div>
               </div>
               <div className="flexDisplay m70top sbsComp">
-                <img src={cmunits} className="sbsMac" alt="Screenshot" />
+                <img
+                  src={cmunits}
+                  className="sbsMac"
+                  alt="CMUnits Chrome Extension Screenshot"
+                />
                 <div className="leftText pad50bottom sbsCompText">
                   <h5 className="redText">CMUnits Chrome Extension</h5>
                   <p>
@@ -257,7 +293,7 @@ export default function CourseAdvisor() {
                 basic wireframes, I put together this prototype using Sketch and
                 Principle.
               </p>
-              <video className="demoVidMac" controls>
+              <video className="demoVidMac" alt="Prototype" controls>
                 <source src={CAdemo} />
               </video>
             </section>

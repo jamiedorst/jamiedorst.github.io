@@ -48,7 +48,7 @@ export default function Robot() {
                 intent of the designer.
               </p>
             </div>
-            <img src={kuri} id="kuri" alt="Kuri" />
+            <img src={kuri} id="kuri" alt="Kuri Robot" />
           </div>
         </div>
       </header>
@@ -129,10 +129,22 @@ export default function Robot() {
               <img src={roboBlob} className="blob" alt="Blob" />
               <div className="flexDisplay">
                 <div id="kuriDemo">
-                  <video className="kuriVidDemo" autoPlay loop muted>
+                  <video
+                    className="kuriVidDemo"
+                    alt="Kuri Motion Video"
+                    autoPlay
+                    loop
+                    muted
+                  >
                     <source src={acceptable1} />
                   </video>
-                  <video className="kuriVidDemo" autoPlay loop muted>
+                  <video
+                    className="kuriVidDemo"
+                    alt="Kuri Motion Video"
+                    autoPlay
+                    loop
+                    muted
+                  >
                     <source src={unacceptable1} />
                   </video>
                 </div>
@@ -159,10 +171,22 @@ export default function Robot() {
                   </p>
                 </div>
                 <div id="kuriDemo">
-                  <video className="kuriVidDemo" autoPlay loop muted>
+                  <video
+                    className="kuriVidDemo"
+                    alt="Kuri Motion Video"
+                    autoPlay
+                    loop
+                    muted
+                  >
                     <source src={tank} />
                   </video>
-                  <video className="kuriVidDemo" autoPlay loop muted>
+                  <video
+                    className="kuriVidDemo"
+                    alt="Kuri Motion Video"
+                    autoPlay
+                    loop
+                    muted
+                  >
                     <source src={omni} />
                   </video>
                 </div>
@@ -192,10 +216,22 @@ export default function Robot() {
                 .
               </p>
               <div className="flexDisplayWrap m70top">
-                <video className="kuriVid2" autoPlay loop muted>
+                <video
+                  className="kuriVid2"
+                  alt="Kuri Motion Video"
+                  autoPlay
+                  loop
+                  muted
+                >
                   <source src={acceptable1} />
                 </video>
-                <video className="kuriVid2" autoPlay loop muted>
+                <video
+                  className="kuriVid2"
+                  alt="Kuri Motion Video"
+                  autoPlay
+                  loop
+                  muted
+                >
                   <source src={unacceptable1} />
                 </video>
               </div>
@@ -220,42 +256,102 @@ export default function Robot() {
                 workflow.
               </p>
               <div className="flexDisplay m70top pad20bottom">
-                <video className="phoneImg2 pad20right" autoPlay loop muted>
+                <video
+                  className="phoneImg2 pad20right"
+                  alt="Kuri Motion Video"
+                  autoPlay
+                  loop
+                  muted
+                >
                   <source src={gen1} />
                 </video>
-                <video className="phoneImg2 pad20right" autoPlay loop muted>
+                <video
+                  className="phoneImg2 pad20right"
+                  alt="Kuri Motion Video"
+                  autoPlay
+                  loop
+                  muted
+                >
                   <source src={gen2} />
                 </video>
               </div>
               <div className="flexDisplay pad20bottom">
-                <video className="phoneImg2 pad20right" autoPlay loop muted>
+                <video
+                  className="phoneImg2 pad20right"
+                  alt="Kuri Motion Video"
+                  autoPlay
+                  loop
+                  muted
+                >
                   <source src={gen3} />
                 </video>
-                <video className="phoneImg2 pad20right" autoPlay loop muted>
+                <video
+                  className="phoneImg2 pad20right"
+                  alt="Kuri Motion Video"
+                  autoPlay
+                  loop
+                  muted
+                >
                   <source src={gen4} />
                 </video>
               </div>
               <div className="flexDisplay pad20bottom">
-                <video className="phoneImg2 pad20right" autoPlay loop muted>
+                <video
+                  className="phoneImg2 pad20right"
+                  alt="Kuri Motion Video"
+                  autoPlay
+                  loop
+                  muted
+                >
                   <source src={gen5} />
                 </video>
-                <video className="phoneImg2 pad20right" autoPlay loop muted>
+                <video
+                  className="phoneImg2 pad20right"
+                  alt="Kuri Motion Video"
+                  autoPlay
+                  loop
+                  muted
+                >
                   <source src={gen6} />
                 </video>
               </div>
               <div className="flexDisplay pad20bottom">
-                <video className="phoneImg2 pad20right" autoPlay loop muted>
+                <video
+                  className="phoneImg2 pad20right"
+                  alt="Kuri Motion Video"
+                  autoPlay
+                  loop
+                  muted
+                >
                   <source src={gen7} />
                 </video>
-                <video className="phoneImg2 pad20right" autoPlay loop muted>
+                <video
+                  className="phoneImg2 pad20right"
+                  alt="Kuri Motion Video"
+                  autoPlay
+                  loop
+                  muted
+                >
                   <source src={gen8} />
                 </video>
               </div>
               <div className="flexDisplay">
-                <video className="phoneImg2 pad20right" autoPlay loop muted>
+                <video
+                  className="phoneImg2 pad20right"
+                  alt="Kuri Motion Video"
+                  autoPlay
+                  loop
+                  muted
+                >
                   <source src={gen9} />
                 </video>
-                <video className="phoneImg2 pad20right" autoPlay loop muted>
+                <video
+                  className="phoneImg2 pad20right"
+                  alt="Kuri Motion Video"
+                  autoPlay
+                  loop
+                  muted
+                >
                   <source src={gen10} />
                 </video>
               </div>
@@ -285,17 +381,35 @@ export default function Robot() {
                 <img
                   src={testing}
                   className="fullWidthImg"
-                  alt="Testing Results"
+                  alt="Testing Results Spreadsheet"
                 />
               </div>
               <div className="flexDisplayWrap m70top pad20bottom">
-                <video className="kuriVid3" autoPlay loop muted>
+                <video
+                  className="kuriVid3"
+                  alt="Kuri Motion Video"
+                  autoPlay
+                  loop
+                  muted
+                >
                   <source src={top1} />
                 </video>
-                <video className="kuriVid3" autoPlay loop muted>
+                <video
+                  className="kuriVid3"
+                  alt="Kuri Motion Video"
+                  autoPlay
+                  loop
+                  muted
+                >
                   <source src={top3} />
                 </video>
-                <video className="kuriVid3" autoPlay loop muted>
+                <video
+                  className="kuriVid3"
+                  alt="Kuri Motion Video"
+                  autoPlay
+                  loop
+                  muted
+                >
                   <source src={top5} />
                 </video>
               </div>
@@ -360,14 +474,26 @@ export default function Robot() {
                 <img
                   src={acceptableDef}
                   className="kuriVid2"
-                  alt="Acceptable Definition"
+                  alt="Acceptable Definition Brainstorming"
                 />
               </div>
               <div className="flexDisplayWrap">
-                <video className="kuriVid2" autoPlay loop muted>
+                <video
+                  className="kuriVid2"
+                  alt="Kuri Motion Video"
+                  autoPlay
+                  loop
+                  muted
+                >
                   <source src={tank} />
                 </video>
-                <video className="kuriVid2" autoPlay loop muted>
+                <video
+                  className="kuriVid2"
+                  alt="Kuri Motion Video"
+                  autoPlay
+                  loop
+                  muted
+                >
                   <source src={omni} />
                 </video>
               </div>

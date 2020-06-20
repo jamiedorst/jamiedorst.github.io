@@ -28,20 +28,36 @@ export default function Design() {
           done in my free time or for freelance projects.
         </p>
         <div id="flexImages">
-          <img src={rendering} className="flexImg " alt="Rendering Poster" />
-          <img src={grtCamp} className="flexImg " alt="GRT Camp Poster" />
+          <img
+            src={rendering}
+            className="flexImg "
+            alt="Animation Rendering Poster"
+          />
+          <img src={grtCamp} className="flexImg " alt="Robotics Camp Poster" />
           <img
             src={controllers}
             className="flexImg"
             id="banner"
-            alt="Controllers"
+            alt="Nintendo Controller Illustration"
           />
-          <img src={david} className="flexImg " alt="David" />
-          <img src={ronan} className="flexImg " alt="Ronan" />
-          <img src={alainplaysguitar} className="flexImg " alt="Alain" />
-          <img src={alainlearnschem} className="flexImg " alt="Alain" />
-          <img src={lowPoly} className="flexImg " alt="Low Poly Portrait" />
-          <img src={dude} className="flexImg " alt="Dude" />
+          <img src={david} className="flexImg " alt="David Illustration" />
+          <img src={ronan} className="flexImg " alt="Ronan Illustration" />
+          <img
+            src={alainplaysguitar}
+            className="flexImg "
+            alt="Guitar Illustration"
+          />
+          <img
+            src={alainlearnschem}
+            className="flexImg "
+            alt="Chemistry Illustration"
+          />
+          <img
+            src={lowPoly}
+            className="flexImg "
+            alt="Low Poly Portrait Illustration"
+          />
+          <img src={dude} className="flexImg " alt="Man Illustration" />
         </div>
       </main>
       <footer>

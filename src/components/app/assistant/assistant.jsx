@@ -20,7 +20,11 @@ export default function Assistant() {
         <div>
           <img src={vmBlob} className="blob" alt="Blob" />
           <div className="topLayer">
-            <img src={vmCover} className="coverPhoto" alt="iPhone" />
+            <img
+              src={vmCover}
+              className="coverPhoto"
+              alt="Virtual Assistant iPhone Mockup"
+            />
             <div className="leftText head phoneHead">
               <h3 className="blueText">AI Virtual Assistant</h3>
               <p className="blurb">
@@ -75,7 +79,11 @@ export default function Assistant() {
                 <img src={vmFinalBlob} className="blob" alt="Blob" />
                 <div className="flexDisplay">
                   <div className="soloPhone">
-                    <img src={vm1} className="phoneImg2" alt="Screenshot" />
+                    <img
+                      src={vm1}
+                      className="phoneImg2"
+                      alt="Virtual Assistant iPhone Mockup Screen 1"
+                    />
                   </div>
                   <div className="leftText">
                     <h3 className="blueText">Be Your Own Boss</h3>
@@ -102,12 +110,20 @@ export default function Assistant() {
                     </p>
                   </div>
                   <div className="soloPhone">
-                    <img src={vm2} className="phoneImg2" alt="Screenshot" />
+                    <img
+                      src={vm2}
+                      className="phoneImg2"
+                      alt="Virtual Assistant iPhone Mockup Screen 2"
+                    />
                   </div>
                 </div>
                 <div className="flexDisplay">
                   <div className="soloPhone">
-                    <img src={vm3} className="phoneImg2" alt="Screenshot" />
+                    <img
+                      src={vm3}
+                      className="phoneImg2"
+                      alt="Virtual Assistant iPhone Mockup Screen 3"
+                    />
                   </div>
                   <div className="leftText">
                     <h3 className="blueText">Respect for All</h3>
@@ -349,20 +365,24 @@ export default function Assistant() {
               <br />
               <p>To get my brain flowing, I sketched out my initial ideas.</p>
               <div className="flexDisplay m70top pad50bottom">
-                <img src={sketches} className="fullWidthImg" alt="Sketches" />
+                <img
+                  src={sketches}
+                  className="phoneImg2"
+                  alt="Wireframe Sketches"
+                />
               </div>
             </section>
             <section className="sectionBreak">
               <h5 className="blueText">SOLUTION</h5>
               <p>
-                Based on my sketches, I created som edigital mockups of a
+                Based on my sketches, I created some digital mockups of a
                 possible product solution.
               </p>
               <div className="flexDisplay m70top pad50bottom">
                 <img
                   src={vm1}
                   className="phoneImg4 pad20right"
-                  alt="assistant"
+                  alt="Virtual Assistant iPhone Mockup Screen 1"
                 />
                 <div className="sbsPhone sbsCompText">
                   <p>
@@ -383,12 +403,12 @@ export default function Assistant() {
                 <img
                   src={vm2}
                   className="phoneImg4 pad20right"
-                  alt="assistant"
+                  alt="Virtual Assistant iPhone Mockup Screen 2"
                 />
                 <img
                   src={vm3}
                   className="phoneImg4 pad20right"
-                  alt="assistant"
+                  alt="Virtual Assistant iPhone Mockup Screen 3"
                 />
                 <div className="sbsPhone sbsCompText">
                   <p>

@@ -32,7 +32,11 @@ export default function Macroinvertebrates() {
                 pollution prevention.
               </p>
             </div>
-            <img src={macroMac} className="coverPhoto" alt="Mac" />
+            <img
+              src={macroMac}
+              className="coverPhoto"
+              alt="Macroinvertebrates Landing Page"
+            />
           </div>
         </div>
       </header>
@@ -143,7 +147,11 @@ export default function Macroinvertebrates() {
                 way for users to get an overview of what insects we cover.
               </p>
               <div className="flexDisplay m70top">
-                <img src={poster} className="fullWidthImg" alt="Poster" />
+                <img
+                  src={poster}
+                  className="fullWidthImg"
+                  alt="Full Collection Poster"
+                />
               </div>
             </section>
             <section className="sectionBreak">
@@ -162,27 +170,27 @@ export default function Macroinvertebrates() {
                 <img
                   src={ephemeropteraFront}
                   className="macroImg"
-                  alt="Print-out"
+                  alt="Ephemeroptera Print-out Front"
                 />
                 <img
                   src={ephemeropteraBack}
                   className="macroImg"
-                  alt="Print-out"
+                  alt="Ephemeroptera Print-out Back"
                 />
                 <img
                   src={plecoptera}
                   className="fullWidthImg pad20bottom"
-                  alt="Print-out"
+                  alt="Plecoptera Print-out"
                 />
                 <img
                   src={trichopteraFront}
                   className="macroImg "
-                  alt="Print-out"
+                  alt="Trichoptera Print-out Front"
                 />
                 <img
                   src={trichopteraBack}
                   className="macroImg"
-                  alt="Print-out"
+                  alt="Trichoptera Print-out Back"
                 />
               </div>
             </section>
@@ -205,10 +213,18 @@ export default function Macroinvertebrates() {
                 .
               </p>
               <div className="flexDisplay m70top">
-                <img src={key} className="fullWidthImg" alt="Key" />
+                <img
+                  src={key}
+                  className="fullWidthImg"
+                  alt="Interactive Dichotomous Key"
+                />
               </div>
               <div className="flexDisplay m70top">
-                <img src={popUps} className="fullWidthImg" alt="Pop-ups" />
+                <img
+                  src={popUps}
+                  className="fullWidthImg"
+                  alt="Interactive Dichotomous Key Pop-ups"
+                />
               </div>
             </section>
           </div>

@@ -16,7 +16,12 @@ export default function About() {
         <h4 className="blueText">ABOUT</h4>
         <hr id="resLine" className="blueLine" />
         <div id="aboutSect">
-          <img src={jamie} className="phoneImg3" id="aboutImg" alt="Jamie" />
+          <img
+            src={jamie}
+            className="phoneImg3"
+            id="aboutImg"
+            alt="Jamie Dorst"
+          />
           <div className="leftText" id="aboutText">
             <h3 className="blueText" id="aboutTitle">
               Hi, I'm Jamie.

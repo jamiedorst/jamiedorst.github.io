@@ -44,7 +44,11 @@ export default function Resmed() {
         <div>
           <img src={resmedBlob} className="blob" alt="Blob" />
           <div className="topLayer">
-            <img src={resmedIso} className="coverPhoto" alt="iPhone" />
+            <img
+              src={resmedIso}
+              className="coverPhoto"
+              alt="ResMed iPhone Mockup"
+            />
             <div className="leftText head phoneHead">
               <h3 className="blueText">ResMed</h3>
               <p className="blurb">
@@ -111,12 +115,12 @@ export default function Resmed() {
                     <img
                       src={backRes}
                       className="backPhoneLeft"
-                      alt="Screenshot"
+                      alt="ResMed iPhone Mockup Screen 1"
                     />
                     <img
                       src={frontRes}
                       className="frontPhoneLeft"
-                      alt="Screenshot"
+                      alt="ResMed iPhone Mockup Screen 2"
                     />
                   </div>
                   <div className="leftText">
@@ -143,12 +147,12 @@ export default function Resmed() {
                     <img
                       src={ARdown}
                       className="backPhoneRight"
-                      alt="Screenshot"
+                      alt="ResMed iPhone Mockup AR Screen 1"
                     />
                     <img
                       src={ARup}
                       className="frontPhoneRight"
-                      alt="Screenshot"
+                      alt="ResMed iPhone Mockup AR Screen 2"
                     />
                   </div>
                 </div>
@@ -181,14 +185,18 @@ export default function Resmed() {
                 <img
                   src={pinkPost}
                   className="phoneImg3 pad20right"
-                  alt="Post-Its"
+                  alt="Post-It Brainstorming"
                 />
                 <img
                   src={whiteboard}
                   className="phoneImg3 pad20right"
-                  alt="Whiteboard"
+                  alt="Whiteboard Stakeholder Mapping"
                 />
-                <img src={postits} className="phoneImg3" alt="Post-Its" />
+                <img
+                  src={postits}
+                  className="phoneImg3"
+                  alt="Post-It Brainstorming"
+                />
               </div>
               <p>
                 After our initial mapping, we created a couple more refined maps
@@ -199,9 +207,13 @@ export default function Resmed() {
                 <img
                   src={candia}
                   className="phoneImg2 pad20right"
-                  alt="Candia"
+                  alt="Initial Stakeholder Mapping"
                 />
-                <img src={stacy} className="phoneImg2" alt="Stacy" />
+                <img
+                  src={stacy}
+                  className="phoneImg2"
+                  alt="Initial Stakeholder Mapping"
+                />
               </div>
               <p>
                 We then combined our best ideas to create a high-fidelity
@@ -214,7 +226,7 @@ export default function Resmed() {
                 <img
                   src={stakeMap}
                   className="fullWidthImg"
-                  alt="Stakeholder Map"
+                  alt="Final Stakeholder Map"
                 />
               </div>
             </section>
@@ -409,7 +421,11 @@ export default function Resmed() {
                 them.
               </p>
               <div className="flexDisplay m70top pad150bottom">
-                <video className="demoVidPhone" controls>
+                <video
+                  className="demoVidPhone"
+                  alt="ResMed Prototype Video"
+                  controls
+                >
                   <source src={resDemo} />
                 </video>
               </div>
@@ -422,12 +438,12 @@ export default function Resmed() {
                 <img
                   src={high1}
                   className="phoneImg4 pad20right"
-                  alt="AR try-on"
+                  alt="ResMed iPhone Mockup AR Screen 1"
                 />
                 <img
                   src={high2}
                   className="phoneImg4 pad20right"
-                  alt="AR try-on"
+                  alt="ResMed iPhone Mockup AR Screen 2"
                 />
                 <div className="sbsPhone sbsCompText">
                   <p>
@@ -461,13 +477,19 @@ export default function Resmed() {
                 propel our vision forward.
               </p>
               <div className="flexDisplay m70top pad50bottom sbsComp">
-                <video className="phoneImg4 pad20right" autoPlay loop muted>
+                <video
+                  className="phoneImg4 pad20right"
+                  alt="Splash Page Prototype Video"
+                  autoPlay
+                  loop
+                  muted
+                >
                   <source src={microVid1} />
                 </video>
                 <img
                   src={micro1}
                   className="phoneImg4 pad20right"
-                  alt="AR try-on"
+                  alt="Welcome Screen Mockup"
                 />
                 <div className="sbsPhone sbsCompText">
                   <p>
@@ -483,13 +505,19 @@ export default function Resmed() {
                 </div>
               </div>
               <div className="flexDisplay m70top pad50bottom sbsComp">
-                <video className="phoneImg4 pad20right" autoPlay loop muted>
+                <video
+                  className="phoneImg4 pad20right"
+                  alt="Page Transition Prototype Video"
+                  autoPlay
+                  loop
+                  muted
+                >
                   <source src={microVid2} />
                 </video>
                 <img
                   src={micro2}
                   className="phoneImg4 pad20right"
-                  alt="AR try-on"
+                  alt="Page Stage Mockup"
                 />
                 <div className="sbsPhone sbsCompText">
                   <p>
