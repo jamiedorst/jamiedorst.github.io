@@ -1,6 +1,5 @@
 @import "../../../assets/sass/global";
 @import "../../../assets/sass/page";
-@import "../../../assets/sass/yellow";
 
 .resume {
   display: block;
@@ -20,4 +19,8 @@
 
 #resumeBlob {
   top: 500px;
+}
+
+.bgColor {
+  background: $black;
 }

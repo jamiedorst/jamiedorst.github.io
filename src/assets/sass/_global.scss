@@ -1,23 +1,52 @@
 @import "../mixins/rfs/scss";
 @import "../mixins/include-media/dist/include-media";
 
-$font: "IBM Plex Sans", sans-serif;
-$white: #f7f7f7;
-$black: #071e22;
-$yellow: #eac435;
-$blue: #345995;
-$red: #fb4d3d;
-$blackOverlay: rgba($black, 0.75);
+// grid system
+$gutter: 1.389vw;
+$oneC: 100vw * 0.0833 - $gutter;
+$twoC: 100vw * 0.1667 - $gutter;
+$threeC: 100vw * 0.25 - $gutter;
+$fourC: 100vw * 0.333 - $gutter;
+$fiveC: 100vw * 0.4167 - $gutter;
+$sixC: 100vw * 0.5 - $gutter;
+$sevenC: 100vw * 0.583 - $gutter;
+$eightC: 100vw * 0.667 - $gutter;
+$nineC: 100vw * 0.75 - $gutter;
+$tenC: 100 * 0.833 - $gutter;
+$elevenC: 100 * 0.9167 - $gutter;
+$twelveC: 100vw - $gutter;
+
+// styles
+$font: "IBM Plex Serif", serif;
+$sansFont: "IBM Plex Sans", sans-serif;
+$white: #e8e9eb;
+$black: #313638;
+$yellow: #e4b363;
+$blue: #456496;
+$red: #ef6461;
+$taupe: #e0dfd5;
+$blackOverlay: rgba($black, 0.85);
 $whiteOverlay: rgba($white, 0.5);
 $redOverlay: rgba($red, 0.2);
 $blueOverlay: rgba($blue, 0.2);
 $yellowOverlay: rgba($yellow, 0.2);
 $dropShadow: rgba($black, 0.25);
+$extraLight: 200;
+$light: 300;
 $regular: 400;
+$medium: 500;
 $bold: 700;
-$pieceWidth2: 42vw; //30-45?
+
+// specifics
+$coverImgHeight: 0.5785 * $sevenC;
+$sbsImgHeight: 0.643;
+
+// weird
+$pieceWidth3: 30vw; //30-45?
+$pieceHeight3: $pieceWidth3 * 0.733;
+$pieceWidth2: 45vw; //30-45?
 $pieceHeight2: $pieceWidth2 * 0.733;
-$pieceWidth1: 84vw; //30-45?
+$pieceWidth1: 70vw; //30-45?
 $pieceHeight1: $pieceWidth1 * 0.733;
 $fiveTwelveW: 41.67vw;
 $fiveTwelveH: $fiveTwelveW * 0.574;
@@ -30,15 +59,18 @@ html {
   scroll-behavior: smooth;
   margin-block-start: 0;
   margin-block-end: 0;
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
 }
 
 body {
-  background: $white;
+  background: $taupe;
   display: flex;
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
-  @include font-size(24px);
+  @include font-size(18px);
 }
 
 footer {
@@ -48,6 +80,7 @@ footer {
 
 a {
   text-decoration: none;
+  color: $black;
 }
 
 // TEXT STYLES
@@ -56,99 +89,109 @@ a {
   font-weight: $bold;
 }
 
+.italics {
+  font-style: italic;
+}
+
+.skinnyText {
+  margin: 0;
+  padding: 0;
+}
+
+.invert {
+  color: $white;
+}
+
+.workCards {
+  color: $white;
+  font-family: $sansFont;
+}
+
 h1 {
   font-family: $font;
-  font-weight: $bold;
-  font-style: italic;
+  font-weight: $medium;
+  font-style: normal;
   color: $black;
-  @include font-size(60px);
+  @include font-size(64px);
+}
+
+#spotlight {
+  font-style: italic;
+  @include font-size(72px);
 }
 
 h2 {
   font-family: $font;
-  font-weight: $bold;
+  font-weight: $medium;
   color: $black;
-  @include font-size(24px);
+  @include font-size(36px);
+}
+
+.job {
+  font-weight: $regular;
+  margin: 0;
+}
+
+.location {
+  font-family: $sansFont;
+  font-weight: $extraLight;
+  font-style: italic;
+  margin: 0;
 }
 
 h3 {
   font-family: $font;
-  font-weight: $bold;
+  font-weight: $medium;
   color: $black;
-  @include font-size(44px);
+  @include font-size(24px);
 }
 
-.title {
-  color: $white;
-  margin-bottom: 0;
-  @include font-size(36px);
+.blurb {
+  font-weight: $regular;
+}
+
+.section {
+  font-weight: $bold;
+  font-style: italic;
+}
+
+.sub {
+  font-weight: $regular;
+  font-style: italic;
 }
 
 h4 {
   font-family: $font;
-  font-weight: $bold;
+  font-weight: $regular;
   color: $black;
-  @include font-size(32px);
-  text-align: center;
+  @include font-size(18px);
+}
+
+.more {
+  font-weight: $medium;
+  font-style: italic;
+}
+
+.secondary {
+  font-weight: $bold;
 }
 
 h5 {
   font-family: $font;
-  font-weight: $bold;
-  color: $black;
-  @include font-size(22px);
-}
-
-.tags {
-  color: $whiteOverlay;
-  @include font-size(16px);
-}
-
-#back2top {
-  @include font-size(18px);
-}
-
-.sectionText {
-  @include font-size(18px);
-  color: $blackOverlay;
-}
-
-h6 {
-  font-family: $font;
-  font-weight: $bold;
+  font-weight: $light;
+  font-style: italic;
   color: $black;
   @include font-size(14px);
 }
 
-#mini {
-  font-weight: $regular;
-  @include font-size(11px);
-}
-
-.subSectionText {
-  color: $blackOverlay;
+.names {
+  font-weight: $bold;
+  font-style: normal;
 }
 
 p {
-  font-family: $font;
+  font-family: $sansFont;
   font-weight: $regular;
   color: $black;
-  @include font-size(24px);
-  line-height: 1.6;
-  margin: 0;
-}
-
-.blurb {
-  color: $blackOverlay;
-}
-
-.card {
-  color: $white;
-  @include font-size(20px);
-}
-
-.date {
-  font-style: italic;
-  color: $white;
-  @include font-size(16px);
+  @include font-size(18px);
 }

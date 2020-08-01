@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../navbar";
 import Footer from "../footer";
-import resmedBlob from "../../../assets/images/resmedBlob.png";
+import resmed from "../../../assets/images/resmedImgs/resmed.png";
 import resmedIso from "../../../assets/images/resmedIso.png";
 import resFinalBlob from "../../../assets/images/resFinalBlob.png";
 import backRes from "../../../assets/images/resMach.png";
@@ -41,25 +41,324 @@ export default function Resmed() {
         <nav className="navbarPage">
           <Navbar />
         </nav>
-        <div>
-          <img src={resmedBlob} className="blob" alt="Blob" />
-          <div className="topLayer">
-            <img
-              src={resmedIso}
-              className="coverPhoto"
-              alt="ResMed iPhone Mockup"
-            />
-            <div className="leftText head phoneHead">
-              <h3 className="blueText">ResMed</h3>
-              <p className="blurb">
-                An AR app experience for newly diagnosed sleep apnea patients
-                built to complement ResMed, an IoT medical device company.
-              </p>
+        <hr className="vertShortLine" />
+        <div className="pageHeader">
+          <img src={resmed} className="headerImg" alt="VMware Logo" />
+          <div className="pageHeadText">
+            <div>
+              <h4 className="skinnyText">WORK</h4>
+              <h1 className="skinnyText">ResMed</h1>
+              <h5 className="skinnyText">February 2020</h5>
+              <h2>
+                An AR app experience for newly diagnosed sleep apnea patients;
+                built for ResMed, an IoT medical device company.
+              </h2>
+            </div>
+            <div className="fastFacts">
+              <div className="fact">
+                <h5 className="names skinnyText">ROLE</h5>
+                <p className="skinnyText">UI Designer</p>
+              </div>
+              <div className="fact">
+                <h5 className="names skinnyText">TOOLS</h5>
+                <p className="skinnyText">Figma, Lucidchart</p>
+              </div>
+              <div className="fact">
+                <h5 className="names skinnyText">TEAM</h5>
+                <p className="skinnyText">
+                  Jamie Dorst, Stacy Kellner, Matt Franklin, Candia Gu
+                </p>
+              </div>
             </div>
           </div>
         </div>
+        <hr className="headBottomLine" />
       </header>
       <main>
+        <hr className="vertBodyLineTop caTop" />
+        <article className="sectionBreak">
+          <h3 className="section">Overview</h3>
+          <div>
+            <section className="textBlock">
+              <h5 className="names skinnyText">PROBLEM</h5>
+              <p className="skinnyText bottomM3">
+                As part of my Interaction Design Studio II class, we were tasked
+                with creating a native mobile app to either augment an existing
+                service or create a new service for a given company. We were
+                assigned ResMed, an IoT medical device company that makes
+                equipment for respiratory conditions such as sleep apnea and
+                COPD.
+              </p>
+              <h5 className="names skinnyText">SOLUTION</h5>
+              <p className="skinnyText bottomM3">
+                We created an AR app experience for newly diagnosed sleep apnea
+                patients that will lower the barrier of entry to getting a
+                device, and help new patients feel more comfortable with the new
+                territory they were now entering for the rest of their lives.
+              </p>
+              <h5 className="names skinnyText">MY CONTRIBUTION</h5>
+              <p className="skinnyText bottomM3">
+                I'm proud to say that this team worked beautifully together. To
+                highlight some specifics that I did, I first helped create the
+                stakeholder map by focusing on who our key stakeholders were and
+                fleshing out what needs they had. I then created the first
+                version of our lo-fi prototype, and was the driving force in
+                translating that from mid-fi to hi-fi. I also did most of the
+                animations in Figma, aiming to create smooth interactions
+                despite not actually creating a working prototype.
+              </p>
+            </section>
+            <section>
+              <h5 className="names">FINAL PRODUCT</h5>
+              <hr className="highlightLineTop" />
+              <div className="highlightSect">
+                <div className="highlightText">
+                  <h2>Machine, Mask, Order</h2>
+                  <h3 className="blurb">
+                    Our app walks the user through these three simple steps,
+                    resulting in the perfect equipment for them. We cut out the
+                    middle-men in the typical customer journey, and make it as
+                    easy as 1, 2, 3.
+                  </h3>
+                </div>
+                <img src={resmed} className="highlightImg" alt="VMware Logo" />
+              </div>
+              <div className="highlightSect">
+                <div className="highlightText">
+                  <h2>AR Mask Try-On</h2>
+                  <h3 className="blurb">
+                    Patients can now literally picture themselves using ResMed.
+                    Get a sense of what your equipment will be like with the AR
+                    try-on, bringing a little comfort and a little smile in an
+                    uneasy time.
+                  </h3>
+                </div>
+                <img src={resmed} className="highlightImg" alt="VMware Logo" />
+              </div>
+              <hr className="highlightLineBottom" />
+            </section>
+          </div>
+        </article>
+        <hr className="vertBodyLineBottom caBott" />
+        <article className="sectionBreak">
+          <h3 className="section">Research</h3>
+          <div>
+            <section className="textBlock">
+              <h5 className="names skinnyText">STAKEHOLDER MAPPING</h5>
+              <p className="skinnyText">
+                We began by creating a stakeholder map in order to explore and
+                understand the relationships between important people and
+                groups. Because it's a healthcare company, there are a lot of
+                important people and groups, and a lot of very specific ways
+                that they're allowed to interact to maintain patient privacy.
+              </p>
+              <p className="bottomM3">
+                We started as a group using a whiteboard and post-its to
+                generate a comprehensive list of stakeholders and their primary
+                relationships, as well as just exploring our associations with
+                ResMed as a company. We wanted to get a sense of the complex
+                relationships we were working with, and start wrapping our minds
+                about what domain we could potentially tackle.
+              </p>
+            </section>
+            <img
+              src={resmed}
+              className="img3c"
+              alt="Faculty Course Evaluations"
+            />
+            <img
+              src={resmed}
+              className="img2c"
+              alt="Faculty Course Evaluations"
+            />
+            <img
+              src={resmed}
+              className="img3c"
+              alt="Faculty Course Evaluations"
+            />
+            <section>
+              <div className="sbsUnit">
+                <img
+                  src={resmed}
+                  className="sbsImg"
+                  alt="Faculty Course Evaluations"
+                />
+                <div className="sbsText">
+                  <h4 className="secondary">Faculty Course Evaluations</h4>
+                  <p>
+                    FCEs are useful for getting a general idea of how well liked
+                    a class is or how much time it will likely take.
+                  </p>
+                  <p>
+                    However, the interface is frustrating to use and slow, and
+                    the qualitative data shown is often not what students are
+                    wondering about. ALthough there are helpful pieces of
+                    information here, they’re often too difficult to decipher.
+                  </p>
+                </div>
+              </div>
+              <div className="sbsUnit">
+                <img src={resmed} className="sbsImg" alt="RateMyProfessor" />
+                <div className="sbsText">
+                  <h4 className="secondary">RateMyProfessor</h4>
+                  <p>
+                    RateMyProfessor gives a well rounded view of a course by
+                    providing an overall rating of the professor along with
+                    class tags and comments from previous students.
+                  </p>
+                  <p>
+                    However, it’s missing many professors, reviews are often
+                    biased and unhelpful, and the site is riddled with
+                    obstructive and distracting ads.
+                  </p>
+                </div>
+              </div>
+              <div className="sbsUnit">
+                <img src={resmed} className="sbsImg" alt="Course Catalog" />
+                <div className="sbsText">
+                  <h4 className="secondary">Course Catalog</h4>
+                  <p>
+                    As the official CMU Course Catalog, it’s the best source for
+                    accurate program requirements and overall options.
+                  </p>
+                  <p>
+                    However, it’s hard to navigate, the same information seems
+                    to be located in multiple places, and it isn’t helpful for
+                    discovering new courses. As much as I’d like to be able to
+                    use this as a source of truth, it’s often being
+                    changed/updated and it’s difficult to find a straight answer
+                    to simple questions.
+                  </p>
+                </div>
+              </div>
+              <div className="sbsUnit">
+                <img
+                  src={resmed}
+                  className="sbsImg"
+                  alt="Schedule of Classes"
+                />
+                <div className="sbsText">
+                  <h4 className="secondary">Schedule of Classes</h4>
+                  <p>
+                    A resource also provided by CMU, the schedule of classes is
+                    the best and most reliable place to see which classes are
+                    offered in any given semester, along with other relevant
+                    information such as location, professor, and time.
+                  </p>
+                  <p>
+                    However, it doesn’t have any helpful filters or sorting
+                    functionalities, so it’s hard to find interesting classes.
+                  </p>
+                </div>
+              </div>
+              <div className="sbsUnit">
+                <img src={resmed} className="sbsImg" alt="CMUnits" />
+                <div className="sbsText">
+                  <h4 className="secondary">CMUnits Chrome Extension</h4>
+                  <p>
+                    CMUnits is a student favorite–it aggregates FCE data and
+                    displays it with the course planning website to show how
+                    many hours a class takes per week on average.
+                  </p>
+                  <p>
+                    However, it’s only accessible through chrome, and it
+                    averages across professors and years, meaning the data is
+                    often inaccurate.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+        </article>
+        <article className="sectionBreak">
+          <h3 className="section">Design</h3>
+          <section className="textBlock">
+            <h5 className="names skinnyText">IMPORTANT FEATURES</h5>
+            <p className="skinnyText">
+              Based on the competitive analysis, I made a list of important
+              features that I wanted to include in our site.
+            </p>
+            <div className="indentText bottomM3">
+              <p>
+                1. A <span className="bold">simple landing page</span> that
+                prompts users to use the search feature, and provides examples
+                of possible queries
+              </p>
+              <p>
+                2. Search results that present a{" "}
+                <span className="bold">quick snapshot</span> of the most
+                important information
+              </p>
+              <p>
+                3. <span className="bold">Filters</span> that are relevant and
+                useful
+              </p>
+              <p>
+                4. On the individual course pages, a course description,
+                ratings, hours per week, tags, and reviews
+              </p>
+              <p>
+                5. Ability to{" "}
+                <span className="bold">filter by professor and year</span> for
+                class-specific ratings and tags
+              </p>
+            </div>
+            <h5 className="names skinnyText">INITIAL DESIGN</h5>
+            <p className="skinnyText">
+              After figuring out the most important features and creating some
+              basic wireframes, I put together this prototype using Sketch and
+              Principle.
+            </p>
+          </section>
+          <video className="demoVidMac bottomM3" alt="Prototype" controls>
+            <source src={resmed} />
+          </video>
+          <div className="textBlock">
+            <h5 className="names skinnyText">NEXT STEPS</h5>
+            <p className="skinnyText">
+              This prototype combined the positive features from the other
+              commonly used websites into one simple interface. However, during
+              the process of creating it, many questions were raised that I
+              hadn't previously considered.
+            </p>
+            <div className="indentText">
+              <p>
+                <span className="bold">1. Tags can be very subjective.</span>{" "}
+                Some people might consider heavy participation to be a pro,
+                while others might consider it a con. How do we provide a set of
+                easy to digest tags, that simultaneously show a balance of
+                positive and negative, while considering that different people
+                will view them differently?
+              </p>
+              <p>
+                <span className="bold">2. A catalog view could be useful.</span>{" "}
+                The ability to sort all classes by certain criteria could help
+                students discover new classes they hadn't thought about before.
+                But would that be possible? What fast facts do people want to
+                see when they're looking at all classes at the same time
+                (professor, units, rating, etc.)?
+              </p>
+              <p>
+                <span className="bold">
+                  3. Implementing comments is easier said than done.
+                </span>{" "}
+                How do we ensure security and honesty with reviews without
+                creating too high of a barrier in which no one will want to post
+                anything?
+              </p>
+            </div>
+            <p>
+              Moving forward, our team will have to find answers to these
+              questions. However, first priority right now is having something
+              tangible to work with. So far, I've coded most of the front-end.
+              Next steps are to finish the back end and tie up those loose ends,
+              and then once we have our MVP, we can get it up and running and
+              get some initial feedback.
+            </p>
+          </div>
+        </article>
+      </main>
+      {/* <main>
         <article className="overview">
           <h4 className="blueText">OVERVIEW</h4>
           <hr className="blueLine" />
@@ -547,7 +846,7 @@ export default function Resmed() {
             </section>
           </div>
         </article>
-      </main>
+      </main> */}
       <footer>
         <Footer />
       </footer>

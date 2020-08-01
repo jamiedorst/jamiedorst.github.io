@@ -1,21 +1,21 @@
 @import "../../../assets/sass/global";
 @import "../../../assets/sass/page";
 
-.demoVidMac {
-  width: $eightC;
-  padding-top: $gutter;
+.confidential {
+  -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+  filter: blur(5px);
 }
 
-.caTop {
-  height: 69vw;
+.gpTop {
+  height: 72vw;
   @include media(">=desktop") {
     top: 50%;
   }
 }
 
-.caBott {
-  height: 265vw;
+.gpBott {
+  height: 58vw;
   @include media(">=desktop") {
-    top: 290%;
+    top: 297%;
   }
 }

@@ -2,40 +2,90 @@
 
 ul {
   list-style-type: none;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 0;
   margin: 0;
+  padding-top: 5%;
   width: auto;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 li {
   display: inline-block;
-  @include media(">=tablet") {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-  @include media("<tablet") {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-
+  padding-top: $gutter;
+  padding-right: 4vw;
   &:hover {
     cursor: pointer;
   }
 }
 
 .navItem {
+  @extend h3;
+  margin: 0;
+  padding: 0;
+}
+
+#rightNav {
+  width: $sevenC;
+  margin-left: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#navPages {
+  margin: 0;
+
+  @include media(">=desktop") {
+    width: $fiveC;
+  }
+  @include media("<desktop") {
+    width: $sevenC;
+  }
+}
+
+#buttonLinks {
+  padding: 0;
+  padding-top: $gutter;
+  width: $twoC;
+  display: flex;
+  justify-content: flex-end;
+  @include media(">=desktop") {
+    display: normal;
+  }
+  @include media("<desktop") {
+    display: none;
+  }
+}
+
+#pagesLine {
+  margin: 0;
+  width: $sevenC;
+  color: $black;
+  border: 1px solid;
+  border-radius: 0;
+}
+
+#nameTitle {
+  text-align: right;
+  margin: 0;
+  padding-top: $gutter / 2;
   @extend h2;
 }
 
-.leftNav {
-  margin-right: auto;
+#nameMargins {
+  padding: 0;
 }
 
-#name {
-  margin-left: auto;
-  @extend h1;
+#nameLine {
+  margin: 0;
+  width: $threeC;
+  color: $black;
+  border: 1px solid;
+  border-radius: 0;
+}
+
+.icon {
+  margin: 5px;
+  padding: 0;
+  color: $black;
 }

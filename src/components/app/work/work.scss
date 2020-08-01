@@ -1,0 +1,99 @@
+@import "../../../assets/sass/global";
+
+.grid {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100vw;
+  margin-top: 5vw;
+}
+
+.piece {
+  @include media(">=desktop") {
+    width: $pieceWidth3;
+    height: $pieceHeight3;
+  }
+  @include media("<desktop") {
+    width: $pieceWidth2;
+    height: $pieceHeight2;
+  }
+  @include media("<tablet") {
+    width: $pieceWidth1;
+    height: $pieceHeight1;
+  }
+  object-fit: cover;
+  margin: 10px;
+  box-shadow: 0px 6px 4px $dropShadow;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.navbarHome {
+  width: 100vw;
+}
+
+.overlay1 {
+  @include media(">=desktop") {
+    width: $pieceWidth3;
+    height: $pieceHeight3;
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+  }
+  @include media("<desktop") {
+    width: $pieceWidth2;
+    height: $pieceHeight2;
+  }
+  @include media("<tablet") {
+    width: $pieceWidth1;
+    height: $pieceHeight1;
+  }
+  position: absolute;
+  background: $blackOverlay;
+  margin: 10px;
+  opacity: 0;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 1;
+  }
+}
+
+.details {
+  margin-left: 7%;
+  margin-right: 7%;
+  display: flex;
+  @include media(">=desktop") {
+    height: $pieceHeight3;
+  }
+  @include media("<desktop") {
+    height: $pieceHeight2;
+  }
+  @include media("<tablet") {
+    height: $pieceHeight1;
+  }
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.tags {
+  margin-top: auto;
+  margin-bottom: 7%;
+}
+
+.card {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.date {
+  margin: 0;
+}
+
+.title {
+  margin-top: 2.5vw;
+  margin-bottom: 0;
+}

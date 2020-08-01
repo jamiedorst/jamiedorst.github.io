@@ -2,7 +2,6 @@ import React from "react";
 import Navbar from "../navbar";
 import Footer from "../footer";
 import ResumeDoc from "../../../assets/documents/resume.pdf";
-import ResumeBlob from "../../../assets/images/resumeBlob.png";
 import "./resume.scss";
 
 export default function Resume() {
@@ -14,10 +13,7 @@ export default function Resume() {
         </nav>
       </header>
       <main>
-        <h4 className="yellowText">RESUME</h4>
-        <hr id="resLine" className="yellowLine" />
         <div>
-          <img src={ResumeBlob} className=" blob" id="resumeBlob" alt="Blob" />
           <div className="topLayer" id="resumeTop">
             <object className="resume" data={ResumeDoc} type="application/pdf">
               <iframe

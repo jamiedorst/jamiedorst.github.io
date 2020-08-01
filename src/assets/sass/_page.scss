@@ -1,9 +1,314 @@
+// HEADER --------------------------
 .navbarPage {
   height: auto;
   top: 0;
-  width: 100%;
+  width: 100vw;
   margin-bottom: 7vw;
 }
+
+.pageHeader {
+  height: $coverImgHeight;
+  position: relative;
+  @include media("<tablet") {
+    margin-top: $gutter * 10;
+  }
+}
+
+.headerImg {
+  @include media(">=desktop") {
+    opacity: 0.9;
+    width: $sevenC;
+    height: $coverImgHeight;
+    object-fit: cover;
+  }
+  @include media("<desktop") {
+    opacity: 0.5;
+    width: $sevenC;
+    height: $coverImgHeight;
+    object-fit: cover;
+  }
+  @include media("<tablet") {
+    opacity: 0.2;
+    width: 100vw;
+    height: $coverImgHeight;
+    object-fit: cover;
+  }
+}
+
+.vertShortLine {
+  position: absolute;
+  width: 0;
+  height: $coverImgHeight * 1.2;
+  color: $dropShadow;
+  border: 1px solid;
+  @include media(">=desktop") {
+    margin-left: $sixC;
+    display: normal;
+    top: 22%;
+  }
+  @include media("<desktop") {
+    margin-left: $threeC;
+    display: normal;
+    top: 18%;
+  }
+  @include media("<tablet") {
+    display: none;
+  }
+}
+
+.headBottomLine {
+  width: $elevenC;
+  color: $dropShadow;
+  border: 1px solid;
+  position: absolute;
+  right: 0;
+  @include media(">=desktop") {
+    margin-top: $gutter * 2;
+  }
+  @include media("<desktop") {
+    margin-top: $gutter * 3;
+  }
+  @include media("<tablet") {
+    margin-top: $gutter * 5;
+  }
+}
+
+.pageHeadText {
+  height: $coverImgHeight;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  position: absolute;
+  top: 0;
+  padding: $gutter;
+  @include media(">=desktop") {
+    width: $sixC;
+    margin-left: $sixC;
+  }
+  @include media("<desktop") {
+    width: $nineC;
+    margin-left: $threeC;
+  }
+  @include media("<tablet") {
+    width: $twelveC;
+    margin-left: 0;
+  }
+}
+
+.fastFacts {
+  display: flex;
+}
+
+.fact {
+  @include media(">=desktop") {
+    width: $twoC;
+  }
+  @include media("<desktop") {
+    width: $threeC;
+  }
+  @include media("<tablet") {
+    width: $fourC;
+  }
+}
+// HEADER --------------------------
+
+// MAIN ----------------------------
+.vertBodyLineTop {
+  position: absolute;
+  width: 0;
+  color: $dropShadow;
+  border: 1px solid;
+  @include media(">=desktop") {
+    margin-left: $twoC;
+    display: normal;
+  }
+  @include media("<desktop") {
+    display: none;
+  }
+}
+
+.sectionBreak {
+  margin-top: 10vw;
+  margin-left: $twoC + $gutter;
+}
+
+.textBlock {
+  @include media(">=desktop") {
+    width: $sixC;
+    padding: 0;
+  }
+  @include media("<desktop") {
+    width: 75vw;
+    padding: $gutter;
+  }
+}
+
+.highlightSect {
+  position: relative;
+  margin-top: $gutter * 2;
+  margin-right: 0px;
+  @include media(">=tablet") {
+    width: $tenC + $gutter;
+    height: $coverImgHeight;
+  }
+  @include media("<tablet") {
+    width: $sevenC;
+    position: static;
+    height: $coverImgHeight * 2;
+  }
+}
+
+.highlightText {
+  z-index: 1;
+  height: $coverImgHeight;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  @include media(">=tablet") {
+    width: $fiveC;
+    position: absolute;
+  }
+  @include media("<tablet") {
+    width: $sevenC;
+    position: static;
+  }
+}
+
+.blurb {
+  padding-bottom: $gutter * 2;
+}
+
+.highlightImg {
+  @include media(">=desktop") {
+    width: $sevenC;
+    height: $coverImgHeight;
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+  }
+  @include media("<desktop") {
+    width: $sevenC;
+    height: $coverImgHeight;
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+  }
+  @include media("<tablet") {
+    width: $sevenC;
+    height: $coverImgHeight;
+    object-fit: cover;
+    position: static;
+    margin-bottom: $coverImgHeight;
+  }
+}
+
+.highlightLineTop {
+  width: $fiveC;
+  color: $dropShadow;
+  border: 1px solid;
+  position: absolute;
+  left: 0;
+  @include media(">=desktop") {
+    margin-top: $gutter * 3;
+    display: normal;
+  }
+  @include media("<tablet") {
+    display: none;
+  }
+}
+
+.highlightLineBottom {
+  width: $fiveC;
+  color: $dropShadow;
+  border: 1px solid;
+  position: absolute;
+  left: 0;
+  @include media(">=desktop") {
+    margin-top: -$gutter * 2;
+    display: normal;
+  }
+  @include media("<tablet") {
+    display: none;
+  }
+}
+
+.vertBodyLineBottom {
+  position: absolute;
+  width: 0;
+  color: $dropShadow;
+  border: 1px solid;
+  @include media(">=desktop") {
+    margin-left: $twoC;
+    display: normal;
+  }
+  @include media("<desktop") {
+    display: none;
+  }
+}
+
+.sbsUnit {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: $gutter * 2;
+  @include media(">=desktop") {
+    width: $eightC + $gutter;
+  }
+  @include media("<desktop") {
+    width: $nineC;
+  }
+}
+
+.sbsImg {
+  object-fit: cover;
+  @include media(">=desktop") {
+    width: $fiveC;
+    height: $sbsImgHeight * $fiveC;
+    padding-left: $gutter;
+  }
+  @include media("<desktop") {
+    width: $nineC;
+    height: $sbsImgHeight * $nineC;
+  }
+}
+
+.sbsText {
+  @include media(">=desktop") {
+    width: $threeC;
+    padding-left: $gutter;
+  }
+  @include media("<desktop") {
+    width: $nineC;
+  }
+}
+
+.indentText {
+  padding-left: $oneC;
+  @include media(">=desktop") {
+    width: $fiveC;
+  }
+  @include media("<desktop") {
+    width: 55vw;
+  }
+}
+
+.img3c {
+  width: $threeC;
+}
+
+.img2c {
+  width: $twoC;
+}
+
+// MAIN ----------------------------
+
+// SPACERS -------------------------
+.bottomM3 {
+  margin-bottom: $gutter * 3;
+}
+
+// SPACERS -------------------------
+
+// OLD CSS BELOW //////////////////////////
 
 .blob {
   width: 100vw !important;
@@ -52,28 +357,14 @@
   align-items: center;
 }
 
-.overview {
-  margin-top: 15vw;
-}
-
 .content {
   display: flex;
   flex-direction: column;
 }
 
-.mainInfo {
-  @include media(">=desktop") {
-    width: 66.67%;
-    margin-right: 20px;
-  }
-  @include media("<desktop") {
-    width: 100%;
-  }
-}
-
 .sideInfo {
   @include media(">=desktop") {
-    width: 33.33%;
+    width: 100px;
   }
   @include media("<desktop") {
     width: 100%;
@@ -88,12 +379,6 @@
     display: block;
   }
   width: 100%;
-}
-
-.sectionBreak {
-  padding-top: 5vw;
-  width: 66.67vw;
-  margin: auto;
 }
 
 .stackedImagesMac {

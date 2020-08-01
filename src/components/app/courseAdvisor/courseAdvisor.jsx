@@ -1,18 +1,16 @@
 import React from "react";
 import Navbar from "../navbar";
 import Footer from "../footer";
-import courseAdvisorBlob from "../../../assets/images/courseAdvisorBlob.png";
-import courseAdvisorMac from "../../../assets/images/courseAdvisorMac.png";
-import finalBlob from "../../../assets/images/finalBlob.png";
-import backCA from "../../../assets/images/backCA.png";
-import frontCA from "../../../assets/images/frontCA.png";
-import detailCA from "../../../assets/images/detailCA.png";
-import cmunits from "../../../assets/images/cmunits.png";
-import courseCat from "../../../assets/images/courseCat.png";
-import enr from "../../../assets/images/enr.png";
-import fce from "../../../assets/images/fce.png";
-import rateMyProf from "../../../assets/images/rateMyProf.png";
-import CAdemo from "../../../assets/images/CAdemo.mov";
+import courseAdvisor from "../../../assets/images/courseAdvisorImgs/courseAdvisor.png";
+import advSF from "../../../assets/images/courseAdvisorImgs/advSF.png";
+import coursePage from "../../../assets/images/courseAdvisorImgs/coursePage.png";
+import detailCA from "../../../assets/images/courseAdvisorImgs/detailCA.png";
+import cmunits from "../../../assets/images/courseAdvisorImgs/cmunits.png";
+import courseCat from "../../../assets/images/courseAdvisorImgs/courseCat.png";
+import enr from "../../../assets/images/courseAdvisorImgs/enr.png";
+import fce from "../../../assets/images/courseAdvisorImgs/fce.png";
+import rateMyProf from "../../../assets/images/courseAdvisorImgs/rateMyProf.png";
+import CAdemo from "../../../assets/images/courseAdvisorImgs/CAdemo.mov";
 import "./courseAdvisor.scss";
 
 export default function CourseAdvisor() {
@@ -22,62 +20,60 @@ export default function CourseAdvisor() {
         <nav className="navbarPage">
           <Navbar />
         </nav>
-        <div>
-          <img src={courseAdvisorBlob} className="blob" alt="Blob" />
-          <div className="topLayer">
-            <div className="rightText head">
-              <h3 className="redText">CMU Course Advisor</h3>
-              <p className="blurb">
-                A new way for Carnegie Mellon students to discover and learn
-                about classes.
-              </p>
+        <hr className="vertShortLine" />
+        <div className="pageHeader">
+          <img src={courseAdvisor} className="headerImg" alt="VMware Logo" />
+          <div className="pageHeadText">
+            <div>
+              <h4 className="skinnyText">WORK</h4>
+              <h1 className="skinnyText">CMU Course Advisor</h1>
+              <h5 className="skinnyText">Ongoing since August 2019</h5>
+              <h2>
+                A new way for CMU students to discover and learn about courses.
+              </h2>
             </div>
-            <img
-              src={courseAdvisorMac}
-              className="coverPhoto"
-              alt="Course Advisor Mac Mockup"
-            />
+            <div className="fastFacts">
+              <div className="fact">
+                <h5 className="names skinnyText">ROLE</h5>
+                <p className="skinnyText">UX Designer & Front-End Developer</p>
+              </div>
+              <div className="fact">
+                <h5 className="names skinnyText">TOOLS</h5>
+                <p className="skinnyText">Sketch, Principle, React</p>
+              </div>
+              <div className="fact">
+                <h5 className="names skinnyText">TEAM</h5>
+                <p className="skinnyText">Jamie Dorst, Andy Chen, Jesse Chan</p>
+              </div>
+            </div>
           </div>
         </div>
+        <hr className="headBottomLine" />
       </header>
       <main>
-        <article className="overview" id="overview">
-          <h4 className="redText">OVERVIEW</h4>
-          <hr className="redLine" />
+        <hr className="vertBodyLineTop caTop" />
+        <article className="sectionBreak">
+          <h3 className="section">Overview</h3>
           <div>
-            <div className="top sectionBreak">
-              <section className="mainInfo">
-                <h5 className="redText">PROBLEM</h5>
-                <p>
-                  CMU students don’t have an easy way of discovering new classes
-                  or getting an idea of what they’re really like. The resources
-                  that currently exist don’t address the questions students
-                  actually tend to have or provide the information that would
-                  actually be helpful when deciding between classes.
-                </p>
-                <h5 className="redText">SOLUTION</h5>
-                <p>
-                  Our tool allows students to browse classes, see relevant
-                  insights about what they’re like, and view comments from
-                  students who have taken them previously. Filters allow
-                  students to discover new classes based on criteria that’s
-                  important to them.
-                </p>
-              </section>
-              <aside className="sideInfo">
-                <h5 className="redText">ROLE</h5>
-                <p>UX Designer and Front End Developer</p>
-                <h5 className="redText">TIMELINE</h5>
-                <p>Ongoing since August 2019</p>
-                <h5 className="redText">TEAM</h5>
-                <p>Jamie Dorst, Andy Chen, Jesse Chan</p>
-                <h5 className="redText">TOOLS</h5>
-                <p>Sketch, Principle, React</p>
-              </aside>
-            </div>
-            <section className="sectionBreak">
-              <h5 className="redText">MY CONTRIBUTION</h5>
-              <p>
+            <section className="textBlock">
+              <h5 className="names skinnyText">PROBLEM</h5>
+              <p className="skinnyText bottomM3">
+                CMU students don’t have an easy way of discovering new classes
+                or getting an idea of what they’re really like. The resources
+                that currently exist don’t address the questions students
+                actually tend to have or provide the information that would
+                actually be helpful when deciding between classes.
+              </p>
+              <h5 className="names skinnyText">SOLUTION</h5>
+              <p className="skinnyText bottomM3">
+                Our tool allows students to browse classes, see relevant
+                insights about what they’re like, and view comments from
+                students who have taken them previously. Filters allow students
+                to discover new classes based on criteria that’s important to
+                them.
+              </p>
+              <h5 className="names skinnyText">MY CONTRIBUTION</h5>
+              <p className="skinnyText bottomM3">
                 I took the initiative of making the original design for the
                 website so that we would have something to work with. I did a
                 competitive analysis against the other relevant websites that
@@ -88,155 +84,135 @@ export default function CourseAdvisor() {
               </p>
             </section>
             <section>
-              <h5 className="redText sectionBreak">WORKING FINAL PRODUCT</h5>
-              <div className="pad100top">
-                <img src={finalBlob} className="blob" alt="Blob" />
-                <div className="flexDisplay">
-                  <div className="stackedImagesMac">
-                    <img
-                      src={backCA}
-                      className="backMac"
-                      alt="Landing Page Screen"
-                    />
-                    <img
-                      src={frontCA}
-                      className="frontMac"
-                      alt="Search Results Screen"
-                    />
-                  </div>
-                  <div className="leftText">
-                    <h3 className="redText">Advanced Search & Filter</h3>
-                    <p className="blurb">
-                      Allows students to see the information that’s important to
-                      them, and discover new classes that can fulfill their
-                      requirements.
-                    </p>
-                  </div>
+              <h5 className="names">FINAL PRODUCT</h5>
+              <hr className="highlightLineTop" />
+              <div className="highlightSect">
+                <div className="highlightText">
+                  <h2>Advanced Search & Filter</h2>
+                  <h3 className="blurb">
+                    Allows students to see the information that’s important to
+                    them, and discover new classes that can fulfill their
+                    requirements.
+                  </h3>
                 </div>
-                <div className="flexDisplay m100top">
-                  <div className="rightText bottomInfo">
-                    <h3 className="redText">Relevant Details & Reviews</h3>
-                    <p className="blurb">
-                      Relevant quantitative data as well as personal reviews and
-                      tags from previous students give students a well rounded
-                      idea of what classes are like.
-                    </p>
-                  </div>
-                  <div className="soloImageMac">
-                    <img
-                      src={detailCA}
-                      className="aloneMac"
-                      alt="Course Detail Screen"
-                    />
-                  </div>
-                </div>
+                <img src={advSF} className="highlightImg" alt="VMware Logo" />
               </div>
+              <div className="highlightSect">
+                <div className="highlightText">
+                  <h2>Relevant Details & Reviews</h2>
+                  <h3 className="blurb">
+                    Relevant quantitative data as well as personal reviews and
+                    tags from previous students give students a well rounded
+                    idea of what classes are like.
+                  </h3>
+                </div>
+                <img
+                  src={coursePage}
+                  className="highlightImg"
+                  alt="VMware Logo"
+                />
+              </div>
+              <hr className="highlightLineBottom" />
             </section>
           </div>
         </article>
-        <article className="overview">
-          <h4 className="redText">RESEARCH</h4>
-          <hr className="redLine" />
+        <hr className="vertBodyLineBottom caBott" />
+        <article className="sectionBreak">
+          <h3 className="section">Research</h3>
           <div>
-            <section className="sectionBreak">
-              <h5 className="redText">COMPETITIVE ANALYSIS</h5>
-              <p>
-                Our first step was to take a closer look at the resources that
+            <section className="textBlock">
+              <h5 className="names skinnyText">COMPETITIVE ANALYSIS</h5>
+              <p className="skinnyText bottomM3">
+                My first step was to take a closer look at the resources that
                 currently exist for students, and figure out what their best and
                 worst features were. Based on this, we would know what features
                 we needed to include in our product, and why.
               </p>
-              <div className="flexDisplay m70top sbsComp">
+            </section>
+            <section>
+              <div className="sbsUnit">
                 <img
                   src={fce}
-                  className="sbsMac"
-                  alt="Faculty Course Evaluations Screenshot"
+                  className="sbsImg"
+                  alt="Faculty Course Evaluations"
                 />
-                <div className="leftText pad50bottom sbsCompText">
-                  <h5 className="redText">Faculty Course Evaluations</h5>
+                <div className="sbsText">
+                  <h4 className="secondary">Faculty Course Evaluations</h4>
                   <p>
-                    Useful for getting a general idea of how well liked a class
-                    is or how much time it will take.
+                    FCEs are useful for getting a general idea of how well liked
+                    a class is or how much time it will likely take.
                   </p>
-                  <br />
                   <p>
                     However, the interface is frustrating to use and slow, and
                     the qualitative data shown is often not what students are
-                    wondering about.
+                    wondering about. ALthough there are helpful pieces of
+                    information here, they’re often too difficult to decipher.
                   </p>
                 </div>
               </div>
-              <div className="flexDisplay m70top sbsComp">
+              <div className="sbsUnit">
                 <img
                   src={rateMyProf}
-                  className="sbsMac"
-                  alt="RateMyProfessor Screenshot"
+                  className="sbsImg"
+                  alt="RateMyProfessor"
                 />
-                <div className="leftText pad50bottom sbsCompText">
-                  <h5 className="redText">RateMyProfessor</h5>
+                <div className="sbsText">
+                  <h4 className="secondary">RateMyProfessor</h4>
                   <p>
-                    Gives a well rounded view by providing an overall rating of
-                    the professor along with class tags and comments.
+                    RateMyProfessor gives a well rounded view of a course by
+                    providing an overall rating of the professor along with
+                    class tags and comments from previous students.
                   </p>
-                  <br />
                   <p>
                     However, it’s missing many professors, reviews are often
-                    biased, and the site is riddled with ads.
+                    biased and unhelpful, and the site is riddled with
+                    obstructive and distracting ads.
                   </p>
                 </div>
               </div>
-              <div className="flexDisplay m70top sbsComp">
-                <img
-                  src={courseCat}
-                  className="sbsMac"
-                  alt="CMU Course Catalog Screenshot"
-                />
-                <div className="leftText pad50bottom sbsCompText">
-                  <h5 className="redText">Course Catalog</h5>
+              <div className="sbsUnit">
+                <img src={courseCat} className="sbsImg" alt="Course Catalog" />
+                <div className="sbsText">
+                  <h4 className="secondary">Course Catalog</h4>
                   <p>
-                    The best source for accurate program requirements and
-                    overall options.
+                    As the official CMU Course Catalog, it’s the best source for
+                    accurate program requirements and overall options.
                   </p>
-                  <br />
                   <p>
                     However, it’s hard to navigate, the same information seems
                     to be located in multiple places, and it isn’t helpful for
-                    discovering new courses.
+                    discovering new courses. As much as I’d like to be able to
+                    use this as a source of truth, it’s often being
+                    changed/updated and it’s difficult to find a straight answer
+                    to simple questions.
                   </p>
                 </div>
               </div>
-              <div className="flexDisplay m70top sbsComp">
-                <img
-                  src={enr}
-                  className="sbsMac"
-                  alt="CMU Schedule of Classes Screenshot"
-                />
-                <div className="leftText pad50bottom sbsCompText">
-                  <h5 className="redText">Schedule of Classes</h5>
+              <div className="sbsUnit">
+                <img src={enr} className="sbsImg" alt="Schedule of Classes" />
+                <div className="sbsText">
+                  <h4 className="secondary">Schedule of Classes</h4>
                   <p>
-                    Helpful for seeing which classes are offered in any given
-                    semester, along with other relevant information.
+                    A resource also provided by CMU, the schedule of classes is
+                    the best and most reliable place to see which classes are
+                    offered in any given semester, along with other relevant
+                    information such as location, professor, and time.
                   </p>
-                  <br />
                   <p>
                     However, it doesn’t have any helpful filters or sorting
                     functionalities, so it’s hard to find interesting classes.
                   </p>
                 </div>
               </div>
-              <div className="flexDisplay m70top sbsComp">
-                <img
-                  src={cmunits}
-                  className="sbsMac"
-                  alt="CMUnits Chrome Extension Screenshot"
-                />
-                <div className="leftText pad50bottom sbsCompText">
-                  <h5 className="redText">CMUnits Chrome Extension</h5>
+              <div className="sbsUnit">
+                <img src={cmunits} className="sbsImg" alt="CMUnits" />
+                <div className="sbsText">
+                  <h4 className="secondary">CMUnits Chrome Extension</h4>
                   <p>
-                    Aggregates FCE data to show how many hours a class takes per
-                    week on average.
+                    CMUnits is a student favorite–it aggregates FCE data and
+                    displays it with the course planning website to show how
+                    many hours a class takes per week on average.
                   </p>
-                  <br />
                   <p>
                     However, it’s only accessible through chrome, and it
                     averages across professors and years, meaning the data is
@@ -247,104 +223,91 @@ export default function CourseAdvisor() {
             </section>
           </div>
         </article>
-        <article className="overview">
-          <h4 className="redText">DESIGN</h4>
-          <hr className="redLine" />
-          <div>
-            <section className="sectionBreak">
-              <h5 className="redText">IMPORTANT FEATURES</h5>
+        <article className="sectionBreak">
+          <h3 className="section">Design</h3>
+          <section className="textBlock">
+            <h5 className="names skinnyText">IMPORTANT FEATURES</h5>
+            <p className="skinnyText">
+              Based on the competitive analysis, I made a list of important
+              features that I wanted to include in our site.
+            </p>
+            <div className="indentText bottomM3">
               <p>
-                Based on the competitive analysis, I made a list of important
-                features that I wanted to include in our site. First, I wanted
-                to have a simple landing page that{" "}
-                <span className="redlight">
-                  prompts users to use the search feature,
-                </span>{" "}
-                and{" "}
-                <span className="redlight">
-                  provides examples of possible queries.
-                </span>{" "}
-                Those search results then needed to present a{" "}
-                <span className="redlight">
-                  quick snapshot of the most important information.
-                </span>{" "}
-                An important thing that many other sites lack is a robust filter
-                system, so having{" "}
-                <span className="redlight">
-                  filters that are relevant and useful
-                </span>{" "}
-                are critical for our site. On the individual course pages, a{" "}
-                <span className="redlight">
-                  course description, ratings, hours per week, tags, and reviews
-                </span>{" "}
-                would set our site apart from the rest. Finally, users should be
-                able to{" "}
-                <span className="redlight">
-                  filter class-specific ratings and tags by professor and year
-                </span>{" "}
-                to get accurate information about the specific class they're
-                looking into taking.
+                1. A <span className="bold">simple landing page</span> that
+                prompts users to use the search feature, and provides examples
+                of possible queries
               </p>
-            </section>
-            <section className="sectionBreak">
-              <h5 className="redText">INITIAL PROTOTYPE</h5>
               <p>
-                After figuring out the most important features and creating some
-                basic wireframes, I put together this prototype using Sketch and
-                Principle.
+                2. Search results that present a{" "}
+                <span className="bold">quick snapshot</span> of the most
+                important information
               </p>
-              <video className="demoVidMac" alt="Prototype" controls>
-                <source src={CAdemo} />
-              </video>
-            </section>
-            <section className="sectionBreak">
-              <h5 className="redText">NEXT STEPS</h5>
               <p>
-                This prototype combined the positive features from the other
-                commonly used websites into one simple interface. However,
-                during the process of creating it, many questions were raised
-                that I hadn't previously considered.
+                3. <span className="bold">Filters</span> that are relevant and
+                useful
               </p>
-              <br />
               <p>
-                First,{" "}
-                <span className="redlight">tags can be very subjective</span>.{" "}
-                Some people might consider heavy participation a pro, while
-                others might consider it a con. How do we provide a set of easy
-                to digest tags, that simultaneously show a balance of positive
-                and negative, while considering that different people will view
-                them differently?
+                4. On the individual course pages, a course description,
+                ratings, hours per week, tags, and reviews
               </p>
-              <br />
               <p>
-                Second,{" "}
-                <span className="redlight">a catalog view could be useful</span>
-                –the ability to sort all classes by certain criteria could help
+                5. Ability to{" "}
+                <span className="bold">filter by professor and year</span> for
+                class-specific ratings and tags
+              </p>
+            </div>
+            <h5 className="names skinnyText">INITIAL DESIGN</h5>
+            <p className="skinnyText">
+              After figuring out the most important features and creating some
+              basic wireframes, I put together this prototype using Sketch and
+              Principle.
+            </p>
+          </section>
+          <video className="demoVidMac bottomM3" alt="Prototype" controls>
+            <source src={CAdemo} />
+          </video>
+          <div className="textBlock">
+            <h5 className="names skinnyText">NEXT STEPS</h5>
+            <p className="skinnyText">
+              This prototype combined the positive features from the other
+              commonly used websites into one simple interface. However, during
+              the process of creating it, many questions were raised that I
+              hadn't previously considered.
+            </p>
+            <div className="indentText">
+              <p>
+                <span className="bold">1. Tags can be very subjective.</span>{" "}
+                Some people might consider heavy participation to be a pro,
+                while others might consider it a con. How do we provide a set of
+                easy to digest tags, that simultaneously show a balance of
+                positive and negative, while considering that different people
+                will view them differently?
+              </p>
+              <p>
+                <span className="bold">2. A catalog view could be useful.</span>{" "}
+                The ability to sort all classes by certain criteria could help
                 students discover new classes they hadn't thought about before.
                 But would that be possible? What fast facts do people want to
                 see when they're looking at all classes at the same time
                 (professor, units, rating, etc.)?
               </p>
-              <br />
               <p>
-                Third,{" "}
-                <span className="redlight">
-                  implementing comments is easier said than done
-                </span>
-                . How do we ensure security and honesty with reviews without
+                <span className="bold">
+                  3. Implementing comments is easier said than done.
+                </span>{" "}
+                How do we ensure security and honesty with reviews without
                 creating too high of a barrier in which no one will want to post
                 anything?
               </p>
-              <br />
-              <p>
-                Moving forward, our team will have to find answers to these
-                questions. However, first priority right now is having something
-                tangible to work with. So far, I've coded most of the front-end.
-                Next steps are to finish the back end and tie up those loose
-                ends, and then once we have our MVP, we can get it up and
-                running and get some initial feedback.
-              </p>
-            </section>
+            </div>
+            <p>
+              Moving forward, our team will have to find answers to these
+              questions. However, first priority right now is having something
+              tangible to work with. So far, I've coded most of the front-end.
+              Next steps are to finish the back end and tie up those loose ends,
+              and then once we have our MVP, we can get it up and running and
+              get some initial feedback.
+            </p>
           </div>
         </article>
       </main>

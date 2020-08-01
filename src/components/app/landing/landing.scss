@@ -1,120 +1,40 @@
 @import "../../../assets/sass/global";
 
-#blueBlob {
-  position: absolute;
-  left: 3vw;
-  height: 71vh;
-  width: 46vw;
-}
-
-#yellowBlob {
-  position: absolute;
-  top: 32vh;
-  left: 28vw;
-  height: 41vh;
-  width: 41vw;
-}
-
-#redBlob {
-  position: absolute;
-  right: 3vw;
-  height: 83vh;
-  width: 40vw;
-}
-
-.grid {
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100vw;
-  margin-top: 2vw;
-}
-
-.piece {
-  @include media(">=tablet") {
-    width: $pieceWidth2;
-    height: $pieceHeight2;
-  }
-  @include media("<tablet") {
-    width: $pieceWidth1;
-    height: $pieceHeight1;
-  }
-  object-fit: cover;
-  margin: 10px;
-  box-shadow: 0px 6px 4px $dropShadow;
-  border-radius: 10px;
-
-  &:hover {
-    cursor: pointer;
-  }
-}
-
-#home {
-  position: relative;
-  height: 100vh;
-  display: flex;
-}
-
 .navbarHome {
-  height: auto;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+  width: 100vw;
 }
 
-.overlay1 {
+// #homePage {
+//   display: flex;
+// }
+
+#spotlightText {
   @include media(">=tablet") {
-    width: $pieceWidth2;
-    height: $pieceHeight2;
-    transition-duration: 0.3s;
-    -webkit-transition-duration: 0.3s;
-    -moz-transition-duration: 0.3s;
+    width: $sixC;
+    margin-right: $fiveC;
+    margin-left: auto;
+    padding-top: 5%;
   }
   @include media("<tablet") {
-    width: $pieceWidth1;
-    height: $pieceHeight1;
-  }
-  position: absolute;
-  background: $blackOverlay;
-  margin: 10px;
-  border-radius: 10px;
-  opacity: 0;
-
-  &:hover {
-    cursor: pointer;
-    opacity: 1;
+    padding-top: 5%;
+    margin: $gutter * 2;
   }
 }
 
-.details {
-  margin-left: 7%;
-  margin-right: 7%;
-  display: flex;
+#currentTitle {
   @include media(">=tablet") {
-    height: $pieceHeight2;
+    width: $fiveC;
+    margin-left: $sevenC;
   }
   @include media("<tablet") {
-    height: $pieceHeight1;
+    margin: $gutter * 2;
+    text-align: right;
   }
-  flex-direction: column;
-  align-items: flex-start;
 }
 
-.tags {
-  margin-top: auto;
-  margin-bottom: 7%;
-}
-
-.card {
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-
-.date {
+.stickyFooter {
+  position: fixed;
   margin: 0;
-}
-
-.title {
-  margin-top: 4vw;
+  right: 0;
+  bottom: 0;
 }

@@ -1,12 +1,15 @@
 import React from "react";
 import "./app.scss";
 import Landing from "./landing";
+import Work from "./work";
 import CourseAdvisor from "./courseAdvisor";
+import GlobalPrint from "./globalPrint";
 import Resmed from "./resmed";
 import Macroinvertebrates from "./macroinvertebrates";
 import Design from "./design";
 import Personality from "./personality";
 import About from "./about";
+import Blog from "./blog";
 import Robot from "./robot";
 import Photography from "./photography";
 import Assistant from "./assistant";
@@ -20,8 +23,11 @@ export default function App() {
       <Router>
         <Switch>
           <Route exact path="/" component={Landing} />
+          <Route path="/work" component={Work} />
+          <Route path="/blog" component={Blog} />
           <Route path="/about" component={About} />
           <Route path="/resume" component={Resume} />
+          <Route path="/globalprint" component={GlobalPrint} />
           <Route path="/cmucourseadvisor" component={CourseAdvisor} />
           <Route path="/resmed" component={Resmed} />
           <Route path="/macroinvertebrates" component={Macroinvertebrates} />

@@ -1,45 +1,75 @@
 @import "../../../assets/sass/global";
 @import "../../../assets/sass/page";
-@import "../../../assets/sass/blue";
-
-#aboutSect {
-  width: 100vw;
-  @include media(">=desktop") {
-    display: flex;
-  }
-  @include media("<desktop") {
-    display: block;
-    text-align: center;
-  }
-
-  align-items: center;
-}
 
 #aboutImg {
+  padding: 0 !important;
+  box-shadow: 3vw -3vw $black;
   @include media(">=desktop") {
-    padding-left: 16.67vw;
+    width: $fourC;
+    margin-left: $sixC;
   }
   @include media("<desktop") {
     max-width: 50%;
-  }
-}
-
-#aboutText {
-  @include media(">=desktop") {
-    padding-right: 10vw;
-    padding-left: 20px;
-  }
-  @include media("<desktop") {
-    width: 75%;
+    display: block;
     margin: auto;
   }
 }
 
+#aboutText {
+  width: $threeC;
+  @include media(">=desktop") {
+    margin-left: $twoC;
+    padding: 0 !important;
+    padding-right: $oneC !important;
+  }
+  @include media("<desktop") {
+    width: $eightC !important;
+    margin: 0 !important;
+    text-align: left;
+    margin-left: $oneC + $gutter !important;
+  }
+}
+
 #aboutTitle {
-  padding-bottom: 2vw;
+  text-align: right;
+  padding-bottom: $gutter !important;
+  @include media(">=desktop") {
+    width: $fiveC;
+    margin-left: $twoC;
+  }
+  @include media("<desktop") {
+    width: $tenC;
+  }
+}
+
+#aboutLine {
+  color: $black;
+  border: 1px solid;
+  border-radius: 0;
+  margin: 0;
+  @include media(">=desktop") {
+    margin-left: $twoC;
+    width: $fiveC;
+  }
+  @include media("<desktop") {
+    width: $nineC;
+    margin-left: $oneC + $gutter;
+  }
 }
 
 .linkObvi {
   color: $black;
   text-decoration: underline;
+}
+
+#aboutTopLayer {
+  @include media(">=desktop") {
+    z-index: 1;
+    position: absolute;
+    top: 20vw;
+  }
+  @include media("<desktop") {
+    padding-top: 5%;
+    position: static;
+  }
 }
