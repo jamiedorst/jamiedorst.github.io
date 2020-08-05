@@ -15,24 +15,53 @@
 }
 
 .headerImg {
+  z-index: 0;
+  height: $coverImgHeight;
+  object-fit: cover;
   @include media(">=desktop") {
     opacity: 0.9;
     width: $sevenC;
-    height: $coverImgHeight;
-    object-fit: cover;
   }
   @include media("<desktop") {
     opacity: 0.5;
     width: $sevenC;
-    height: $coverImgHeight;
-    object-fit: cover;
   }
   @include media("<tablet") {
     opacity: 0.2;
     width: 100vw;
-    height: $coverImgHeight;
-    object-fit: cover;
   }
+}
+
+.headerGradient {
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  @include media(">=tablet") {
+    width: $sevenC;
+    height: $coverImgHeight;
+  }
+  @include media("<tablet") {
+    width: 100vw;
+    height: $coverImgHeight;
+  }
+  z-index: 1;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0+100;White+to+Transparent */
+  background: -moz-linear-gradient(
+    right,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 50%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    right,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 50%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 50%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
 }
 
 .vertShortLine {
@@ -74,6 +103,7 @@
 }
 
 .pageHeadText {
+  z-index: 2;
   height: $coverImgHeight;
   display: flex;
   flex-wrap: wrap;
@@ -121,6 +151,7 @@
   @include media(">=desktop") {
     margin-left: $twoC;
     display: normal;
+    top: 50%;
   }
   @include media("<desktop") {
     display: none;
@@ -159,7 +190,7 @@
 }
 
 .highlightText {
-  z-index: 1;
+  z-index: 2;
   height: $coverImgHeight;
   display: flex;
   flex-wrap: wrap;
@@ -178,7 +209,48 @@
   padding-bottom: $gutter * 2;
 }
 
+.highlightGradient {
+  z-index: 1;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0+100;White+to+Transparent */
+  background: -moz-linear-gradient(
+    left,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 75%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 75%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 75%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
+
+  @include media(">=desktop") {
+    width: $sevenC;
+    height: $coverImgHeight;
+    position: absolute;
+    right: 0;
+  }
+  @include media("<desktop") {
+    width: $sevenC;
+    height: $coverImgHeight;
+    position: absolute;
+    right: 0;
+  }
+  @include media("<tablet") {
+    width: $sevenC;
+    height: $coverImgHeight;
+    position: static;
+    margin-bottom: $coverImgHeight;
+  }
+}
+
 .highlightImg {
+  z-index: 0;
   @include media(">=desktop") {
     width: $sevenC;
     height: $coverImgHeight;
@@ -291,12 +363,40 @@
   }
 }
 
-.img3c {
-  width: $threeC;
+.landscape4w {
+  width: $fourC;
+  height: $landscapeImgHeight4;
+  object-fit: cover;
+  padding-right: $gutter;
 }
 
-.img2c {
+.portrait4w {
+  width: $fourC;
+  height: $portraitImgHeight4;
+  object-fit: cover;
+  padding-right: $gutter;
+}
+
+.landscape8w {
+  width: $eightC;
+  object-fit: cover;
+}
+
+.portrait2w {
   width: $twoC;
+  height: $portraitImgHeight2;
+  object-fit: cover;
+  padding-right: $gutter;
+}
+
+.portrait3w {
+  width: $threeC;
+  object-fit: cover;
+  padding-right: $gutter;
+}
+
+.gridConstraint {
+  width: $tenC + $gutter;
 }
 
 // MAIN ----------------------------
@@ -306,276 +406,13 @@
   margin-bottom: $gutter * 3;
 }
 
-// SPACERS -------------------------
-
-// OLD CSS BELOW //////////////////////////
-
-.blob {
-  width: 100vw !important;
-  position: absolute;
-  z-index: -1;
-  left: 0;
+.topM1 {
+  margin-top: $gutter;
 }
 
-.coverPhoto {
-  width: 50vw;
-}
-
-.blurb {
+.noMP {
   margin: 0;
+  padding: 0;
 }
 
-.rightText {
-  text-align: right;
-  width: $fiveTwelveW;
-  margin: auto;
-}
-
-.leftText {
-  text-align: left;
-  width: $fiveTwelveW;
-  margin: auto;
-}
-
-.head {
-  @include media(">=desktop") {
-    width: 35vw !important;
-  }
-  @include media("<desktop") {
-    width: 40vw !important;
-  }
-}
-
-.phoneHead {
-  padding-bottom: 10vw;
-}
-
-.topLayer {
-  width: 100vw;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.content {
-  display: flex;
-  flex-direction: column;
-}
-
-.sideInfo {
-  @include media(">=desktop") {
-    width: 100px;
-  }
-  @include media("<desktop") {
-    width: 100%;
-  }
-}
-
-.top {
-  @include media(">=desktop") {
-    display: flex;
-  }
-  @include media("<desktop") {
-    display: block;
-  }
-  width: 100%;
-}
-
-.stackedImagesMac {
-  width: 50vw;
-  height: $doubleMacH;
-}
-
-.backMac {
-  width: $fiveTwelveW;
-  position: absolute;
-  left: 0;
-}
-
-.frontMac {
-  width: $fiveTwelveW;
-  position: relative;
-  left: 8.33vw;
-  @include media(">=desktop") {
-    top: 75px;
-  }
-  @include media("<desktop", ">=tablet") {
-    top: 50px;
-  }
-  @include media("<tablet") {
-    top: 25px;
-  }
-}
-
-.aloneMac {
-  width: $fiveTwelveW;
-  position: absolute;
-  right: 0;
-}
-
-.soloImageMac {
-  width: $fiveTwelveW;
-  height: $singleMacH;
-}
-
-.stackedImagesPhone {
-  width: $fiveTwelveW;
-  height: $doublePhoneH;
-}
-
-.backPhoneLeft {
-  width: $twoHalf;
-  position: absolute;
-  left: 0;
-}
-
-.frontPhoneLeft {
-  width: $twoHalf;
-  position: relative;
-  left: 16.67vw;
-  @include media(">=desktop") {
-    top: 75px;
-  }
-  @include media("<desktop", ">=tablet") {
-    top: 50px;
-  }
-  @include media("<tablet") {
-    top: 25px;
-  }
-}
-
-.backPhoneRight {
-  width: $twoHalf;
-  position: absolute;
-  left: 58.33vw;
-}
-
-.frontPhoneRight {
-  width: $twoHalf;
-  position: relative;
-  left: 16.67vw;
-  @include media(">=desktop") {
-    top: 175px;
-  }
-  @include media("<desktop", ">=tablet") {
-    top: 125px;
-  }
-  @include media("<tablet") {
-    top: 75px;
-  }
-}
-
-.flexDisplay {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.flexDisplayWrap {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.sbsComp {
-  @include media(">=desktop") {
-    display: flex;
-  }
-  @include media("<desktop") {
-    display: block;
-    text-align: center;
-  }
-}
-
-.sbsCompText {
-  @include media(">=desktop") {
-    width: $fiveTwelveW;
-  }
-  @include media("<desktop") {
-    width: 100%;
-    text-align: left;
-  }
-}
-
-.bottomInfo {
-  @include media(">=desktop") {
-    margin-top: 7%;
-  }
-  @include media("<desktop") {
-    margin-top: 2%;
-  }
-}
-
-.pad100top {
-  padding-top: 5vw;
-}
-
-.m100top {
-  margin-top: 5vw;
-}
-
-.m70top {
-  margin-top: 3vw;
-}
-
-.pad150bottom {
-  padding-bottom: 10vw;
-}
-
-.pad50bottom {
-  padding-bottom: 2vw;
-}
-
-.pad20right {
-  padding-right: 20px;
-}
-
-.pad20bottom {
-  padding-bottom: 20px;
-}
-
-.demoVidPhone {
-  height: 75vh;
-}
-
-.sbsMac {
-  @include media(">=desktop") {
-    width: $fiveTwelveW;
-    height: $fiveTwelveH;
-    padding-right: 20px;
-  }
-  @include media("<desktop") {
-    width: 100%;
-  }
-}
-
-.sbsPhone {
-  align-self: center;
-}
-
-.soloPhone {
-  display: flex;
-  justify-content: center;
-  width: 50%;
-  max-height: 800px;
-}
-
-.fullWidthImg {
-  max-width: 100%;
-}
-
-.phoneImg2 {
-  max-width: 50%;
-  object-fit: contain;
-}
-
-.phoneImg3 {
-  max-width: 33.33%;
-  object-fit: contain;
-}
-
-.phoneImg4 {
-  max-width: 25%;
-  object-fit: contain;
-}
+// SPACERS -------------------------

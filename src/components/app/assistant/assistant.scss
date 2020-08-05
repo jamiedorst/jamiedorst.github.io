@@ -1,2 +1,13 @@
 @import "../../../assets/sass/global";
 @import "../../../assets/sass/page";
+
+.vaTop {
+  height: 57vw;
+}
+
+.vaBott {
+  height: 371vw;
+  @include media(">=desktop") {
+    top: 272%;
+  }
+}

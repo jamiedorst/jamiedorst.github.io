@@ -4,23 +4,14 @@
 .resume {
   display: block;
   margin: auto;
-  width: 62%;
-  height: 100vh;
+  width: $eightC;
+  height: 95vh;
   border: none;
 }
 
-#resLine {
-  margin-bottom: 4vw;
-}
-
-#resumeTop {
-  flex-direction: column;
-}
-
-#resumeBlob {
-  top: 500px;
-}
-
-.bgColor {
-  background: $black;
+#resumeDate {
+  margin: auto;
+  padding-bottom: $gutter;
+  width: $eightC;
+  text-align: right;
 }

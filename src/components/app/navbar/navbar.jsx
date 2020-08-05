@@ -20,11 +20,11 @@ export default function Navbar() {
                 <HashLink to="/work#top">work</HashLink>
               </h3>
             </li>
-            <li>
+            {/* <li>
               <h3 className="navItem">
                 <HashLink to="/blog#top">blog</HashLink>
               </h3>
-            </li>
+            </li> */}
             <li>
               <h3 className="navItem">
                 <HashLink to="/about#top">about</HashLink>

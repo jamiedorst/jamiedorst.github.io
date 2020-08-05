@@ -10,6 +10,7 @@ import Design from "./design";
 import Personality from "./personality";
 import About from "./about";
 import Blog from "./blog";
+import BlogBlm from "./blogBlm";
 import Robot from "./robot";
 import Photography from "./photography";
 import Assistant from "./assistant";
@@ -25,6 +26,7 @@ export default function App() {
           <Route exact path="/" component={Landing} />
           <Route path="/work" component={Work} />
           <Route path="/blog" component={Blog} />
+          <Route path="/blacklivesmatter" component={BlogBlm} />
           <Route path="/about" component={About} />
           <Route path="/resume" component={Resume} />
           <Route path="/globalprint" component={GlobalPrint} />

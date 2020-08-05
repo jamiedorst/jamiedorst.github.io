@@ -1,15 +1,15 @@
 import React from "react";
 import Navbar from "../navbar";
 import Footer from "../footer";
-import david from "../../../assets/images/david.png";
-import lowPoly from "../../../assets/images/lowPoly.png";
-import controllers from "../../../assets/images/controllers.png";
-import dude from "../../../assets/images/dude.png";
-import grtCamp from "../../../assets/images/grtCamp.png";
-import rendering from "../../../assets/images/rendering.png";
-import ronan from "../../../assets/images/ronan.png";
-import alainplaysguitar from "../../../assets/images/alainplaysguitar.png";
-import alainlearnschem from "../../../assets/images/alainlearnschem.png";
+import david from "../../../assets/images/designImgs/david.png";
+import lowPoly from "../../../assets/images/designImgs/lowPoly.png";
+import controllers from "../../../assets/images/designImgs/controllers.png";
+import dude from "../../../assets/images/designImgs/dude.png";
+import grtCamp from "../../../assets/images/designImgs/grtCamp.png";
+import rendering from "../../../assets/images/designImgs/rendering.png";
+import ronan from "../../../assets/images/designImgs/ronan.png";
+import alainplaysguitar from "../../../assets/images/designImgs/alainplaysguitar.png";
+import alainlearnschem from "../../../assets/images/designImgs/alainlearnschem.png";
 import "./design.scss";
 
 export default function Design() {
@@ -21,12 +21,7 @@ export default function Design() {
         </nav>
       </header>
       <main id="designSect">
-        <h4 className="redText">DESIGN & ILLUSTRATION</h4>
-        <hr id="resLine" className="redLine" />
-        <p id="designText">
-          A collection of miscellaneous design and illustration projects I've
-          done in my free time or for freelance projects.
-        </p>
+        <h3>Design & Illustration</h3>
         <div id="flexImages">
           <img
             src={rendering}

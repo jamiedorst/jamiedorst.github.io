@@ -1,37 +1,37 @@
 import React from "react";
 import Navbar from "../navbar";
 import Footer from "../footer";
-import amaniel from "../../../assets/images/amaniel.jpg";
 
-import audrey from "../../../assets/images/audrey.jpg";
-import ax from "../../../assets/images/ax.jpg";
-import chase from "../../../assets/images/chase.jpg";
-import colin from "../../../assets/images/colin.jpg";
-import dylan from "../../../assets/images/dylan.jpg";
-import four from "../../../assets/images/four.jpg";
-import greg from "../../../assets/images/greg.jpg";
-import hannah from "../../../assets/images/hannah.jpg";
-import isa from "../../../assets/images/isa.jpg";
-import jai from "../../../assets/images/jai.jpg";
-import jamie from "../../../assets/images/jamie.jpg";
-import john from "../../../assets/images/john.jpg";
-import josh from "../../../assets/images/josh.jpg";
-import julia from "../../../assets/images/julia.jpg";
-import kail from "../../../assets/images/kail.jpg";
-import kaitlin from "../../../assets/images/kaitlin.jpg";
-import karly from "../../../assets/images/karly.jpg";
-import kian from "../../../assets/images/kian.jpg";
-import lead from "../../../assets/images/lead.jpg";
-import maya from "../../../assets/images/maya.jpg";
-import mollie from "../../../assets/images/mollie.jpg";
-import peter from "../../../assets/images/peter.jpg";
-import poux from "../../../assets/images/poux.jpg";
-import richard from "../../../assets/images/richard.jpg";
-import steve from "../../../assets/images/steve.jpg";
-import sylvaman from "../../../assets/images/sylvaman.jpg";
-import victor from "../../../assets/images/victor.jpg";
-import will from "../../../assets/images/will.jpg";
-import yael from "../../../assets/images/yael.jpg";
+import amaniel from "../../../assets/images/personalityImgs/amaniel.jpg";
+import audrey from "../../../assets/images/personalityImgs/audrey.jpg";
+import ax from "../../../assets/images/personalityImgs/ax.jpg";
+import chase from "../../../assets/images/personalityImgs/chase.jpg";
+import colin from "../../../assets/images/personalityImgs/colin.jpg";
+import dylan from "../../../assets/images/personalityImgs/dylan.jpg";
+import four from "../../../assets/images/personalityImgs/four.jpg";
+import greg from "../../../assets/images/personalityImgs/greg.jpg";
+import hannah from "../../../assets/images/personalityImgs/hannah.jpg";
+import isa from "../../../assets/images/personalityImgs/isa.jpg";
+import jai from "../../../assets/images/personalityImgs/jai.jpg";
+import jamie from "../../../assets/images/personalityImgs/jamie.jpg";
+import john from "../../../assets/images/personalityImgs/john.jpg";
+import josh from "../../../assets/images/personalityImgs/josh.jpg";
+import julia from "../../../assets/images/personalityImgs/julia.jpg";
+import kail from "../../../assets/images/personalityImgs/kail.jpg";
+import kaitlin from "../../../assets/images/personalityImgs/kaitlin.jpg";
+import karly from "../../../assets/images/personalityImgs/karly.jpg";
+import kian from "../../../assets/images/personalityImgs/kian.jpg";
+import lead from "../../../assets/images/personalityImgs/lead.jpg";
+import maya from "../../../assets/images/personalityImgs/maya.jpg";
+import mollie from "../../../assets/images/personalityImgs/mollie.jpg";
+import peter from "../../../assets/images/personalityImgs/peter.jpg";
+import poux from "../../../assets/images/personalityImgs/poux.jpg";
+import richard from "../../../assets/images/personalityImgs/richard.jpg";
+import steve from "../../../assets/images/personalityImgs/steve.jpg";
+import sylvaman from "../../../assets/images/personalityImgs/sylvaman.jpg";
+import victor from "../../../assets/images/personalityImgs/victor.jpg";
+import will from "../../../assets/images/personalityImgs/will.jpg";
+import yael from "../../../assets/images/personalityImgs/yael.jpg";
 import "./personality.scss";
 
 export default function Personality() {
@@ -43,8 +43,7 @@ export default function Personality() {
         </nav>
       </header>
       <main className="photoSect">
-        <h4 className="redText">PERSONALITY PICTURES</h4>
-        <hr id="resLine" className="redLine" />
+        <h3>Personality Pictures</h3>
         <p className="photoText">
           When the time came to advertise applications for my robotics team, I
           didn’t want to do the typical half-hearted club logo and copy/pasted
@@ -53,7 +52,6 @@ export default function Personality() {
           image on our sweatshirts. We were a quirky bunch, and that's a big
           part of what makes the team so fun–I wanted to show that off.
         </p>
-        <br />
         <p className="photoText">
           I created a campaign I dubbed "Personality Pictures." Each team member
           got to pick what they wanted to do to show what the team meant to

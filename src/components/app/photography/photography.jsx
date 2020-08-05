@@ -1,49 +1,49 @@
 import React from "react";
 import Navbar from "../navbar";
 import Footer from "../footer";
-import z1 from "../../../assets/images/z1.JPG";
-import z2 from "../../../assets/images/z2.jpg";
-import z3 from "../../../assets/images/z3.jpg";
-import z4 from "../../../assets/images/z4.jpg";
-import z5 from "../../../assets/images/z5.jpg";
-import z6 from "../../../assets/images/z6.jpg";
-import z7 from "../../../assets/images/z7.jpg";
-import z8 from "../../../assets/images/z8.jpg";
-import z11 from "../../../assets/images/z11.jpg";
-import z12 from "../../../assets/images/z12.jpg";
-import z14 from "../../../assets/images/z14.jpg";
-import z18 from "../../../assets/images/z18.jpg";
-import z19 from "../../../assets/images/z19.jpg";
-import z20 from "../../../assets/images/z20.jpg";
-import z21 from "../../../assets/images/z21.jpg";
-import z22 from "../../../assets/images/z22.jpg";
-import z23 from "../../../assets/images/z23.jpg";
-import z24 from "../../../assets/images/z24.jpg";
-import z25 from "../../../assets/images/z25.jpg";
-import z26 from "../../../assets/images/z26.jpg";
-import z27 from "../../../assets/images/z27.jpg";
-import z28 from "../../../assets/images/z28.jpg";
-import z29 from "../../../assets/images/z29.jpg";
-import z30 from "../../../assets/images/z30.jpg";
-import z31 from "../../../assets/images/z31.jpg";
-import z32 from "../../../assets/images/z32.jpg";
-import z33 from "../../../assets/images/z33.jpg";
-import z34 from "../../../assets/images/z34.jpg";
-import z36 from "../../../assets/images/z36.jpg";
-import z37 from "../../../assets/images/z37.jpg";
-import z39 from "../../../assets/images/z39.jpg";
-import z41 from "../../../assets/images/z41.jpg";
+import bean from "../../../assets/images/photoImgs/bean.jpg";
+import landscape from "../../../assets/images/photoImgs/landscape.jpg";
+import alps from "../../../assets/images/photoImgs/alps.jpg";
+import disney from "../../../assets/images/photoImgs/disney.jpg";
+import peak from "../../../assets/images/photoImgs/peak.jpg";
+import china from "../../../assets/images/photoImgs/china.jpg";
+import skyline from "../../../assets/images/photoImgs/skyline.jpg";
+import rinc from "../../../assets/images/photoImgs/rinc.jpg";
+import waterfall from "../../../assets/images/photoImgs/waterfall.jpg";
+import ben from "../../../assets/images/photoImgs/ben.jpg";
+import playboy from "../../../assets/images/photoImgs/playboy.jpg";
+import orchids from "../../../assets/images/photoImgs/orchids.jpg";
+import leaves from "../../../assets/images/photoImgs/leaves.jpg";
+import ceiling from "../../../assets/images/photoImgs/ceiling.jpg";
+import wishing from "../../../assets/images/photoImgs/wishing.jpg";
+import peter from "../../../assets/images/photoImgs/peter.jpg";
+import square from "../../../assets/images/photoImgs/square.jpg";
+import plane from "../../../assets/images/photoImgs/plane.jpg";
+import squirrel from "../../../assets/images/photoImgs/squirrel.jpg";
+import john from "../../../assets/images/photoImgs/john.jpg";
+import sf from "../../../assets/images/photoImgs/sf.jpg";
+import moma from "../../../assets/images/photoImgs/moma.jpg";
+import news from "../../../assets/images/photoImgs/news.jpg";
+import window from "../../../assets/images/photoImgs/window.jpg";
+import houston from "../../../assets/images/photoImgs/houston.jpg";
+import bloedel from "../../../assets/images/photoImgs/bloedel.jpg";
+import moon from "../../../assets/images/photoImgs/moon.jpg";
+import curtainCat from "../../../assets/images/photoImgs/curtainCat.jpg";
+import sym from "../../../assets/images/photoImgs/sym.jpg";
+import beaubo from "../../../assets/images/photoImgs/beaubo.jpg";
+import lemons from "../../../assets/images/photoImgs/lemons.jpg";
+import croatia from "../../../assets/images/photoImgs/croatia.jpg";
 import "./photography.scss";
 import { SRLWrapper } from "simple-react-lightbox";
 
 const options = {
   settings: {
-    overlayColor: "rgba(7,30,34, 0.85)",
+    overlayColor: "rgba(19,21,22, 0.85)",
     transitionSpeed: 100,
   },
   buttons: {
-    backgroundColor: "rgba(7,30,34, 0.95)",
-    iconColor: "#f7f7f7",
+    backgroundColor: "rgba(19,21,22, 0.95)",
+    iconColor: "#E8E9EB",
     iconPadding: "7px",
     showAutoplayButton: false,
     showCloseButton: true,
@@ -54,8 +54,8 @@ const options = {
     size: "40px",
   },
   caption: {
-    captionColor: "#f7f7f7",
-    captionFontFamily: "IBM Plex Sans, sans-serif",
+    captionColor: "#E8E9EB",
+    captionFontFamily: "IBM Plex Serif, serif",
     captionFontWeight: "400",
   },
   thumbnails: {
@@ -72,103 +72,114 @@ export default function Photography() {
         </nav>
       </header>
       <main className="photoSect">
-        <h4 className="blueText">PHOTOGRAPHY</h4>
-        <hr id="resLine" className="blueLine" />
+        <h3>Photography</h3>
         <SRLWrapper options={options}>
           <div className="photoGallery">
             {/* bluish */}
-            <img src={z1} className="pgImg" alt="The Bean – Chicago, IL" />
+            <img src={bean} className="pgImg" alt="The Bean – Chicago, IL" />
             <img
-              src={z5}
+              src={landscape}
               className="pgImg"
               alt="Nordkette – Innsbruck, Austria"
             />
             <img
-              src={z8}
+              src={alps}
               className="pgImg"
               alt="Nordkette – Innsbruck, Austria"
             />
             <img
-              src={z34}
+              src={disney}
               className="pgImg"
               alt="Disneyland – Shanghai, China"
             />
             <img
-              src={z11}
+              src={peak}
               className="pgImg"
               alt="Nordkette – Innsbruck, Austria"
             />
             <img
-              src={z36}
+              src={china}
               className="pgImg"
               alt="City God Temple (上海城隍庙) – Shanghai, China"
             />
             <img
-              src={z19}
+              src={skyline}
               className="pgImg"
               alt="Skyline Boulevard – California"
             />
             <img
-              src={z4}
+              src={rinc}
               className="pgImg"
               alt="Rinconada Pool – Palo Alto, CA"
             />
-            <img src={z22} className="pgImg" alt="Plitvička Jezera – Croatia" />
-            <img src={z14} className="pgImg" alt="Bennett Michael" />
-            <img src={z20} className="pgImg" alt="Playboy" />
-            <img src={z12} className="pgImg" alt="Orchids" />
+            <img
+              src={waterfall}
+              className="pgImg"
+              alt="Plitvička Jezera – Croatia"
+            />
+            <img src={ben} className="pgImg" alt="Bennett Michael" />
+            <img src={playboy} className="pgImg" alt="Playboy" />
+            <img src={orchids} className="pgImg" alt="Orchids" />
             {/* greenish */}
-            <img src={z33} className="pgImg" alt="Nighttime Greenery" />
+            <img src={leaves} className="pgImg" alt="Nighttime Greenery" />
             <img
-              src={z29}
+              src={ceiling}
               className="pgImg"
               alt="Bloedel Conservatory – Vancouver, British Columbia"
             />
             <img
-              src={z30}
+              src={wishing}
               className="pgImg"
               alt="Bloedel Conservatory – Vancouver, British Columbia"
             />
-            <img src={z3} className="pgImg" alt="California Wildfires 2018" />
+            <img
+              src={peter}
+              className="pgImg"
+              alt="California Wildfires 2018"
+            />
             {/* blackish */}
             <img
-              src={z2}
+              src={square}
               className="pgImg"
               alt="Carnegie Museum of Art – Pittsburgh, PA"
             />
-            <img src={z18} className="pgImg" alt="Flying" />
-            <img src={z6} className="pgImg" alt="Squirrel – Palo Alto, CA" />
-            <img src={z23} className="pgImg" alt="IKEA Portraits" />
-            <img src={z24} className="pgImg" alt="San Francisco, CA" />
+            <img src={plane} className="pgImg" alt="Flying" />
             <img
-              src={z25}
+              src={squirrel}
+              className="pgImg"
+              alt="Squirrel – Palo Alto, CA"
+            />
+            <img src={john} className="pgImg" alt="IKEA Portraits" />
+            <img src={sf} className="pgImg" alt="San Francisco, CA" />
+            <img
+              src={moma}
               className="pgImg"
               alt="SF MOMA – San Francisco, CA"
             />
-            <img src={z26} className="pgImg" alt="News" />
-            <img src={z27} className="pgImg" alt="Sundays" />
+            <img src={news} className="pgImg" alt="News" />
+            <img src={window} className="pgImg" alt="Sundays" />
             <img
-              src={z28}
+              src={houston}
               className="pgImg"
               alt="George Bush Intercontinental Airport – Houston, TX"
             />
             <img
-              src={z31}
+              src={bloedel}
               className="pgImg"
               alt="Bloedel Conservatory – Vancouver, British Columbia"
             />
-            <img src={z41} className="pgImg" alt="The Moon" />
+            <img src={moon} className="pgImg" alt="The Moon" />
             {/* orangish */}
-            <img src={z32} className="pgImg" alt="Cat 1" />
+            <img src={curtainCat} className="pgImg" alt="Cat 1" />
             <img
-              src={z37}
+              src={sym}
               className="pgImg"
               alt="Jing'an Temple (静安寺) – Shanghai, China"
             />
-            <img src={z39} className="pgImg" alt="Cat 2" />
-            <img src={z7} className="pgImg" alt="Lemons – Palo Alto, CA" />
+            <img src={beaubo} className="pgImg" alt="Cat 2" />
+            <img src={lemons} className="pgImg" alt="Lemons – Palo Alto, CA" />
             <img
-              src={z21}
+              src={croatia}
               className="pgImg"
               alt="Gornji Grad–Medveščak – Zagreb, Croatia"
             />

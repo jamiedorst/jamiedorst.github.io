@@ -15,6 +15,7 @@ export default function GlobalPrint() {
         </nav>
         <hr className="vertShortLine" />
         <div className="pageHeader">
+          <span className="headerGradient" />
           <img src={vmw} className="headerImg" alt="VMware Logo" />
           <div className="pageHeadText">
             <div>
@@ -97,10 +98,11 @@ export default function GlobalPrint() {
                     implement.
                   </h3>
                 </div>
+                <span className="highlightGradient" />
                 <img
                   src={highlight1}
                   className="highlightImg confidential"
-                  alt="VMware Logo"
+                  alt="Global Print Confidential"
                 />
               </div>
               <div className="highlightSect">
@@ -113,10 +115,11 @@ export default function GlobalPrint() {
                     primarily benefit from each.
                   </h3>
                 </div>
+                <span className="highlightGradient" />
                 <img
                   src={highlight2}
                   className="highlightImg confidential"
-                  alt="VMware Logo"
+                  alt="Global Print Confidential"
                 />
               </div>
               <hr className="highlightLineBottom" />

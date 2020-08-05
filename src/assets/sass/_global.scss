@@ -39,7 +39,12 @@ $bold: 700;
 
 // specifics
 $coverImgHeight: 0.5785 * $sevenC;
+$blogImgHeight: 0.415 * $eightC;
 $sbsImgHeight: 0.643;
+$landscapeImgHeight4: 0.7373 * $fourC;
+$portraitImgHeight4: 1.33 * $fourC;
+$portraitImgHeight2: 2.01 * $twoC;
+$blogCoverHeight: 0.358 * $sevenC;
 
 // weird
 $pieceWidth3: 30vw; //30-45?
@@ -60,7 +65,7 @@ html {
   margin-block-start: 0;
   margin-block-end: 0;
   ::-webkit-scrollbar {
-    width: 0px;
+    display: none;
   }
 }
 
@@ -83,7 +88,12 @@ a {
   color: $black;
 }
 
-// TEXT STYLES
+// UNIVERSAL STYLES
+
+.linkObvi {
+  color: $black;
+  text-decoration: underline;
+}
 
 .bold {
   font-weight: $bold;
@@ -105,6 +115,10 @@ a {
 .workCards {
   color: $white;
   font-family: $sansFont;
+}
+
+.removeHeight {
+  height: auto !important;
 }
 
 h1 {

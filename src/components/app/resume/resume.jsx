@@ -14,16 +14,15 @@ export default function Resume() {
       </header>
       <main>
         <div>
-          <div className="topLayer" id="resumeTop">
-            <object className="resume" data={ResumeDoc} type="application/pdf">
-              <iframe
-                className="resume"
-                title="Resume"
-                name="Resume"
-                src={ResumeDoc}
-              />
-            </object>
-          </div>
+          <h5 id="resumeDate">last updated march 2020</h5>
+          <object className="resume" data={ResumeDoc} type="application/pdf">
+            <iframe
+              className="resume"
+              title="Resume"
+              name="Resume"
+              src={ResumeDoc}
+            />
+          </object>
         </div>
       </main>
       <footer>

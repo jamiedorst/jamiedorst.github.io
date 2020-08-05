@@ -8,9 +8,6 @@
 
 .caTop {
   height: 69vw;
-  @include media(">=desktop") {
-    top: 50%;
-  }
 }
 
 .caBott {

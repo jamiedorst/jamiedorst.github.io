@@ -1,0 +1,209 @@
+// HEADER --------------------------
+.navbarBlog {
+  height: auto;
+  top: 0;
+  width: 100vw;
+  margin-bottom: 7vw;
+}
+
+.blogHeader {
+  height: $blogImgHeight * 1.1;
+  position: relative;
+  @include media("<tablet") {
+    margin-top: $gutter * 10;
+  }
+}
+
+.blogheaderImg {
+  z-index: 0;
+  @include media(">=desktop") {
+    opacity: 0.9;
+    width: $eightC;
+    height: $blogImgHeight;
+    object-fit: cover;
+  }
+  @include media("<desktop") {
+    opacity: 0.5;
+    width: $eightC;
+    height: $blogImgHeight;
+    object-fit: cover;
+  }
+  @include media("<tablet") {
+    opacity: 0.2;
+    width: 100vw;
+    height: $blogImgHeight;
+    object-fit: cover;
+  }
+}
+
+.blogheaderGradient {
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  @include media(">=tablet") {
+    width: $eightC;
+    height: $blogImgHeight;
+  }
+  @include media("<tablet") {
+    width: 100vw;
+    height: $blogImgHeight;
+  }
+  z-index: 1;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0+100;White+to+Transparent */
+  background: -moz-linear-gradient(
+    bottom,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 50%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    bottom,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 50%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 50%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
+}
+
+.blogVertShortLine {
+  position: absolute;
+  width: 0;
+  height: $blogImgHeight * 1.55;
+  color: $dropShadow;
+  border: 1px solid;
+  @include media(">=desktop") {
+    margin-left: $threeC;
+    display: normal;
+    top: 22%;
+  }
+  @include media("<desktop") {
+    margin-left: $threeC;
+    display: normal;
+    top: 18%;
+  }
+  @include media("<tablet") {
+    display: none;
+  }
+}
+
+.headBottomLine {
+  width: $elevenC;
+  color: $dropShadow;
+  border: 1px solid;
+  position: absolute;
+  right: 0;
+  @include media(">=desktop") {
+    margin-top: $gutter * 2;
+    display: normal;
+  }
+  @include media("<desktop") {
+    margin-top: $gutter * 3;
+    display: normal;
+  }
+  @include media("<tablet") {
+    display: none;
+  }
+}
+
+.blogHeadText {
+  z-index: 2;
+  height: $blogImgHeight;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  position: absolute;
+  top: 47%;
+  padding: $gutter;
+  @include media(">=desktop") {
+    width: $eightC;
+    margin-left: $threeC;
+  }
+  @include media("<desktop") {
+    width: $nineC;
+    margin-left: $threeC;
+  }
+  @include media("<tablet") {
+    width: $elevenC;
+    margin-left: $gutter;
+  }
+}
+
+.blogMeta {
+  display: flex;
+  justify-content: space-between;
+  margin-top: $gutter * 1;
+  @include media(">=tablet") {
+    width: $sevenC;
+  }
+  @include media("<tablet") {
+    width: $elevenC;
+    margin-left: 0;
+  }
+}
+
+.blogBlurb {
+  @include media(">=tablet") {
+    width: $sevenC;
+  }
+  @include media("<tablet") {
+    width: $elevenC;
+    margin-left: 0;
+  }
+}
+
+// HEADER --------------------------
+
+// MAIN ----------------------------
+.blogBodyLine {
+  position: absolute;
+  width: 0;
+  color: $dropShadow;
+  border: 1px solid;
+  @include media(">=desktop") {
+    margin-left: $twoC;
+    display: normal;
+    top: 50%;
+  }
+  @include media("<desktop") {
+    display: none;
+  }
+}
+
+.sectionBreak {
+  margin-top: 10vw;
+  margin-left: $twoC + $gutter;
+}
+
+.blogBody {
+  margin-top: $gutter * 11;
+  @include media(">=desktop") {
+    width: $sixC;
+    margin-left: $twoC;
+    padding-left: $gutter;
+  }
+  @include media("<desktop") {
+    width: 75vw;
+    padding: $oneC;
+  }
+}
+
+// MAIN ----------------------------
+
+// SPACERS -------------------------
+.bottomM3 {
+  margin-bottom: $gutter * 3;
+}
+
+.topM1 {
+  margin-top: $gutter;
+}
+
+.noMP {
+  margin: 0;
+  padding: 0;
+}
+
+// SPACERS -------------------------

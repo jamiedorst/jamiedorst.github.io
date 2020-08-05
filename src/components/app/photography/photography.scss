@@ -9,7 +9,6 @@
 }
 
 .photoGallery {
-  padding-top: 5vw;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -21,8 +20,7 @@
   max-height: 40vh;
   min-height: 300px;
   max-width: 95vw;
-  margin: 10px;
-
+  margin: $gutter / 2;
   &:hover {
     cursor: pointer;
   }

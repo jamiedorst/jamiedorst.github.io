@@ -9,11 +9,10 @@
 }
 
 .photoText {
-  width: 66.67%;
+  width: $sevenC;
 }
 
 #flexImagesSet {
-  padding-top: 5vw;
   width: 66.67vw;
   display: flex;
   flex-direction: row;

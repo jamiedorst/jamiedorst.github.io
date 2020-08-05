@@ -22,7 +22,12 @@ export default function CourseAdvisor() {
         </nav>
         <hr className="vertShortLine" />
         <div className="pageHeader">
-          <img src={courseAdvisor} className="headerImg" alt="VMware Logo" />
+          <span className="headerGradient" />
+          <img
+            src={courseAdvisor}
+            className="headerImg"
+            alt="CMU Course Advisor"
+          />
           <div className="pageHeadText">
             <div>
               <h4 className="skinnyText">WORK</h4>
@@ -95,7 +100,12 @@ export default function CourseAdvisor() {
                     requirements.
                   </h3>
                 </div>
-                <img src={advSF} className="highlightImg" alt="VMware Logo" />
+                <span className="highlightGradient" />
+                <img
+                  src={advSF}
+                  className="highlightImg"
+                  alt="Course Advisor Highlight"
+                />
               </div>
               <div className="highlightSect">
                 <div className="highlightText">
@@ -106,10 +116,11 @@ export default function CourseAdvisor() {
                     idea of what classes are like.
                   </h3>
                 </div>
+                <span className="highlightGradient" />
                 <img
                   src={coursePage}
                   className="highlightImg"
-                  alt="VMware Logo"
+                  alt="Course Advisor Highlight"
                 />
               </div>
               <hr className="highlightLineBottom" />

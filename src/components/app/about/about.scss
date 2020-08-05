@@ -57,11 +57,6 @@
   }
 }
 
-.linkObvi {
-  color: $black;
-  text-decoration: underline;
-}
-
 #aboutTopLayer {
   @include media(">=desktop") {
     z-index: 1;
