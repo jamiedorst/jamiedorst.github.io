@@ -52,7 +52,7 @@ export default function Navbar() {
                 <span className="far fa-envelope fa-md"></span>
               </a>
             </li>
-            <li className="icon">
+            {/* <li className="icon">
               <a
                 className="icon"
                 href="https://www.instagram.com/pookimadesomething/"
@@ -61,7 +61,7 @@ export default function Navbar() {
               >
                 <span className="fab fa-instagram fa-md"></span>
               </a>
-            </li>
+            </li> */}
             <li className="icon">
               <a
                 className="icon"
