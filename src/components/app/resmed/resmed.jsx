@@ -27,6 +27,7 @@ import microVid1 from "../../../assets/images/resmedImgs/microVid1.mov";
 import micro1 from "../../../assets/images/resmedImgs/micro1.png";
 import microVid2 from "../../../assets/images/resmedImgs/microVid2.mov";
 import micro2 from "../../../assets/images/resmedImgs/micro2.png";
+import SkipButton from "../skipButton";
 import "./resmed.scss";
 
 export default function Resmed() {
@@ -80,28 +81,27 @@ export default function Resmed() {
               <p className="skinnyText bottomM3">
                 As part of my Interaction Design Studio II class, we were tasked
                 with creating a native mobile app to either augment an existing
-                service or create a new service for a given company. We were
-                assigned ResMed, an IoT medical device company that makes
-                equipment for respiratory conditions such as sleep apnea and
-                COPD.
+                service or create a new service for ResMed, an IoT medical
+                device company.
               </p>
               <h5 className="names skinnyText">SOLUTION</h5>
               <p className="skinnyText bottomM3">
                 We created an AR app experience for newly diagnosed sleep apnea
                 patients that will lower the barrier of entry to getting a
-                device, and help new patients feel more comfortable with the new
-                territory they were now entering for the rest of their lives.
+                device, and help new patients feel more comfortable with the
+                new, intimidating territory they were entering for the first
+                time.
               </p>
               <h5 className="names skinnyText">MY CONTRIBUTION</h5>
               <p className="skinnyText bottomM3">
                 I'm proud to say that this team worked beautifully together. To
-                highlight some specifics that I did, I first helped create the
-                stakeholder map by focusing on who our key stakeholders were and
-                fleshing out what needs they had. I then created the first
-                version of our lo-fi prototype, and was the driving force in
-                translating that from mid-fi to hi-fi. I also did most of the
-                animations in Figma, aiming to create smooth interactions
-                despite not actually creating a working prototype.
+                highlight some specifics that I did, I scaffolded our
+                stakeholder map by fleshing out who was involved in our story
+                and what their roles were. I then created the first version of
+                our lo-fi prototype, and was the driving force in translating
+                that from mid-fi to hi-fi. I also did most of the animations in
+                Figma, honing my skills in creating smooth interactions despite
+                not actually creating a working prototype.
               </p>
             </section>
             <section>
@@ -145,25 +145,25 @@ export default function Resmed() {
             </section>
           </div>
         </article>
+        <SkipButton />
         <hr className="vertBodyLineBottom rmBott" />
         <article className="sectionBreak">
           <h3 className="section">Research</h3>
           <section className="textBlock">
             <h5 className="names skinnyText">STAKEHOLDER MAPPING</h5>
             <p className="skinnyText">
-              We began by creating a stakeholder map in order to explore and
-              understand the relationships between important people and groups.
-              Because it's a healthcare company, there are a lot of important
-              people and groups, and a lot of very specific ways that they're
-              allowed to interact to maintain patient privacy.
+              We began by creating a stakeholder map to explore and understand
+              the relationships between important people and groups. Because
+              it's a healthcare company, there are a lot of important players,
+              and a lot of very specific ways that they're allowed to interact
+              to maintain patient privacy.
             </p>
             <p>
-              We started as a group using a whiteboard and post-its to generate
-              a comprehensive list of stakeholders and their primary
-              relationships, as well as just exploring our associations with
-              ResMed as a company. We wanted to get a sense of the complex
-              relationships we were working with, and start wrapping our minds
-              about what domain we could potentially tackle.
+              We started as a group using a post-its to generate a comprehensive
+              list of stakeholders and their primary relationships, as well as
+              just exploring our associations with ResMed as a company. This
+              helped us get a sense of these complex relationships and start
+              wrapping our minds about what domain we might tackle.
             </p>
           </section>
           <div className="bottomM3">
@@ -173,7 +173,7 @@ export default function Resmed() {
           <section className="textBlock">
             <p>
               After our initial mapping, we created a couple more refined maps
-              to focus on the improtant relationships and optimally organize our
+              to focus on the important relationships and optimally organize our
               information.
             </p>
           </section>
@@ -183,11 +183,10 @@ export default function Resmed() {
           </div>
           <section className="textBlock">
             <p>
-              We then combined our best ideas to create a high-fidelity
-              stakeholder map. Because there were so many stakeholders involved
-              in the process, we chose to simplify the map as much as possible
-              so that we could focus on the key stakeholders that our solution
-              might affect.
+              We then combined our best ideas to create a high-fidelity map.
+              Because there were so many stakeholders involved in the process,
+              we chose to simplify the map as much as possible so that we could
+              focus on the key stakeholders that our solution might affect.
             </p>
           </section>
           <img
@@ -233,9 +232,9 @@ export default function Resmed() {
             <p className="skinnyText">
               To get ideas flowing, we used a reverse assumptions exercise.
               First, a list of assumptions is generated, then each is reversed,
-              and finally ideas are generated based upon those reversals. This
-              helped us explore opportunities for innovation by reassessing
-              existing beliefs.
+              and ideas are generated based upon those reversals. This helped us
+              explore opportunities for innovation by reassessing existing
+              beliefs.
             </p>
           </section>
           <img
@@ -247,7 +246,7 @@ export default function Resmed() {
             <p>
               While not all reversals yielded actionable ideas, separation of
               the generative and evaluative processes prevented ideas from being
-              rejected prematurely, and helped us find opportunities to pursue.
+              rejected prematurely, and helped us find interesting avenues.
             </p>
           </section>
           <section className="textBlock">
@@ -258,10 +257,10 @@ export default function Resmed() {
             </p>
             <div className="indentText">
               <p>
-                In the <span className="bold">pre-purchase sector</span>, we
-                thought of a few different ideas. A direct-to-consumer business
-                model, an online device-finder, and a device customizer. Working
-                in the pre-purchase sector might help{" "}
+                <span className="bold">Pre-Purchase Sector:</span> A
+                direct-to-consumer business model, an online device-finder, and
+                a device customizer. Working in the pre-purchase sector might
+                help{" "}
                 <span className="bold">
                   offload some of the work for Respiratory Therapists
                 </span>
@@ -270,10 +269,9 @@ export default function Resmed() {
                 in responding to their disease, which they currently lack.
               </p>
               <p>
-                In the <span className="bold">post-purchase sector</span>, we
-                thought of a few more ideas. A hands-off setup, better
-                patient-family connection, and in-app support. Working in the
-                post-purchase sector would likely mean a{" "}
+                <span className="bold">Post-Purchase Sector:</span> A hands-off
+                setup, better patient-family connection, and in-app support.
+                Working in the post-purchase sector would likely mean a{" "}
                 <span className="bold">longer lasting app</span>. However, these
                 ideas largely exist already, and we would merely be improving
                 them.
@@ -323,10 +321,10 @@ export default function Resmed() {
             <img src={hifi3} className="portrait2w" alt="HiFi Prototype" />
             <img src={hifi4} className="portrait2w" alt="HiFi Prototype" />
           </div>
-          <section className="textBlock">
+          <section className="textBlock" id="final">
             <h5 className="names skinnyText">FINAL PRODUCT</h5>
             <p className="skinnyText">
-              Maskmaker: a new app built to simplify the patient experience by
+              Maskmaker: a new app that simplifies the patient experience by
               seamlessly guiding users through picking the perfect mask for
               them.
             </p>
@@ -347,13 +345,12 @@ export default function Resmed() {
               .
             </p>
             <p>
-              Users are able to swipe through their best-fit masks, and see what
-              parts of their face would be covered. We provide a short
-              description that highlights the features of each mask, and then
-              displays which of the user's selected needs are met by it. This
-              snapshot allows users to quickly become familiar with each mask.
-              Users can also swipe up for more information about each mask,
-              showing them product highlights and fun facts.
+              Users are able to swipe through their best-fit masks and see what
+              parts of their face would be covered. We highlight the features of
+              each mask, and display which of their selected needs would be met.
+              This snapshot allows users to quickly become familiar with each
+              option. They can also swipe up for more information, showing them
+              product highlights and fun facts.
             </p>
           </section>
           <div className="bottomM3 topM1">
@@ -362,12 +359,10 @@ export default function Resmed() {
           </div>
           <section className="textBlock">
             <p className="skinnyText">
-              We also wanted to add{" "}
               <span className="bold">
-                deliberate and delightful microinteractions
+                Deliberate and delightful microinteractions
               </span>{" "}
-              that would augment the experience of the app and also help us
-              propel our vision forward.
+              augment the experience of the app.
             </p>
             <p>
               When users first open the app, they're greeted with the familiar
@@ -391,10 +386,13 @@ export default function Resmed() {
           </div>
           <section className="textBlock">
             <p className="skinnyText">
-              The screens in between each step keep users grounded and informed
-              about where they are in the process. We maintain this sense of
-              security throughout by having the current step always at the top
-              of the screen.
+              Users are{" "}
+              <span className="bold">always grounded and informed.</span>
+            </p>
+            <p>
+              The screens in between each step show users where they are in the
+              process. We maintain this sense of security throughout by having
+              the current step always at the top of the screen.
             </p>
           </section>
           <div className="bottomM3 topM1">

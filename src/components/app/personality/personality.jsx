@@ -49,18 +49,17 @@ export default function Personality() {
           didn’t want to do the typical half-hearted club logo and copy/pasted
           caption on Facebook–I wanted to grab people’s attention. I wanted to
           convey what the team was actually about, not just show people the
-          image on our sweatshirts. We were a quirky bunch, and that's a big
-          part of what makes the team so fun–I wanted to show that off.
+          image on our sweatshirts.
         </p>
         <p className="photoText">
           I created a campaign I dubbed "Personality Pictures." Each team member
           got to pick what they wanted to do to show what the team meant to
           them, and I captured that through photography. I encouraged creativity
-          with captions, because after all, the team members are the best people
-          to describe what the team is all about. In the end, people were
-          actually excited to upload their photos (rather than "forgetting" come
-          5pm on Friday), write captions, and encourage applicants, and I was
-          content with my successful campaign.
+          with captions, because after all, team members are the best people to
+          describe what the team is all about. In the end, people were actually
+          excited to upload their photos (rather than "forgetting" come 5pm on
+          Friday), write captions, and encourage applicants, and I was content
+          with my successful campaign.
         </p>
         <div id="flexImagesSet">
           <img src={amaniel} className="flexImgLand" alt="Portrait" />

@@ -7,12 +7,12 @@
 }
 
 .gpTop {
-  height: 72vw;
+  height: 60vw;
 }
 
 .gpBott {
   height: 58vw;
   @include media(">=desktop") {
-    top: 293%;
+    top: 271%;
   }
 }

@@ -9,6 +9,7 @@ import vmHi2 from "../../../assets/images/virtualAsstImgs/vmHi2.png";
 import vm3 from "../../../assets/images/virtualAsstImgs/vm3.png";
 import sketches from "../../../assets/images/virtualAsstImgs/sketches.png";
 import "./assistant.scss";
+import SkipButton from "../skipButton/skipButton";
 
 export default function Assistant() {
   return (
@@ -31,7 +32,7 @@ export default function Assistant() {
               <h1 className="skinnyText">AI Virtual Assistant</h1>
               <h5 className="skinnyText">November 2019</h5>
               <h2>
-                An AI-powered virtual assistants to help remote workers create a
+                An AI-powered virtual assistant to help remote workers create a
                 mental divide between work and home.
               </h2>
             </div>
@@ -71,12 +72,11 @@ export default function Assistant() {
               </p>
               <h5 className="names skinnyText">SOLUTION</h5>
               <p className="skinnyText bottomM3">
-                I created a smart AI powered assistant that will serve to create
-                a mental distance between remote workers and their workplace.
-                Through this app, the pressure will be removed from employees to
-                constantly be on the clock–their assistants can take over after
-                hours and handle any tasks that need attention while they’re
-                away.
+                I created an AI-powered assistant to create a mental distance
+                between remote workers and their workplace. This app removes
+                pressure from employees to constantly be on the clock–their
+                assistants can take over after hours and handle any tasks that
+                need attention while they’re away.
               </p>
             </section>
             <section>
@@ -89,8 +89,7 @@ export default function Assistant() {
                     Even if you’re always in your workplace, it doesn’t mean
                     you’re always at work. Set clear boundaries for when you’re
                     on the clock and when you’re off, and quickly know your
-                    colleagues' hours as well. Take solace in your newfound
-                    mental distance from work and healthy work-life balance.
+                    colleagues' hours as well.
                   </h3>
                 </div>
                 <span className="highlightGradient" />
@@ -104,11 +103,10 @@ export default function Assistant() {
                 <div className="highlightText">
                   <h2>A Smart AI Assistant</h2>
                   <h3 className="blurb">
-                    When you’re off the clock, you’re off. Our smart assistant
-                    will handle all requests you get while you’re away and
-                    either complete them, or save them until you can approve
-                    them. When you’re back at work, you’ll get a summary of what
-                    you missed and anything that still requires your attention.
+                    The app will handle all requests you get while you’re away
+                    and either complete them or save them for your explicit
+                    approval. When you’re back at work, you’ll get a summary of
+                    what you missed and anything still requiring your attention.
                   </h3>
                 </div>
                 <span className="highlightGradient" />
@@ -122,29 +120,22 @@ export default function Assistant() {
             </section>
           </div>
         </article>
+        <SkipButton />
         <hr className="vertBodyLineBottom vaBott" />
         <article className="sectionBreak">
           <h3 className="section">Research</h3>
           <section className="textBlock bottomM3">
             <h5 className="names skinnyText">RESCOPING THE PROBLEM-SPACE</h5>
             <p className="skinnyText">
-              The problem-space I started out with was quite broad, and had a
-              lot of potential to tackle many different areas. I decided to
-              scope it down, then use both secondary research and
-              semi-structured interviews to learn more about my research
-              question.
-            </p>
-            <p>
-              For the purposes of this assignment, I decided to rescope the
-              problem so that I could produce something more tenable on the
-              one-week timeframe. I focused on startups, specifically those with
-              primarily remote employees from all over the world. I chose this
-              domain because remote jobs are becoming more and more widespread,
-              and without a common workspace or even time zone, it becomes a lot
-              harder to maintain organization and security with your employees.
-              Startups in particular tend to have less established practices for
-              ensuring employee satisfaction, making them a great place to
-              discover and explore common plights.
+              I decided to rescope the problem so that I could produce something
+              more tenable on the one-week timeframe. I focused on startups,
+              specifically those with primarily remote employees from all over
+              the world. I chose this domain because remote jobs are becoming
+              more and more widespread, and without a common workspace or even
+              time zone, it's much harder to maintain organization and security
+              with your employees. Startups in particular tend to have less
+              established practices for ensuring employee satisfaction, making
+              them a great place to discover and explore common plights.
             </p>
             <p>
               With this reframed problem, I could then create a more specific
@@ -161,16 +152,14 @@ export default function Assistant() {
             <h5 className="names skinnyText">SECONDARY RESEARCH</h5>
             <p className="skinnyText">
               Because I was working with a limited timeframe and budget, I
-              elected to start with secondary research and use my findings to
-              inform my primary research. My main goal for secondary research
-              was to find what common workplace challenges are, specifically
-              focusing on those faced by remote workers.
+              elected to start with secondary research. My main goal here was to
+              find what common workplace challenges are, specifically focusing
+              on those faced by remote workers.
             </p>
             <p>
-              After conducting secondary research, my main findings were that
-              remote employees often struggle with finding a{" "}
-              <span className="bold">healthy work-life balance</span>, ensuring{" "}
-              <span className="bold">reliable technology</span>, and{" "}
+              My main findings were that remote employees often struggle with
+              finding a <span className="bold">healthy work-life balance</span>,
+              ensuring <span className="bold">reliable technology</span>, and{" "}
               <span className="bold">solving communication issues</span> with
               their managers and colleagues. Additionally,{" "}
               <span className="bold">
@@ -180,21 +169,15 @@ export default function Assistant() {
               due to the gap created by the mental and physical distance from
               the office.
             </p>
-            <p>
-              These findings motivated me to conduct interviews to get a better
-              understanding of what it's like to face these problems, and come
-              up with a universal solution rather than just encouraging
-              individual employees to make personal changes.
-            </p>
           </section>
           <section className="textBlock bottomM3">
             <h5 className="names skinnyText">PRIMARY RESEARCH</h5>
             <p className="skinnyText">
               After learning more about the problem-space through secondary
               research, I conducted semi-structured interviews with remote
-              startup employees. My main goals for these interviews were to
-              clarify my research domain, and gain more personal, qualitative
-              insights to enrich my secondary research.
+              startup employees. My main goals here were to clarify my research
+              domain and gain more personal, qualitative insights to enrich my
+              secondary research.
             </p>
             <p>I based my interviews off of four main questions:</p>
             <div className="indentText">
@@ -222,10 +205,10 @@ export default function Assistant() {
             <div className="indentText">
               <p>
                 <span className="bold">
-                  1. Employers often feel like because they work from home,
-                  their employers think of them as always being at work
+                  1. Employees often feel like because they work from home,
+                  their employers think of them as always being at work.
                 </span>
-                –this leads to mismatched expectations.
+                This leads to mismatched expectations.
               </p>
               <p className="italics">
                 One participant had recently had a baby. She told me she only
@@ -246,9 +229,9 @@ export default function Assistant() {
               <p>
                 <span className="bold">
                   2. Without proper management and organization, it's easy for
-                  tasks to get piled on without recognition
+                  tasks to get piled on without recognition.
                 </span>
-                –this leads to unhealthy pressure on employees to excel and
+                This leads to unhealthy pressure on employees to excel and
                 builds resentment toward management.
               </p>
               <p className="italics">
@@ -269,14 +252,11 @@ export default function Assistant() {
           <section className="textBlock">
             <h5 className="names skinnyText">REDEFINING THE PROBLEM</h5>
             <p className="skinnyText">
-              Based on my research, the problem I chose to tackle is that many
-              remote employees struggle to create a healthy work-life balance.
-              Whether it be that they can’t find a proper boundary with their
-              employer or simply that the physical space they’re in every day
-              blurs the line, having a clear distinction between work and home
-              is crucial for peak performance and employee satisfaction. More
-              specifically, my proposed solution should utilize a new/emerging
-              technology.
+              I decided to tackle the problem of creating a healthy work-life
+              balance. Whether it be that they can’t find a proper boundary with
+              their employer or simply that the physical space they’re in every
+              day blurs the line, having a clear distinction between work and
+              home is crucial for peak performance and employee satisfaction.
             </p>
           </section>
         </article>
@@ -285,23 +265,10 @@ export default function Assistant() {
           <section className="textBlock">
             <h5 className="names skinnyText">IDEATION</h5>
             <p className="skinnyText">
-              Before I created my first iteration, I needed to make sure I was
-              clear on what my product would accomplish, and how it might do so.
-              The main problem I was trying to tackle was that there was a{" "}
-              <span className="bold">
-                lack of work-life balance for remote workers
-              </span>
-              . The reasons for this were twofold–the lack of physical
-              separation of work and home led to the lack of a mental separation
-              on the employees part, and the fact that employees are always
-              digitally available (whether they are officially on the clock or
-              not) led to a lack of boundaries by employers.
-            </p>
-            <p>
-              Oftentimes, employees are told to create a home office, or somehow
-              separate their work from their home on their own. While this could
-              be a great solution, it is not an option for everyone, and implies
-              that it is solely up to the employee to solve the problem. Another
+              Oftentimes, employees are told to create a home office or somehow
+              separate their work from their home on their own. While this can
+              be a great solution, it isn't an option for everyone, and implies
+              that it's solely up to the employee to solve the problem. Another
               layer to this is that if an employee is always at home, it never
               feels like they officially leave the workplace. When their
               employer contacts them after-hours asking for something, it’s a
@@ -314,9 +281,7 @@ export default function Assistant() {
                 the employer
               </span>
               . These boundaries should be non-physical, so that they are easily
-              attainable for everyone, and should serve to create a mental
-              divide between work and home for both the employee and the
-              employer.
+              attainable for everyone.
             </p>
             <p>To get my brain flowing, I sketched out my initial ideas.</p>
           </section>
@@ -325,7 +290,7 @@ export default function Assistant() {
             className="landscape4w bottomM3"
             alt="Wireframe Sketches"
           />
-          <section className="textBlock">
+          <section className="textBlock" id="final">
             <h5 className="names skinnyText">SOLUTION</h5>
             <p className="skinnyText">
               Based on my sketches, I created some digital mockups of a possible
@@ -335,9 +300,9 @@ export default function Assistant() {
               The app allows for{" "}
               <span className="bold">healthy and comfortable boundaries</span>{" "}
               to be set. It can be awkward to be firm with your boss about when
-              you’re at work and when you’re not, especially when you’re on your
-              laptop anyway after hours. My solution intends to make your work
-              hours unquestionable–they’re not up for debate, and they’re not an
+              you’re at work and when you’re not, especially when you’re going
+              to be on your laptop anyway. My solution makes your work hours
+              unquestionable–they’re not up for debate, and they’re not an
               issue. They’re just your hours.
             </p>
           </section>

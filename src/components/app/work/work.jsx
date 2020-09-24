@@ -76,10 +76,8 @@ export default function Work() {
                   <h3 className="title workCards">AI Virtual Assistant</h3>
                   <h5 className="date workCards">November 2019</h5>
                   <p className="card workCards">
-                    A design challenge aimed at utilizing emerging technology to
-                    help tech companies retain talent; an AI-powered virtual
-                    assitant that serves to create a mental distance between
-                    remote workers and their workplace.
+                    An AI-powered virtual assitant that serves to create a
+                    mental distance between remote workers and their workplace.
                   </p>
                   <h5 className="tags names workCards">
                     #UXRESEARCHER #UXDESIGNER

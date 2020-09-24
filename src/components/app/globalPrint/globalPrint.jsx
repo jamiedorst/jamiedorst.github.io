@@ -57,9 +57,7 @@ export default function GlobalPrint() {
                 from home. This brought about its own set of challenges and
                 benefits, but one thing that was unclear was how our colleagues
                 were performing office-reliant tasks such as printing, from
-                home. We wanted to explore how people's printing needs had
-                changed since becoming remote, and how the Global Print team
-                might continue to provide excellent service.
+                home.
               </p>
               <h5 className="names skinnyText">SOLUTION</h5>
               <p className="skinnyText bottomM3">
@@ -67,22 +65,13 @@ export default function GlobalPrint() {
                 better understanding of what people's needs are, and how they
                 currently are or are not being met. Through this I also ideated
                 upon solutions and presented those to the Global Print team.{" "}
-                <span className="italics">
-                  Because much of the work I did in this project has not been
-                  publicly released, I will be omitting certain information.
-                  Contact me to learn more.
-                </span>
-              </p>
-              <h5 className="names skinnyText">MY CONTRIBUTION</h5>
-              <p className="skinnyText bottomM3">
-                I was the head of this project, and led it from start to finish.
-                I wrote and distributed the survey, as well as conducted all of
-                the 1:1 interviews. I then analyzed all of the quantitative and
-                qualitative data myself, and compiled what I had found into a
-                slide deck to present to leadership. I got lots of help along
-                the way with reviewing and checking my work from my wonderful
-                colleagues, but the bulk of the work done and decision-making
-                was done by me.
+                <p>
+                  <span className="italics">
+                    Because much of the work I did in this project has not been
+                    publicly released, I will be omitting certain information.
+                    Contact me to learn more.
+                  </span>
+                </p>
               </p>
             </section>
             <section>
@@ -133,26 +122,25 @@ export default function GlobalPrint() {
             <section className="textBlock">
               <h5 className="names skinnyText">SURVEY</h5>
               <p className="skinnyText bottomM3">
-                I decided to start my research with a survey so that I could get
-                a better, general understanding of why/how often people print,
-                how important it is for their role, and how the remote
-                transition has affected them. The survey was sent out globally
-                to 30 frequent users in each of the seven business units that
-                used printing services most in 2019. This allowed me to reach a
-                variety of locations and job roles, ensuring I would not be
-                excluding any important voices. This had a 24% response rate.
+                I started with a survey to get a better, general understanding
+                of why/how often people print, how important it is for their
+                role, and how the remote transition has affected them. The
+                survey was sent out globally to 30 frequent users in each of the
+                seven business units that used printing services most in 2019.
+                This allowed me to reach a variety of locations and job roles,
+                and ensured I would not be excluding any important voices. This
+                had a 24% response rate.
               </p>
               <h5 className="names skinnyText">INTERVIEWS</h5>
               <p className="skinnyText bottomM3">
                 After the survey I conducted 19 1:1 interviews with willing
-                participants. These allowed me to dig a little depeper into why
-                people use printing, and what their specific challenges have
-                been. This would help me better understand what nuances the
-                print team had to be aware of when implementing solutions, and
-                also was an opportunity to ideate upon ideas with participants.
-                Participants were sourced through an opt-in question at the end
-                of the survey, and was a global group with representation from
-                all seven target business units.
+                participants. These allowed me to dig a little deeper into why
+                people print, and what their specific challenges have been. This
+                would help me better understand what nuances the print team
+                should be aware of, and was also an opportunity to ideate upon
+                ideas with affected colleagues. Participants were sourced
+                through an opt-in question at the end of the survey, and were a
+                global group representing all seven target business units.
               </p>
               <h5 className="names skinnyText">FINDINGS</h5>
               <p className="skinnyText">
@@ -163,18 +151,22 @@ export default function GlobalPrint() {
                   learn more.
                 </span>{" "}
               </p>
-              <p className=" bottomM3">
+              <p>
                 Some interesting quantitative data came from the survey, giving
                 me insight as to what the printing population at VMware looks
-                like, specifically when remote. The interviews gave me more
-                in-depth information about people's experiences, and through
-                them I found four main types of print users. These four
-                categories would help guide how we address the remote printing
-                problem–they demonstrate that there is no one-size-fits-all
-                solution. After uncovering and exploring these four categories,
-                I was able to present multiple ideas to the team in the context
-                of these user types, and identify which ideas would primarily
-                benefit which groups.
+                like, specifically when remote. This would be helpful for my
+                project but also any future work the Global Print team does.
+              </p>
+              <p className=" bottomM3">
+                The interviews gave me more in-depth information about people's
+                experiences, and through them I found four main types of print
+                users. These four categories would help guide how we address the
+                remote printing problem–they demonstrate that there is no
+                one-size-fits-all solution. After uncovering and exploring these
+                four categories, I was able to present multiple ideas to the
+                team in the context of these user types, and identify which
+                ideas would primarily benefit which groups to aid in
+                prioritization.
               </p>
             </section>
           </div>

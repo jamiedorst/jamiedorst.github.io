@@ -12,6 +12,7 @@ import fce from "../../../assets/images/courseAdvisorImgs/fce.png";
 import rateMyProf from "../../../assets/images/courseAdvisorImgs/rateMyProf.png";
 import CAdemo from "../../../assets/images/courseAdvisorImgs/CAdemo.mov";
 import "./courseAdvisor.scss";
+import SkipButton from "../skipButton/skipButton";
 
 export default function CourseAdvisor() {
   return (
@@ -66,26 +67,26 @@ export default function CourseAdvisor() {
                 CMU students don’t have an easy way of discovering new classes
                 or getting an idea of what they’re really like. The resources
                 that currently exist don’t address the questions students
-                actually tend to have or provide the information that would
-                actually be helpful when deciding between classes.
+                actually tend to have.
               </p>
               <h5 className="names skinnyText">SOLUTION</h5>
               <p className="skinnyText bottomM3">
-                Our tool allows students to browse classes, see relevant
-                insights about what they’re like, and view comments from
-                students who have taken them previously. Filters allow students
+                CMU Course Advisor allows students to browse classes, see
+                relevant insights about what they’re like, and view comments
+                from students who have taken them before. Filters allow students
                 to discover new classes based on criteria that’s important to
                 them.
               </p>
               <h5 className="names skinnyText">MY CONTRIBUTION</h5>
               <p className="skinnyText bottomM3">
-                I took the initiative of making the original design for the
-                website so that we would have something to work with. I did a
-                competitive analysis against the other relevant websites that
-                CMU students currently use to see what features are most and
-                least helpful and relevant to our project. I then edited my
-                design based on my team’s feedback and coded the entire front
-                end–without having any previous knowledge of HTML/CSS or React.
+                I took the initiative of making the original design and
+                prototype (using Principle for the first time) so that we would
+                have something to work with. I also did a competitive analysis
+                against the other websites CMU students currently use to see
+                what features are most and least helpful and relevant for us. I
+                then edited my design based on my team’s feedback and coded the
+                entire front end–without having any previous knowledge of
+                HTML/CSS or React.
               </p>
             </section>
             <section>
@@ -95,9 +96,9 @@ export default function CourseAdvisor() {
                 <div className="highlightText">
                   <h2>Advanced Search & Filter</h2>
                   <h3 className="blurb">
-                    Allows students to see the information that’s important to
-                    them, and discover new classes that can fulfill their
-                    requirements.
+                    Students can easily see the information that’s important to
+                    them, and discover new, interesting classes that can fulfill
+                    their requirements.
                   </h3>
                 </div>
                 <span className="highlightGradient" />
@@ -111,8 +112,8 @@ export default function CourseAdvisor() {
                 <div className="highlightText">
                   <h2>Relevant Details & Reviews</h2>
                   <h3 className="blurb">
-                    Relevant quantitative data as well as personal reviews and
-                    tags from previous students give students a well rounded
+                    Quantitative data as well as personal reviews and tags from
+                    previous students give students a well-rounded and authentic
                     idea of what classes are like.
                   </h3>
                 </div>
@@ -127,6 +128,7 @@ export default function CourseAdvisor() {
             </section>
           </div>
         </article>
+        <SkipButton />
         <hr className="vertBodyLineBottom caBott" />
         <article className="sectionBreak">
           <h3 className="section">Research</h3>
@@ -135,9 +137,9 @@ export default function CourseAdvisor() {
               <h5 className="names skinnyText">COMPETITIVE ANALYSIS</h5>
               <p className="skinnyText bottomM3">
                 My first step was to take a closer look at the resources that
-                currently exist for students, and figure out what their best and
-                worst features were. Based on this, we would know what features
-                we needed to include in our product, and why.
+                currently exist for students, and determine what their best and
+                worst features were. Based on this, I would know what features
+                we should include in our product, and why.
               </p>
             </section>
             <section>
@@ -150,14 +152,15 @@ export default function CourseAdvisor() {
                 <div className="sbsText">
                   <h4 className="secondary">Faculty Course Evaluations</h4>
                   <p>
-                    FCEs are useful for getting a general idea of how well liked
+                    FCEs are useful for getting a general idea of how well-liked
                     a class is or how much time it will likely take.
                   </p>
                   <p>
-                    However, the interface is frustrating to use and slow, and
-                    the qualitative data shown is often not what students are
+                    However, the interface is frustrating and slow, and the
+                    qualitative data shown is often not what students are
                     wondering about. ALthough there are helpful pieces of
-                    information here, they’re often too difficult to decipher.
+                    information here, they often take too much effort to
+                    decipher.
                   </p>
                 </div>
               </div>
@@ -192,10 +195,9 @@ export default function CourseAdvisor() {
                   <p>
                     However, it’s hard to navigate, the same information seems
                     to be located in multiple places, and it isn’t helpful for
-                    discovering new courses. As much as I’d like to be able to
-                    use this as a source of truth, it’s often being
-                    changed/updated and it’s difficult to find a straight answer
-                    to simple questions.
+                    discovering new courses. As much this should be a source of
+                    truth, it’s too often being changed/updated and it’s
+                    difficult to find a straight answer to simple questions.
                   </p>
                 </div>
               </div>
@@ -205,13 +207,14 @@ export default function CourseAdvisor() {
                   <h4 className="secondary">Schedule of Classes</h4>
                   <p>
                     A resource also provided by CMU, the schedule of classes is
-                    the best and most reliable place to see which classes are
-                    offered in any given semester, along with other relevant
-                    information such as location, professor, and time.
+                    the best place to see which classes are offered in any given
+                    semester, along with other pertinent information such as
+                    location, professor, and time.
                   </p>
                   <p>
                     However, it doesn’t have any helpful filters or sorting
-                    functionalities, so it’s hard to find interesting classes.
+                    functionalities, so it’s hard to use it to discover new,
+                    interesting classes.
                   </p>
                 </div>
               </div>
@@ -221,13 +224,14 @@ export default function CourseAdvisor() {
                   <h4 className="secondary">CMUnits Chrome Extension</h4>
                   <p>
                     CMUnits is a student favorite–it aggregates FCE data and
-                    displays it with the course planning website to show how
-                    many hours a class takes per week on average.
+                    displays it on the course planning website to show how many
+                    hours a class takes per week on average.
                   </p>
                   <p>
                     However, it’s only accessible through chrome, and it
                     averages across professors and years, meaning the data is
-                    often inaccurate.
+                    often inaccurate. It also often has bugs due to summer
+                    classes being on a different timeline.
                   </p>
                 </div>
               </div>
@@ -267,7 +271,9 @@ export default function CourseAdvisor() {
                 class-specific ratings and tags
               </p>
             </div>
-            <h5 className="names skinnyText">INITIAL DESIGN</h5>
+            <h5 className="names skinnyText" id="final">
+              INITIAL DESIGN
+            </h5>
             <p className="skinnyText">
               After figuring out the most important features and creating some
               basic wireframes, I put together this prototype using Sketch and
@@ -315,9 +321,9 @@ export default function CourseAdvisor() {
               Moving forward, our team will have to find answers to these
               questions. However, first priority right now is having something
               tangible to work with. So far, I've coded most of the front-end.
-              Next steps are to finish the back end and tie up those loose ends,
-              and then once we have our MVP, we can get it up and running and
-              get some initial feedback.
+              Next steps are to finish the back end and tie up loose ends. Once
+              we have our MVP, we can get it up and running and get some initial
+              feedback.
             </p>
           </div>
         </article>

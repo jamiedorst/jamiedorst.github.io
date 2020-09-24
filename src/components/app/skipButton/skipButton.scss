@@ -1,0 +1,11 @@
+@import "../../../assets/sass/global";
+
+#skipButton {
+  margin: auto;
+  margin-top: $oneC * 1.5;
+  width: $twoC;
+  text-align: center;
+  background: $darkerTaupe;
+  border-radius: 10px;
+  padding: 10px;
+}

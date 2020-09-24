@@ -72,12 +72,14 @@ export default function Macroinvertebrates() {
               levels.
             </p>
             <h5 className="names skinnyText">SOLUTION</h5>
-            <p className="skinnyText bottomM3">
+            <p className="skinnyText ">
               Learning to See, Seeing to Learn is an interdisciplinary research
               and development effort to bring aquatic insect identification into
               the 21st century. By transitioning away from the analog resources
               these materials are traditionally in, we are able to reach a much
-              broader audience and teach more effectively.{" "}
+              broader audience and teach more effectively.
+            </p>
+            <p className="bottomM3">
               <a
                 className="linkObvi"
                 href="https://www.macroinvertebrates.org"
@@ -89,8 +91,8 @@ export default function Macroinvertebrates() {
             </p>
             <h5 className="names skinnyText">MY CONTRIBUTION</h5>
             <p className="skinnyText">
-              I had a few main responsibilities during my time as a research
-              assistant. I analyzed user research data to create thoughtful and
+              I had a few main responsibilities during my time as a Research
+              Assistant. I analyzed user research data to create thoughtful and
               informed site content, such as an updated landing page, a poster
               displaying the full collection, and an expansive set of
               order-level print-outs. I also designed the first ever digital and
@@ -183,12 +185,12 @@ export default function Macroinvertebrates() {
             <h5 className="names skinnyText">INTERACTIVE DICHOTOMOUS KEY</h5>
             <p className="skinnyText">
               Dichotomous keys are often used in identification activities.
-              However, those for aquatic insects were all analog, with only
-              drawings of insects, and they were decades old. I created a
-              digital and interactive dichotomous key, that takes advantage of
-              our high quality images and includes helpful pop-ups at each
-              decision point. It's been updated since I originally created it in
-              early 2019, but you can still{" "}
+              However, those for aquatic insects were all decades-old, analog,
+              with only drawings. I created a digital and interactive
+              dichotomous key that takes advantage of our high quality images
+              and includes helpful pop-ups at each decision point. It's been
+              updated since I originally created it in early 2019, but you can
+              still{" "}
               <a
                 className="linkObvi"
                 href="https://www.macroinvertebrates.org/key"

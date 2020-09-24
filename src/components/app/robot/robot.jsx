@@ -87,30 +87,30 @@ export default function Robot() {
                 Robots that move through our everyday lives should do so in ways
                 that are acceptable to people. How can we design robotic
                 movement that not only is safe and understandable to people but
-                also doesn’t look odd or off putting? Moreover, how can we
-                ensure that the movements a robot takes are not misinterpreted?
-                This project explores how we can support robot motion designers
-                in creating movements that are acceptable to people and convey
-                the intent of the designer, and how we may use user feedback to
-                tune robotic motion algorithms.
+                also doesn’t look odd or off-putting? Moreover, how can we
+                ensure that these movements are not misinterpreted? This project
+                explores how we can support robot motion designers in creating
+                movements that are acceptable to people and convey the intent of
+                the designer, and how we may use user feedback to tune robotic
+                motion algorithms.
               </p>
               <h5 className="names skinnyText">MY CONTRIBUTION</h5>
               <p className="skinnyText">
                 I worked with Nik Martelaro as part of an Independent Study in
-                HCI during my Spring semester at Carnegie Mellon. I performed a
-                literature review on other robot movement projects, created
-                animations in Autodesk Maya (using the{" "}
+                HCI during my Sophomore Spring semester at Carnegie Mellon. I
+                performed a literature review on other robot movement projects,
+                created animations in Autodesk Maya (using the{" "}
                 <a
                   className="linkObvi"
                   href="https://github.com/KuriRobot/Kuri-Documentation/blob/master/guides/behavior/creating-animations.md"
                 >
                   kuri robot
                 </a>
-                ), and ran surveys and interviews with these videos to explore
-                what “acceptable” really means. Over the course of the semester
-                I continuously adapted my goals based on my findings and ended
-                up with a better sense of what “acceptable” means and some
-                animations to exemplify that.
+                ), and ran surveys and interviews with these animations to
+                explore what “acceptable” really means. Over the course of the
+                semester I continuously adapted my goals based on my findings
+                and ended up with a better sense of what “acceptable” is and
+                some animations to exemplify that.
               </p>
               <p className="bottomM3">
                 Over the course of the project, I became much more adept with
@@ -153,11 +153,9 @@ export default function Robot() {
                   <h2>What Makes it Acceptable?</h2>
                   <h3 className="blurb">
                     Beyond getting a sense of what is acceptable and what is
-                    not, we want to know why. What factors contribute to
-                    people's perceptions of robot motion? We learned that
-                    predictability is very important while "humanness"
-                    isn't–people tend to have a certain level of forgiveness
-                    because it is a robot.
+                    not, we want to know why. We learned that predictability is
+                    very important while "humanness" isn't–people tend to have a
+                    certain level of forgiveness because it is a robot.
                   </h3>
                 </div>
                 <span className="highlightGradient" />
@@ -181,14 +179,13 @@ export default function Robot() {
           <section className="textBlock">
             <h5 className="names skinnyText">SPRINT 1</h5>
             <p className="skinnyText">
-              During my first two weeks on the project, we conducted a thorough{" "}
-              <span className="bold">literature review</span> and I then created
-              two animations based on what I had read and learned about. Based
-              on my readings of six papers surrounding the field of robot
-              movements, I created one animation that was "acceptable," and one
-              that was "unacceptable." This gave us a baseline to work off of
-              about what was definitely acceptable and what was definitely not.
-              Next, we had to figure out{" "}
+              During my first two weeks on the project, I conducted a thorough{" "}
+              <span className="bold">literature review</span> of six relevant
+              papers, and I then created two animations based on what I had read
+              and learned about. I created one animation that was "acceptable,"
+              and one that was "unacceptable." This gave us a baseline to work
+              off of about what was definitely acceptable and what was
+              definitely not. Next, we had to figure out{" "}
               <span className="bold">
                 where that line was between unacceptable and acceptable, and why
                 it was there
@@ -328,12 +325,9 @@ export default function Robot() {
             <p className="skinnyText">
               After creating these videos, our next goal was to{" "}
               <span className="bold">learn what people actually thought</span>{" "}
-              of them. Until this point, we had been making assumptions about
-              how the animations would be interpreted based on our own opinions,
-              but now we were ready to get some outside feedback. I started by
-              reviewing the literature about common evaluation methods, then
-              putting together a small survey. Based on these results, we had a
-              few more questions about{" "}
+              of them. I started by reviewing the literature about common
+              evaluation methods, then putting together a small survey. Based on
+              these results, we had a few more questions about{" "}
               <span className="bold">
                 how the angle we're viewing from would affect how we interpret
                 the motions
@@ -385,8 +379,7 @@ export default function Robot() {
               turns were favored over the more dramatic ones, and somewhere
               around the middle of the generative videos is where people started
               to think something was off. However, some of the language that
-              people used to describe some movements was new to us–some videos
-              were described as{" "}
+              people used to describe some movements was new to us–{" "}
               <span className="bold">threatening, judgemental, and evil</span>.
               From here I created a more structured survey that could further
               explore people’s thoughts. The results of this survey pointed us
@@ -407,8 +400,8 @@ export default function Robot() {
           <section className="textBlock">
             <h5 className="names skinnyText">SPRINT 5</h5>
             <p className="skinnyText">
-              Defining acceptable is challenging because of the many ways it
-              could be defined. In their paper “
+              Defining acceptable is challenging because of the many ways it can
+              be interpreted. In their paper “
               <a
                 className="linkObvi"
                 href="http://guyhoffman.com/publications/HoffmanJuJHRI14s.pdf"
@@ -424,11 +417,11 @@ export default function Robot() {
               But does it need to mean all of those things, or could it be
               simplified? Additionally, what is “acceptable” could vary
               depending on the type of robot, or even what we want it to
-              mean–something like emotion may or may not affect how a motion
-              should be interpreted. An example we came up with to further
-              explore acceptable versus unacceptable movements was having Kuri
-              move across a space in different ways, either with omnidrive or
-              tank drive.
+              mean–something like emotion could matter in one scenario and not
+              in another. An example we came up with to further explore
+              acceptable versus unacceptable movements was having Kuri move
+              across a space in different ways, either with omnidrive or tank
+              drive.
             </p>
           </section>
           <div className="topM1 bottomM3">
@@ -460,9 +453,9 @@ export default function Robot() {
           <section className="textBlock">
             <h5 className="names skinnyText">SPRINT 6</h5>
             <p className="skinnyText">
-              For the final sprint of the project, I started by conducting
-              interviews that were more focused on general feelings rather than
-              specific keywords. I wanted to understand{" "}
+              For the final sprint of the project, I conducted interviews that
+              were more focused on general feelings rather than specific
+              keywords. I wanted to understand{" "}
               <span className="bold">
                 what is that ambiguously uncomfortable feeling when you see a
                 movement that just doesn’t seem right?
@@ -481,8 +474,9 @@ export default function Robot() {
               </span>
               . This could provide some insight as to how we might move forward
               in the project–robot motion affords more forgiveness than we
-              originally thought. How will this change what is "acceptable"?
+              originally thought.{" "}
             </p>
+            <p>How will this change what is "acceptable"?</p>
           </section>
           <div className="topM1">
             <img
