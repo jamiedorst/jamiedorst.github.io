@@ -7,9 +7,9 @@ import controllers from "../../../assets/images/designImgs/controllers.png";
 import dude from "../../../assets/images/designImgs/dude.png";
 import grtCamp from "../../../assets/images/designImgs/grtCamp.png";
 import rendering from "../../../assets/images/designImgs/rendering.png";
-import ronan from "../../../assets/images/designImgs/ronan.png";
 import alainplaysguitar from "../../../assets/images/designImgs/alainplaysguitar.png";
 import alainlearnschem from "../../../assets/images/designImgs/alainlearnschem.png";
+import kite from "../../../assets/images/designImgs/kite.png";
 import "./design.scss";
 
 export default function Design() {
@@ -24,20 +24,6 @@ export default function Design() {
         <h3>Design & Illustration</h3>
         <div id="flexImages">
           <img
-            src={rendering}
-            className="flexImg "
-            alt="Animation Rendering Poster"
-          />
-          <img src={grtCamp} className="flexImg " alt="Robotics Camp Poster" />
-          <img
-            src={controllers}
-            className="flexImg"
-            id="banner"
-            alt="Nintendo Controller Illustration"
-          />
-          <img src={david} className="flexImg " alt="David Illustration" />
-          <img src={ronan} className="flexImg " alt="Ronan Illustration" />
-          <img
             src={alainplaysguitar}
             className="flexImg "
             alt="Guitar Illustration"
@@ -47,6 +33,20 @@ export default function Design() {
             className="flexImg "
             alt="Chemistry Illustration"
           />
+          <img src={david} className="flexImg " alt="David Illustration" />
+          <img src={kite} className="flexImg " alt="One-Line Drawing" />
+          <img
+            src={controllers}
+            className="flexImg"
+            id="banner"
+            alt="Nintendo Controller Illustration"
+          />
+          <img
+            src={rendering}
+            className="flexImg "
+            alt="Animation Rendering Poster"
+          />
+          <img src={grtCamp} className="flexImg " alt="Robotics Camp Poster" />
           <img
             src={lowPoly}
             className="flexImg "
