@@ -1,6 +1,8 @@
 // Base Class Definition
 // -------------------------
 
+@import "variables.scss";
+
 .#{$fa-css-prefix},
 .fas,
 .far,
@@ -14,8 +16,4 @@
   font-variant: normal;
   text-rendering: auto;
   line-height: 1;
-}
-
-%fa-icon {
-  @include fa-icon;
 }
