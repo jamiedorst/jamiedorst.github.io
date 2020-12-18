@@ -17,7 +17,12 @@ export default function Navbar() {
           <div id="navPages">
             <li>
               <h3 className="navItem">
-                <HashLink to="/work#top">work</HashLink>
+                <HashLink to="/projects#top">projects</HashLink>
+              </h3>
+            </li>
+            <li>
+              <h3 className="navItem">
+                <HashLink to="/playground#top">playground</HashLink>
               </h3>
             </li>
             {/* <li>

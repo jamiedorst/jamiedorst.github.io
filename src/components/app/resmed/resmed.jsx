@@ -2,8 +2,8 @@ import React from "react";
 import Navbar from "../navbar";
 import Footer from "../footer";
 import resmed from "../../../assets/images/resmedImgs/resmed.png";
-import mmo from "../../../assets/images/resmedImgs/mmo.png";
-import arTry from "../../../assets/images/resmedImgs/arTry.png";
+import highlight1 from "../../../assets/images/resmedImgs/highlight1.png";
+import highlight2 from "../../../assets/images/resmedImgs/highlight2.png";
 import postits from "../../../assets/images/resmedImgs/postits.png";
 import pinkPost from "../../../assets/images/resmedImgs/pinkPost.png";
 import candia from "../../../assets/images/resmedImgs/candiaMap.png";
@@ -37,15 +37,14 @@ export default function Resmed() {
         <nav className="navbarPage">
           <Navbar />
         </nav>
-        <hr className="vertShortLine" />
         <div className="pageHeader">
           <span className="headerGradient" />
           <img src={resmed} className="headerImg" alt="ResMed Logo" />
           <div className="pageHeadText">
             <div>
-              <h4 className="skinnyText">WORK</h4>
-              <h1 className="skinnyText">ResMed</h1>
-              <h5 className="skinnyText">February 2020</h5>
+              <h4 className="noMP">WORK</h4>
+              <h1 className="noMP">ResMed</h1>
+              <h5 className="noMP">February 2020</h5>
               <h2>
                 An AR app experience for newly diagnosed sleep apnea patients;
                 built for ResMed, an IoT medical device company.
@@ -53,47 +52,45 @@ export default function Resmed() {
             </div>
             <div className="fastFacts">
               <div className="fact">
-                <h5 className="names skinnyText">ROLE</h5>
-                <p className="skinnyText">UI Designer</p>
+                <h5 className="names noMP">ROLE</h5>
+                <p className="noMP">UI Designer</p>
               </div>
               <div className="fact">
-                <h5 className="names skinnyText">TOOLS</h5>
-                <p className="skinnyText">Figma, Lucidchart</p>
+                <h5 className="names noMP">TOOLS</h5>
+                <p className="noMP">Figma, Lucidchart</p>
               </div>
               <div className="fact">
-                <h5 className="names skinnyText">TEAM</h5>
-                <p className="skinnyText">
+                <h5 className="names noMP">TEAM</h5>
+                <p className="noMP">
                   Jamie Dorst, Stacy Kellner, Matt Franklin, Candia Gu
                 </p>
               </div>
             </div>
           </div>
         </div>
-        <hr className="headBottomLine" />
       </header>
       <main>
-        <hr className="vertBodyLineTop rmTop" />
         <article className="sectionBreak">
           <h3 className="section">Overview</h3>
           <div>
             <section className="textBlock">
-              <h5 className="names skinnyText">PROBLEM</h5>
-              <p className="skinnyText bottomM3">
+              <h5 className="names noMP">PROBLEM</h5>
+              <p className="noMP bottomM3">
                 As part of my Interaction Design Studio II class, we were tasked
                 with creating a native mobile app to either augment an existing
                 service or create a new service for ResMed, an IoT medical
                 device company.
               </p>
-              <h5 className="names skinnyText">SOLUTION</h5>
-              <p className="skinnyText bottomM3">
+              <h5 className="names noMP">SOLUTION</h5>
+              <p className="noMP bottomM3">
                 We created an AR app experience for newly diagnosed sleep apnea
                 patients that will lower the barrier of entry to getting a
                 device, and help new patients feel more comfortable with the
                 new, intimidating territory they were entering for the first
                 time.
               </p>
-              <h5 className="names skinnyText">MY CONTRIBUTION</h5>
-              <p className="skinnyText bottomM3">
+              <h5 className="names noMP">MY CONTRIBUTION</h5>
+              <p className="noMP bottomM3">
                 I'm proud to say that this team worked beautifully together. To
                 highlight some specifics that I did, I scaffolded our
                 stakeholder map by fleshing out who was involved in our story
@@ -104,54 +101,49 @@ export default function Resmed() {
                 not actually creating a working prototype.
               </p>
             </section>
-            <section>
-              <h5 className="names">FINAL PRODUCT</h5>
-              <hr className="highlightLineTop" />
+            <section className="invertBackground">
+              <h5 className="names invert invertTitle">FINAL PRODUCT</h5>
               <div className="highlightSect">
                 <div className="highlightText">
-                  <h2>Machine, Mask, Order</h2>
-                  <h3 className="blurb">
+                  <h2 className="invert">Machine, Mask, Order</h2>
+                  <h3 className="blurb invert">
                     Our app walks the user through these three simple steps,
                     resulting in the perfect equipment for them. We cut out the
                     middle-men in the typical customer journey, and make it as
                     easy as 1, 2, 3.
                   </h3>
                 </div>
-                <span className="highlightGradient" />
                 <img
-                  src={mmo}
+                  src={highlight1}
                   className="highlightImg"
-                  alt="Maskmaker Highlight"
+                  alt="Maskmaker Highlight 1"
                 />
               </div>
               <div className="highlightSect">
                 <div className="highlightText">
-                  <h2>AR Mask Try-On</h2>
-                  <h3 className="blurb">
+                  <h2 className="invert">AR Mask Try-On</h2>
+                  <h3 className="blurb invert">
                     Patients can now literally picture themselves using ResMed.
                     Get a sense of what your equipment will be like with the AR
                     try-on, bringing a little comfort and a little smile in an
                     uneasy time.
                   </h3>
                 </div>
-                <span className="highlightGradient" />
                 <img
-                  src={arTry}
+                  src={highlight2}
                   className="highlightImg"
-                  alt="Maskmaker Highlight"
+                  alt="Maskmaker Highlight 2"
                 />
               </div>
-              <hr className="highlightLineBottom" />
+              <SkipButton />
             </section>
           </div>
         </article>
-        <SkipButton />
-        <hr className="vertBodyLineBottom rmBott" />
         <article className="sectionBreak">
           <h3 className="section">Research</h3>
           <section className="textBlock">
-            <h5 className="names skinnyText">STAKEHOLDER MAPPING</h5>
-            <p className="skinnyText">
+            <h5 className="names noMP">STAKEHOLDER MAPPING</h5>
+            <p className="noMP">
               We began by creating a stakeholder map to explore and understand
               the relationships between important people and groups. Because
               it's a healthcare company, there are a lot of important players,
@@ -167,8 +159,8 @@ export default function Resmed() {
             </p>
           </section>
           <div className="bottomM3">
-            <img src={pinkPost} className="landscape4w" alt="Post Its" />
-            <img src={postits} className="landscape4w" alt="Post Its" />
+            <img src={pinkPost} className="w4" alt="Post Its" />
+            <img src={postits} className="w4" alt="Post Its" />
           </div>
           <section className="textBlock">
             <p>
@@ -178,8 +170,8 @@ export default function Resmed() {
             </p>
           </section>
           <div className="bottomM3">
-            <img src={candia} className="portrait4w" alt="Stakeholder Map" />
-            <img src={stacy} className="portrait4w" alt="Stakeholder Map" />
+            <img src={candia} className="w4" alt="Stakeholder Map" />
+            <img src={stacy} className="w4" alt="Stakeholder Map" />
           </div>
           <section className="textBlock">
             <p>
@@ -189,11 +181,7 @@ export default function Resmed() {
               focus on the key stakeholders that our solution might affect.
             </p>
           </section>
-          <img
-            src={stakeMap}
-            className="landscape8w bottomM3"
-            alt="Stakeholder Map"
-          />
+          <img src={stakeMap} className="w8 bottomM3" alt="Stakeholder Map" />
           <section className="textBlock">
             <p>
               Through our stakeholder map, we examined complex relationships
@@ -228,8 +216,8 @@ export default function Resmed() {
         <article className="sectionBreak">
           <h3 className="section">Design</h3>
           <section className="textBlock">
-            <h5 className="names skinnyText">REVERSE ASSUMPTIONS</h5>
-            <p className="skinnyText">
+            <h5 className="names noMP">REVERSE ASSUMPTIONS</h5>
+            <p className="noMP">
               To get ideas flowing, we used a reverse assumptions exercise.
               First, a list of assumptions is generated, then each is reversed,
               and ideas are generated based upon those reversals. This helped us
@@ -237,11 +225,7 @@ export default function Resmed() {
               beliefs.
             </p>
           </section>
-          <img
-            src={reverse}
-            className="portrait4w topM1"
-            alt="Reverse Assumptions"
-          />
+          <img src={reverse} className="w4 topM1" alt="Reverse Assumptions" />
           <section className="textBlock bottomM3">
             <p>
               While not all reversals yielded actionable ideas, separation of
@@ -250,8 +234,8 @@ export default function Resmed() {
             </p>
           </section>
           <section className="textBlock">
-            <h5 className="names skinnyText">SYNTHESIS</h5>
-            <p className="skinnyText">
+            <h5 className="names noMP">SYNTHESIS</h5>
+            <p className="noMP">
               Two channels of opportunity emerged from our reverse assumptions
               activity: pre-purchase and post-purchase.
             </p>
@@ -287,57 +271,58 @@ export default function Resmed() {
             </p>
           </section>
           <section className="textBlock">
-            <h5 className="names skinnyText">PROTOTYPING</h5>
-            <p className="skinnyText">
+            <h5 className="names noMP">PROTOTYPING</h5>
+            <p className="noMP">
               We began with some simple sketches to start working out what the
               UI might be like.
             </p>
           </section>
           <div className="bottomM3 topM1">
-            <img src={lofi1} className="landscape4w" alt="LoFi Prototype" />
-            <img src={lofi2} className="landscape4w" alt="LoFi Prototype" />
+            <img src={lofi1} className="w4" alt="LoFi Prototype" />
+            <img src={lofi2} className="w4" alt="LoFi Prototype" />
           </div>
           <section className="textBlock">
-            <p className="skinnyText">
+            <p className="noMP">
               We then selected the most impactful interactions to translate into
               medium-fidelity screens.
             </p>
           </section>
           <div className="bottomM3 topM1">
-            <img src={med1} className="portrait2w" alt="MedFi Prototype" />
-            <img src={med2} className="portrait2w" alt="MedFi Prototype" />
-            <img src={med3} className="portrait2w" alt="MedFi Prototype" />
-            <img src={med4} className="portrait2w" alt="MedFi Prototype" />
+            <img src={med1} className="w2" alt="MedFi Prototype" />
+            <img src={med2} className="w2" alt="MedFi Prototype" />
+            <img src={med3} className="w2" alt="MedFi Prototype" />
+            <img src={med4} className="w2" alt="MedFi Prototype" />
           </div>
           <section className="textBlock">
-            <p className="skinnyText">
+            <p className="noMP">
               From there, we refined our designs, made them more cohesive, and
               created our final wireframes.
             </p>
           </section>
           <div className="bottomM3 topM1">
-            <img src={hifi1} className="portrait2w" alt="HiFi Prototype" />
-            <img src={hifi2} className="portrait2w" alt="HiFi Prototype" />
-            <img src={hifi3} className="portrait2w" alt="HiFi Prototype" />
-            <img src={hifi4} className="portrait2w" alt="HiFi Prototype" />
+            <img src={hifi1} className="w2" alt="HiFi Prototype" />
+            <img src={hifi2} className="w2" alt="HiFi Prototype" />
+            <img src={hifi3} className="w2" alt="HiFi Prototype" />
+            <img src={hifi4} className="w2" alt="HiFi Prototype" />
           </div>
           <section className="textBlock" id="final">
-            <h5 className="names skinnyText">FINAL PRODUCT</h5>
-            <p className="skinnyText">
+            <h5 className="names noMP">FINAL PRODUCT</h5>
+            <p className="noMP">
               Maskmaker: a new app that simplifies the patient experience by
               seamlessly guiding users through picking the perfect mask for
               them.
             </p>
           </section>
           <video
-            className="demoVidPhone topM1 bottomM3"
+            className="phone topM1 bottomM3"
             alt="ResMed Prototype"
             controls
+            muted
           >
             <source src={resDemo} />
           </video>
           <section className="textBlock">
-            <p className="skinnyText">
+            <p className="noMP">
               With the AR try-on feature,{" "}
               <span className="bold">
                 patients can literally picture themselves using ResMed
@@ -354,11 +339,11 @@ export default function Resmed() {
             </p>
           </section>
           <div className="bottomM3 topM1">
-            <img src={high1} className="portrait3w" alt="HiFi Prototype" />
-            <img src={high2} className="portrait3w" alt="HiFi Prototype" />
+            <img src={high1} className="phone" alt="HiFi Prototype" />
+            <img src={high2} className="phone" alt="HiFi Prototype" />
           </div>
           <section className="textBlock">
-            <p className="skinnyText">
+            <p className="noMP">
               <span className="bold">
                 Deliberate and delightful microinteractions
               </span>{" "}
@@ -373,19 +358,13 @@ export default function Resmed() {
             </p>
           </section>
           <div className="bottomM3 topM1">
-            <img src={micro1} className="portrait3w" alt="HiFi Prototype" />
-            <video
-              className="portrait3w"
-              alt="ResMed Prototype"
-              autoPlay
-              loop
-              muted
-            >
+            <img src={micro1} className="phone" alt="HiFi Prototype" />
+            <video className="phone" alt="ResMed Prototype" autoPlay loop muted>
               <source src={microVid1} />
             </video>
           </div>
           <section className="textBlock">
-            <p className="skinnyText">
+            <p className="noMP">
               Users are{" "}
               <span className="bold">always grounded and informed.</span>
             </p>
@@ -396,19 +375,13 @@ export default function Resmed() {
             </p>
           </section>
           <div className="bottomM3 topM1">
-            <img src={micro2} className="portrait3w" alt="HiFi Prototype" />
-            <video
-              className="portrait3w"
-              alt="ResMed Prototype"
-              autoPlay
-              loop
-              muted
-            >
+            <img src={micro2} className="phone" alt="HiFi Prototype" />
+            <video className="phone" alt="ResMed Prototype" autoPlay loop muted>
               <source src={microVid2} />
             </video>
           </div>
           <section className="textBlock">
-            <p className="skinnyText">
+            <p className="noMP">
               Overall, our app achieves three main goals. It helps{" "}
               <span className="bold">guide product development</span> by
               uncovering patient preferences and revealing sales trends. It also{" "}

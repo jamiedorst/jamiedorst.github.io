@@ -20,50 +20,44 @@ export default function Macroinvertebrates() {
         <nav className="navbarPage">
           <Navbar />
         </nav>
-        <hr className="vertShortLine" />
         <div className="pageHeader">
           <span className="headerGradient" />
           <img src={radial} className="headerImg" alt="Macroinvertebrates" />
           <div className="pageHeadText">
             <div>
-              <h4 className="skinnyText">WORK</h4>
-              <h1 className="skinnyText">Macroinvertebrates</h1>
-              <h5 className="skinnyText">October 2018 to May 2019</h5>
+              <h4 className="noMP">WORK</h4>
+              <h1 className="noMP">Macroinvertebrates</h1>
+              <h5 className="noMP">October 2018 to May 2019</h5>
               <h2>
-                NSF supported research on a learning and teaching tool for
-                aquatic insect identification supporting citizen scientists in
-                pollution prevention.
+                A learning and teaching tool for aquatic insect identification,
+                supporting citizen scientists in pollution prevention.
               </h2>
             </div>
             <div className="fastFacts">
               <div className="fact">
-                <h5 className="names skinnyText">ROLE</h5>
-                <p className="skinnyText">Research Assistant: UI Designer</p>
+                <h5 className="names noMP">ROLE</h5>
+                <p className="noMP">Research Assistant: UI Designer</p>
               </div>
               <div className="fact">
-                <h5 className="names skinnyText">TOOLS</h5>
-                <p className="skinnyText">
-                  Photoshop, Illustrator, InDesign, Sketch
-                </p>
+                <h5 className="names noMP">TOOLS</h5>
+                <p className="noMP">Photoshop, Illustrator, InDesign, Sketch</p>
               </div>
               <div className="fact">
-                <h5 className="names skinnyText">TEAM</h5>
-                <p className="skinnyText">
+                <h5 className="names noMP">TEAM</h5>
+                <p className="noMP">
                   Jamie Dorst, Marti Louw, MDes., Jessica Roberts, Ph.D.
                 </p>
               </div>
             </div>
           </div>
         </div>
-        <hr className="headBottomLine" />
       </header>
       <main>
-        <hr className="vertBodyLineTop macroHL" />
         <article className="sectionBreak">
           <h3 className="section">Overview</h3>
           <section className="textBlock">
-            <h5 className="names skinnyText">PROBLEM</h5>
-            <p className="skinnyText bottomM3">
+            <h5 className="names noMP">PROBLEM</h5>
+            <p className="noMP bottomM3">
               Citizen scientists are able to use information about aquatic
               insects to learn more about pollution levels in local streams.
               However, identifying these insects is notoriously difficult, and
@@ -71,8 +65,8 @@ export default function Macroinvertebrates() {
               more advanced technology to determine anything about pollution
               levels.
             </p>
-            <h5 className="names skinnyText">SOLUTION</h5>
-            <p className="skinnyText ">
+            <h5 className="names noMP">SOLUTION</h5>
+            <p className="noMP ">
               Learning to See, Seeing to Learn is an interdisciplinary research
               and development effort to bring aquatic insect identification into
               the 21st century. By transitioning away from the analog resources
@@ -89,8 +83,8 @@ export default function Macroinvertebrates() {
                 macroinvertebrates.org
               </a>
             </p>
-            <h5 className="names skinnyText">MY CONTRIBUTION</h5>
-            <p className="skinnyText">
+            <h5 className="names noMP">MY CONTRIBUTION</h5>
+            <p className="noMP">
               I had a few main responsibilities during my time as a Research
               Assistant. I analyzed user research data to create thoughtful and
               informed site content, such as an updated landing page, a poster
@@ -111,8 +105,8 @@ export default function Macroinvertebrates() {
         <article className="sectionBreak">
           <h3 className="section">Work</h3>
           <section className="textBlock">
-            <h5 className="names skinnyText">UPDATED LANDING PAGE</h5>
-            <p className="skinnyText">
+            <h5 className="names noMP">UPDATED LANDING PAGE</h5>
+            <p className="noMP">
               Our team had extremely high-quality gigapan images of every insect
               in our collection. However, when the website was first made, these
               images were not used for the landing page. I created an updated
@@ -121,14 +115,10 @@ export default function Macroinvertebrates() {
               had at our disposal.
             </p>
           </section>
-          <img
-            src={landing}
-            className="landscape8w topM1 bottomM3"
-            alt="Landing Page"
-          />
+          <img src={landing} className="w8 topM1 bottomM3" alt="Landing Page" />
           <section className="textBlock">
-            <h5 className="names skinnyText">FULL COLLECTION POSTER</h5>
-            <p className="skinnyText">
+            <h5 className="names noMP">FULL COLLECTION POSTER</h5>
+            <p className="noMP">
               Because we had such amazing images, we wanted a place where people
               could see them all at once and see the vast diversity in our
               collection. I created this poster displaying all of our specimen
@@ -138,12 +128,12 @@ export default function Macroinvertebrates() {
           </section>
           <img
             src={poster}
-            className="landscape8w topM1 bottomM3"
+            className="w8 topM1 bottomM3"
             alt="Full Collection Poster"
           />
           <section className="textBlock">
-            <h5 className="names skinnyText">ORDER LEVEL PRINTOUTS</h5>
-            <p className="skinnyText">
+            <h5 className="names noMP">ORDER LEVEL PRINTOUTS</h5>
+            <p className="noMP">
               Our website is a fantastic tool for citizen scientists looking to
               train themselves on different specimen or compare specimen
               directly to images we supply. However, when they are out by the
@@ -157,33 +147,25 @@ export default function Macroinvertebrates() {
           <div className="bottomM3">
             <img
               src={ephemeropteraFront}
-              className="landscape4w topM1 removeHeight"
+              className="w4 topM1"
               alt="Ephemeroptera"
             />
             <img
               src={ephemeropteraBack}
-              className="landscape4w topM1 removeHeight"
+              className="w4 topM1"
               alt="Ephemeroptera"
             />
-            <img
-              src={plecoptera}
-              className="landscape8w topM1 removeHeight"
-              alt="Plecoptera"
-            />
+            <img src={plecoptera} className="w8 topM1 " alt="Plecoptera" />
             <img
               src={trichopteraFront}
-              className="landscape4w topM1 removeHeight"
+              className="w4 topM1"
               alt="Trichoptera"
             />
-            <img
-              src={trichopteraBack}
-              className="landscape4w topM1 removeHeight"
-              alt="Trichoptera"
-            />
+            <img src={trichopteraBack} className="w4 topM1" alt="Trichoptera" />
           </div>
           <section className="textBlock">
-            <h5 className="names skinnyText">INTERACTIVE DICHOTOMOUS KEY</h5>
-            <p className="skinnyText">
+            <h5 className="names noMP">INTERACTIVE DICHOTOMOUS KEY</h5>
+            <p className="noMP">
               Dichotomous keys are often used in identification activities.
               However, those for aquatic insects were all decades-old, analog,
               with only drawings. I created a digital and interactive
@@ -205,12 +187,12 @@ export default function Macroinvertebrates() {
           <div className="bottomM3">
             <img
               src={key}
-              className="landscape8w topM1"
+              className="w8 topM1"
               alt="Interactive Dichotomous Key"
             />
             <img
               src={popUps}
-              className="landscape8w topM1"
+              className="w8 topM1"
               alt="Interactive Dichotomous Key Pop-Ups"
             />
           </div>

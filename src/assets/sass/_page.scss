@@ -64,44 +64,6 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
 }
 
-.vertShortLine {
-  position: absolute;
-  width: 0;
-  height: $coverImgHeight * 1.2;
-  color: $dropShadow;
-  border: 1px solid;
-  @include media(">=desktop") {
-    margin-left: $sixC;
-    display: normal;
-    top: 22%;
-  }
-  @include media("<desktop") {
-    margin-left: $threeC;
-    display: normal;
-    top: 18%;
-  }
-  @include media("<tablet") {
-    display: none;
-  }
-}
-
-.headBottomLine {
-  width: $elevenC;
-  color: $dropShadow;
-  border: 1px solid;
-  position: absolute;
-  right: 0;
-  @include media(">=desktop") {
-    margin-top: $gutter * 2;
-  }
-  @include media("<desktop") {
-    margin-top: $gutter * 3;
-  }
-  @include media("<tablet") {
-    margin-top: $gutter * 5;
-  }
-}
-
 .pageHeadText {
   z-index: 2;
   height: $coverImgHeight;
@@ -143,20 +105,6 @@
 // HEADER --------------------------
 
 // MAIN ----------------------------
-.vertBodyLineTop {
-  position: absolute;
-  width: 0;
-  color: $dropShadow;
-  border: 1px solid;
-  @include media(">=desktop") {
-    margin-left: $twoC;
-    display: normal;
-    top: 50%;
-  }
-  @include media("<desktop") {
-    display: none;
-  }
-}
 
 .sectionBreak {
   margin-top: 10vw;
@@ -177,26 +125,25 @@
 .highlightSect {
   position: relative;
   margin-top: $gutter * 2;
-  margin-right: 0px;
+  margin-left: $threeC;
+  height: 50vh;
   @include media(">=tablet") {
     width: $tenC + $gutter;
-    height: $coverImgHeight;
   }
   @include media("<tablet") {
     width: $sevenC;
     position: static;
-    height: $coverImgHeight * 2;
   }
 }
 
 .highlightText {
   z-index: 2;
-  height: $coverImgHeight;
+  height: 50vh;
   display: flex;
   flex-wrap: wrap;
   align-content: center;
   @include media(">=tablet") {
-    width: $fiveC;
+    width: $fourC;
     position: absolute;
   }
   @include media("<tablet") {
@@ -209,54 +156,12 @@
   padding-bottom: $gutter * 2;
 }
 
-.highlightGradient {
-  z-index: 1;
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0+100;White+to+Transparent */
-  background: -moz-linear-gradient(
-    left,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(255, 255, 255, 0) 75%
-  ); /* FF3.6-15 */
-  background: -webkit-linear-gradient(
-    left,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(255, 255, 255, 0) 75%
-  ); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(
-    to right,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(255, 255, 255, 0) 75%
-  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
-
-  @include media(">=desktop") {
-    width: $sevenC;
-    height: $coverImgHeight;
-    position: absolute;
-    right: 0;
-  }
-  @include media("<desktop") {
-    width: $sevenC;
-    height: $coverImgHeight;
-    position: absolute;
-    right: 0;
-  }
-  @include media("<tablet") {
-    width: $sevenC;
-    height: $coverImgHeight;
-    position: static;
-    margin-bottom: $coverImgHeight;
-  }
-}
-
 .highlightImg {
   z-index: 0;
   @include media(">=desktop") {
-    width: $sevenC;
-    height: $coverImgHeight;
-    object-fit: cover;
+    width: $fiveC;
     position: absolute;
-    right: 0;
+    right: $oneC;
   }
   @include media("<desktop") {
     width: $sevenC;
@@ -271,50 +176,6 @@
     object-fit: cover;
     position: static;
     margin-bottom: $coverImgHeight;
-  }
-}
-
-.highlightLineTop {
-  width: $fiveC;
-  color: $dropShadow;
-  border: 1px solid;
-  position: absolute;
-  left: 0;
-  @include media(">=desktop") {
-    margin-top: $gutter * 3;
-    display: normal;
-  }
-  @include media("<tablet") {
-    display: none;
-  }
-}
-
-.highlightLineBottom {
-  width: $fiveC;
-  color: $dropShadow;
-  border: 1px solid;
-  position: absolute;
-  left: 0;
-  @include media(">=desktop") {
-    margin-top: -$gutter * 2;
-    display: normal;
-  }
-  @include media("<tablet") {
-    display: none;
-  }
-}
-
-.vertBodyLineBottom {
-  position: absolute;
-  width: 0;
-  color: $dropShadow;
-  border: 1px solid;
-  @include media(">=desktop") {
-    margin-left: $twoC;
-    display: normal;
-  }
-  @include media("<desktop") {
-    display: none;
   }
 }
 
@@ -331,7 +192,7 @@
 }
 
 .sbsImg {
-  object-fit: cover;
+  object-fit: contain;
   @include media(">=desktop") {
     width: $fiveC;
     height: $sbsImgHeight * $fiveC;
@@ -363,35 +224,28 @@
   }
 }
 
-.landscape4w {
+.phone {
+  padding-right: $gutter;
+
+  @include media(">=desktop") {
+    height: 75vh;
+  }
+  @include media("<desktop") {
+    height: 50vh;
+  }
+}
+
+.w4 {
   width: $fourC;
-  height: $landscapeImgHeight4;
-  object-fit: cover;
   padding-right: $gutter;
 }
 
-.portrait4w {
-  width: $fourC;
-  height: $portraitImgHeight4;
-  object-fit: cover;
-  padding-right: $gutter;
-}
-
-.landscape8w {
+.w8 {
   width: $eightC;
-  object-fit: cover;
 }
 
-.portrait2w {
+.w2 {
   width: $twoC;
-  height: $portraitImgHeight2;
-  object-fit: cover;
-  padding-right: $gutter;
-}
-
-.portrait3w {
-  width: $threeC;
-  object-fit: cover;
   padding-right: $gutter;
 }
 
@@ -408,11 +262,6 @@
 
 .topM1 {
   margin-top: $gutter;
-}
-
-.noMP {
-  margin: 0;
-  padding: 0;
 }
 
 // SPACERS -------------------------

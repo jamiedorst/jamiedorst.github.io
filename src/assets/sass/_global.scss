@@ -17,21 +17,9 @@ $elevenC: 100 * 0.9167 - $gutter;
 $twelveC: 100vw - $gutter;
 
 // styles
-$font: "IBM Plex Serif", serif;
-$sansFont: "IBM Plex Sans", sans-serif;
-$white: #e8e9eb;
-$black: #313638;
-$yellow: #e4b363;
-$blue: #456496;
-$red: #ef6461;
-$taupe: #e0dfd5;
-$darkerTaupe: #B9B7A5;
-$blackOverlay: rgba($black, 0.85);
-$whiteOverlay: rgba($white, 0.5);
-$redOverlay: rgba($red, 0.2);
-$blueOverlay: rgba($blue, 0.2);
-$yellowOverlay: rgba($yellow, 0.2);
-$dropShadow: rgba($black, 0.25);
+$sans: "IBM Plex Sans", sans-serif;
+$white: #ffffff;
+$black: #000000;
 $extraLight: 200;
 $light: 300;
 $regular: 400;
@@ -40,26 +28,7 @@ $bold: 700;
 
 // specifics
 $coverImgHeight: 0.5785 * $sevenC;
-$blogImgHeight: 0.415 * $eightC;
 $sbsImgHeight: 0.643;
-$landscapeImgHeight4: 0.7373 * $fourC;
-$portraitImgHeight4: 1.33 * $fourC;
-$portraitImgHeight2: 2.01 * $twoC;
-$blogCoverHeight: 0.358 * $sevenC;
-
-// weird
-$pieceWidth3: 30vw; //30-45?
-$pieceHeight3: $pieceWidth3 * 0.733;
-$pieceWidth2: 45vw; //30-45?
-$pieceHeight2: $pieceWidth2 * 0.733;
-$pieceWidth1: 70vw; //30-45?
-$pieceHeight1: $pieceWidth1 * 0.733;
-$fiveTwelveW: 41.67vw;
-$fiveTwelveH: $fiveTwelveW * 0.574;
-$twoHalf: 20.8vw;
-$singleMacH: $fiveTwelveW * 0.977;
-$doubleMacH: 50 * 0.951;
-$doublePhoneH: 33.33 * 0.015;
 
 html {
   scroll-behavior: smooth;
@@ -71,7 +40,7 @@ html {
 }
 
 body {
-  background: $taupe;
+  background: $white;
   display: flex;
   flex-wrap: wrap;
   margin: 0;
@@ -91,6 +60,10 @@ a {
 
 // UNIVERSAL STYLES
 
+.textLink {
+  width: fit-content;
+}
+
 .linkObvi {
   color: $black;
   text-decoration: underline;
@@ -104,26 +77,43 @@ a {
   font-style: italic;
 }
 
-.skinnyText {
+.noMP {
   margin: 0;
   padding: 0;
+}
+
+.invertBackground {
+  background-color: $black;
+  margin-left: $threeC * -1;
+  padding-top: $gutter;
+  padding-bottom: $gutter;
+  height: 140vh;
 }
 
 .invert {
   color: $white;
 }
 
-.workCards {
-  color: $white;
-  font-family: $sansFont;
+.invertTitle {
+  margin-left: $threeC;
 }
 
-.removeHeight {
-  height: auto !important;
+.preview {
+  margin-left: $oneC;
+  @include media(">=tablet") {
+    width: $sixC;
+  }
+  @include media("<tablet") {
+    width: $tenC;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 h1 {
-  font-family: $font;
+  font-family: $sans;
   font-weight: $medium;
   font-style: normal;
   color: $black;
@@ -136,7 +126,7 @@ h1 {
 }
 
 h2 {
-  font-family: $font;
+  font-family: $sans;
   font-weight: $medium;
   color: $black;
   @include font-size(36px);
@@ -148,21 +138,17 @@ h2 {
 }
 
 .location {
-  font-family: $sansFont;
+  font-family: $sans;
   font-weight: $extraLight;
   font-style: italic;
   margin: 0;
 }
 
 h3 {
-  font-family: $font;
+  font-family: $sans;
   font-weight: $medium;
   color: $black;
   @include font-size(24px);
-}
-
-.blurb {
-  font-weight: $regular;
 }
 
 .section {
@@ -170,13 +156,8 @@ h3 {
   font-style: italic;
 }
 
-.sub {
-  font-weight: $regular;
-  font-style: italic;
-}
-
 h4 {
-  font-family: $font;
+  font-family: $sans;
   font-weight: $regular;
   color: $black;
   @include font-size(18px);
@@ -192,11 +173,17 @@ h4 {
 }
 
 h5 {
-  font-family: $font;
+  font-family: $sans;
   font-weight: $light;
   font-style: italic;
   color: $black;
   @include font-size(14px);
+}
+
+.seeMore {
+  font-weight: $bold;
+  width: fit-content;
+  margin: 0;
 }
 
 .names {
@@ -205,7 +192,7 @@ h5 {
 }
 
 p {
-  font-family: $sansFont;
+  font-family: $sans;
   font-weight: $regular;
   color: $black;
   @include font-size(18px);

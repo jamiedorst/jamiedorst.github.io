@@ -13,7 +13,13 @@ ul {
 li {
   display: inline-block;
   padding-top: $gutter;
-  padding-right: 4vw;
+
+  @include media(">=tablet") {
+    padding-right: 4vw;
+  }
+  @include media("<tablet") {
+    padding-right: 2vw;
+  }
   &:hover {
     cursor: pointer;
   }

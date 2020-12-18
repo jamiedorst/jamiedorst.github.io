@@ -16,8 +16,8 @@ export default function About() {
         <img src={jamie} id="aboutImg" alt="Jamie Dorst" />
         <div id="aboutTopLayer">
           <section id="aboutTitle">
-            <h2 className="skinnyText">Jamie Dorst</h2>
-            <h3 className="sub skinnyText">about me</h3>
+            <h2 className="noMP">Jamie Dorst</h2>
+            <h3 className="sub noMP">about me</h3>
           </section>
           <hr id="aboutLine" />
           <div id="aboutText">
@@ -32,7 +32,7 @@ export default function About() {
               in my hometown of Palo Alto, CA.
             </p>
             <p>
-              I'm currently pursuing a double major in{" "}
+              I'm pursuing a double major in{" "}
               <span className="bold">
                 Human-Computer Interaction and Psychology at Carnegie Mellon
                 University
@@ -43,15 +43,9 @@ export default function About() {
             </p>
             <p>
               Drop me a line if you want to chat about your latest baking
-              endeavors, any (Monday) NYT crossword puzzle, Animal
-              Crossing–preferably Wild World, or a project I might be able to
-              help with, from illustration to research to web design.
+              endeavors, any NYT crossword puzzle, Animal Crossing (preferably
+              Wild World), or a project I might be able to help with.
             </p>
-            {/* <p>
-              Also check out my instagram{" "}
-              <span className="bold">@jamiemadesomething</span> to see a nicer
-              rendition of what I've been up to in the kitchen.
-            </p> */}
           </div>
         </div>
       </main>

@@ -1,17 +1,2 @@
 @import "../../../assets/sass/global";
 @import "../../../assets/sass/page";
-
-.demoVidPhone {
-  height: 75vh;
-}
-
-.rmTop {
-  height: 69vw;
-}
-
-.rmBott {
-  height: 627vw;
-  @include media(">=desktop") {
-    top: 320%;
-  }
-}

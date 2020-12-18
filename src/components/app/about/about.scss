@@ -2,8 +2,6 @@
 @import "../../../assets/sass/page";
 
 #aboutImg {
-  padding: 0 !important;
-  box-shadow: 3vw -3vw $black;
   @include media(">=desktop") {
     width: $fourC;
     margin-left: $sixC;
@@ -34,7 +32,7 @@
   text-align: right;
   padding-bottom: $gutter !important;
   @include media(">=desktop") {
-    width: $fiveC;
+    width: $fourC;
     margin-left: $twoC;
   }
   @include media("<desktop") {
@@ -49,7 +47,7 @@
   margin: 0;
   @include media(">=desktop") {
     margin-left: $twoC;
-    width: $fiveC;
+    width: $fourC;
   }
   @include media("<desktop") {
     width: $nineC;
@@ -61,7 +59,7 @@
   @include media(">=desktop") {
     z-index: 1;
     position: absolute;
-    top: 20vw;
+    top: $threeC;
   }
   @include media("<desktop") {
     padding-top: 5%;

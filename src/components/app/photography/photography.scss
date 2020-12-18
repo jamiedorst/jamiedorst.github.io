@@ -14,13 +14,16 @@
   flex-wrap: wrap;
   justify-content: center;
   max-width: 95vw;
+  position: relative;
 }
 .pgImg {
-  object-fit: contain;
+  margin: $gutter / 2;
+  position: relative;
   max-height: 40vh;
   min-height: 300px;
   max-width: 95vw;
-  margin: $gutter / 2;
+  object-fit: contain;
+
   &:hover {
     cursor: pointer;
   }

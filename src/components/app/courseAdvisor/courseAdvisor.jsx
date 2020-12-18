@@ -21,7 +21,6 @@ export default function CourseAdvisor() {
         <nav className="navbarPage">
           <Navbar />
         </nav>
-        <hr className="vertShortLine" />
         <div className="pageHeader">
           <span className="headerGradient" />
           <img
@@ -31,54 +30,52 @@ export default function CourseAdvisor() {
           />
           <div className="pageHeadText">
             <div>
-              <h4 className="skinnyText">WORK</h4>
-              <h1 className="skinnyText">CMU Course Advisor</h1>
-              <h5 className="skinnyText">Ongoing since August 2019</h5>
+              <h4 className="noMP">WORK</h4>
+              <h1 className="noMP">CMU Course Advisor</h1>
+              <h5 className="noMP">Ongoing since August 2019</h5>
               <h2>
                 A new way for CMU students to discover and learn about courses.
               </h2>
             </div>
             <div className="fastFacts">
               <div className="fact">
-                <h5 className="names skinnyText">ROLE</h5>
-                <p className="skinnyText">UX Designer & Front-End Developer</p>
+                <h5 className="names noMP">ROLE</h5>
+                <p className="noMP">UX Designer & Front-End Developer</p>
               </div>
               <div className="fact">
-                <h5 className="names skinnyText">TOOLS</h5>
-                <p className="skinnyText">Sketch, Principle, React</p>
+                <h5 className="names noMP">TOOLS</h5>
+                <p className="noMP">Sketch, Principle, React</p>
               </div>
               <div className="fact">
-                <h5 className="names skinnyText">TEAM</h5>
-                <p className="skinnyText">Jamie Dorst, Andy Chen, Jesse Chan</p>
+                <h5 className="names noMP">TEAM</h5>
+                <p className="noMP">Jamie Dorst, Andy Chen, Jesse Chan</p>
               </div>
             </div>
           </div>
         </div>
-        <hr className="headBottomLine" />
       </header>
       <main>
-        <hr className="vertBodyLineTop caTop" />
         <article className="sectionBreak">
           <h3 className="section">Overview</h3>
           <div>
             <section className="textBlock">
-              <h5 className="names skinnyText">PROBLEM</h5>
-              <p className="skinnyText bottomM3">
+              <h5 className="names noMP">PROBLEM</h5>
+              <p className="noMP bottomM3">
                 CMU students don’t have an easy way of discovering new classes
                 or getting an idea of what they’re really like. The resources
                 that currently exist don’t address the questions students
                 actually tend to have.
               </p>
-              <h5 className="names skinnyText">SOLUTION</h5>
-              <p className="skinnyText bottomM3">
+              <h5 className="names noMP">SOLUTION</h5>
+              <p className="noMP bottomM3">
                 CMU Course Advisor allows students to browse classes, see
                 relevant insights about what they’re like, and view comments
                 from students who have taken them before. Filters allow students
                 to discover new classes based on criteria that’s important to
                 them.
               </p>
-              <h5 className="names skinnyText">MY CONTRIBUTION</h5>
-              <p className="skinnyText bottomM3">
+              <h5 className="names noMP">MY CONTRIBUTION</h5>
+              <p className="noMP bottomM3">
                 I took the initiative of making the original design and
                 prototype (using Principle for the first time) so that we would
                 have something to work with. I also did a competitive analysis
@@ -89,13 +86,12 @@ export default function CourseAdvisor() {
                 HTML/CSS or React.
               </p>
             </section>
-            <section>
-              <h5 className="names">FINAL PRODUCT</h5>
-              <hr className="highlightLineTop" />
+            <section className="invertBackground">
+              <h5 className="names invert invertTitle">FINAL PRODUCT</h5>
               <div className="highlightSect">
                 <div className="highlightText">
-                  <h2>Advanced Search & Filter</h2>
-                  <h3 className="blurb">
+                  <h2 className="invert">Advanced Search & Filter</h2>
+                  <h3 className="blurb invert">
                     Students can easily see the information that’s important to
                     them, and discover new, interesting classes that can fulfill
                     their requirements.
@@ -110,8 +106,8 @@ export default function CourseAdvisor() {
               </div>
               <div className="highlightSect">
                 <div className="highlightText">
-                  <h2>Relevant Details & Reviews</h2>
-                  <h3 className="blurb">
+                  <h2 className="invert">Relevant Details & Reviews</h2>
+                  <h3 className="blurb invert">
                     Quantitative data as well as personal reviews and tags from
                     previous students give students a well-rounded and authentic
                     idea of what classes are like.
@@ -124,18 +120,17 @@ export default function CourseAdvisor() {
                   alt="Course Advisor Highlight"
                 />
               </div>
-              <hr className="highlightLineBottom" />
+              <SkipButton />
             </section>
           </div>
         </article>
-        <SkipButton />
-        <hr className="vertBodyLineBottom caBott" />
+
         <article className="sectionBreak">
           <h3 className="section">Research</h3>
           <div>
             <section className="textBlock">
-              <h5 className="names skinnyText">COMPETITIVE ANALYSIS</h5>
-              <p className="skinnyText bottomM3">
+              <h5 className="names noMP">COMPETITIVE ANALYSIS</h5>
+              <p className="noMP bottomM3">
                 My first step was to take a closer look at the resources that
                 currently exist for students, and determine what their best and
                 worst features were. Based on this, I would know what features
@@ -158,7 +153,7 @@ export default function CourseAdvisor() {
                   <p>
                     However, the interface is frustrating and slow, and the
                     qualitative data shown is often not what students are
-                    wondering about. ALthough there are helpful pieces of
+                    wondering about. Although there are helpful pieces of
                     information here, they often take too much effort to
                     decipher.
                   </p>
@@ -241,8 +236,8 @@ export default function CourseAdvisor() {
         <article className="sectionBreak">
           <h3 className="section">Design</h3>
           <section className="textBlock">
-            <h5 className="names skinnyText">IMPORTANT FEATURES</h5>
-            <p className="skinnyText">
+            <h5 className="names noMP">IMPORTANT FEATURES</h5>
+            <p className="noMP">
               Based on the competitive analysis, I made a list of important
               features that I wanted to include in our site.
             </p>
@@ -271,21 +266,22 @@ export default function CourseAdvisor() {
                 class-specific ratings and tags
               </p>
             </div>
-            <h5 className="names skinnyText" id="final">
+            <h5 className="names noMP" id="final">
               INITIAL DESIGN
             </h5>
-            <p className="skinnyText">
+            <p className="noMP">
               After figuring out the most important features and creating some
               basic wireframes, I put together this prototype using Sketch and
-              Principle.
+              Principle. Since then I have made UI updates, but the flow has
+              remained the same.
             </p>
           </section>
           <video className="demoVidMac bottomM3" alt="Prototype" controls>
             <source src={CAdemo} />
           </video>
           <div className="textBlock">
-            <h5 className="names skinnyText">NEXT STEPS</h5>
-            <p className="skinnyText">
+            <h5 className="names noMP">NEXT STEPS</h5>
+            <p className="noMP">
               This prototype combined the positive features from the other
               commonly used websites into one simple interface. However, during
               the process of creating it, many questions were raised that I

@@ -7,7 +7,7 @@ export default function SkipButton() {
     <>
       <div id="skipButton">
         <HashLink id="toFinal" to="#final">
-          <h5 className="names skinnyText">SKIP TO FINAL PRODUCT</h5>
+          <h5 className="names noMP">SKIP PROCESS</h5>
         </HashLink>
       </div>
     </>

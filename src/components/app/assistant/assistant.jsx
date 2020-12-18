@@ -18,7 +18,6 @@ export default function Assistant() {
         <nav className="navbarPage">
           <Navbar />
         </nav>
-        <hr className="vertShortLine" />
         <div className="pageHeader">
           <span className="headerGradient" />
           <img
@@ -28,9 +27,9 @@ export default function Assistant() {
           />
           <div className="pageHeadText">
             <div>
-              <h4 className="skinnyText">WORK</h4>
-              <h1 className="skinnyText">AI Virtual Assistant</h1>
-              <h5 className="skinnyText">November 2019</h5>
+              <h4 className="noMP">WORK</h4>
+              <h1 className="noMP">AI Virtual Assistant</h1>
+              <h5 className="noMP">November 2019</h5>
               <h2>
                 An AI-powered virtual assistant to help remote workers create a
                 mental divide between work and home.
@@ -38,30 +37,28 @@ export default function Assistant() {
             </div>
             <div className="fastFacts">
               <div className="fact">
-                <h5 className="names skinnyText">ROLE</h5>
-                <p className="skinnyText">UX Researcher, UX Designer</p>
+                <h5 className="names noMP">ROLE</h5>
+                <p className="noMP">UX Researcher, UX Designer</p>
               </div>
               <div className="fact">
-                <h5 className="names skinnyText">TOOLS</h5>
-                <p className="skinnyText">Sketch</p>
+                <h5 className="names noMP">TOOLS</h5>
+                <p className="noMP">Sketch</p>
               </div>
               <div className="fact">
-                <h5 className="names skinnyText">TEAM</h5>
-                <p className="skinnyText">Jamie Dorst</p>
+                <h5 className="names noMP">TEAM</h5>
+                <p className="noMP">Jamie Dorst</p>
               </div>
             </div>
           </div>
         </div>
-        <hr className="headBottomLine" />
       </header>
       <main>
-        <hr className="vertBodyLineTop vaTop" />
         <article className="sectionBreak">
           <h3 className="section">Overview</h3>
           <div>
             <section className="textBlock">
-              <h5 className="names skinnyText">PROBLEM</h5>
-              <p className="skinnyText bottomM3">
+              <h5 className="names noMP">PROBLEM</h5>
+              <p className="noMP bottomM3">
                 <span className="italics">
                   This was completed as part of a week-long design challenge.
                 </span>{" "}
@@ -70,8 +67,8 @@ export default function Assistant() {
                 understanding the different factors that influence each
                 individual’s workday.
               </p>
-              <h5 className="names skinnyText">SOLUTION</h5>
-              <p className="skinnyText bottomM3">
+              <h5 className="names noMP">SOLUTION</h5>
+              <p className="noMP bottomM3">
                 I created an AI-powered assistant to create a mental distance
                 between remote workers and their workplace. This app removes
                 pressure from employees to constantly be on the clock–their
@@ -79,20 +76,18 @@ export default function Assistant() {
                 need attention while they’re away.
               </p>
             </section>
-            <section>
-              <h5 className="names">FINAL PRODUCT</h5>
-              <hr className="highlightLineTop" />
+            <section className="invertBackground">
+              <h5 className="names invertTitle invert">FINAL PRODUCT</h5>
               <div className="highlightSect">
                 <div className="highlightText">
-                  <h2>Be Your Own Boss</h2>
-                  <h3 className="blurb">
+                  <h2 className="invert">Be Your Own Boss</h2>
+                  <h3 className="blurb invert">
                     Even if you’re always in your workplace, it doesn’t mean
                     you’re always at work. Set clear boundaries for when you’re
                     on the clock and when you’re off, and quickly know your
                     colleagues' hours as well.
                   </h3>
                 </div>
-                <span className="highlightGradient" />
                 <img
                   src={vmHi1}
                   className="highlightImg"
@@ -101,32 +96,29 @@ export default function Assistant() {
               </div>
               <div className="highlightSect">
                 <div className="highlightText">
-                  <h2>A Smart AI Assistant</h2>
-                  <h3 className="blurb">
+                  <h2 className="invert">A Smart AI Assistant</h2>
+                  <h3 className="blurb invert">
                     The app will handle all requests you get while you’re away
                     and either complete them or save them for your explicit
                     approval. When you’re back at work, you’ll get a summary of
                     what you missed and anything still requiring your attention.
                   </h3>
                 </div>
-                <span className="highlightGradient" />
                 <img
                   src={vmHi2}
                   className="highlightImg"
                   alt="Virtual Assistant Highlight"
                 />
               </div>
-              <hr className="highlightLineBottom" />
+              <SkipButton />
             </section>
           </div>
         </article>
-        <SkipButton />
-        <hr className="vertBodyLineBottom vaBott" />
         <article className="sectionBreak">
           <h3 className="section">Research</h3>
           <section className="textBlock bottomM3">
-            <h5 className="names skinnyText">RESCOPING THE PROBLEM-SPACE</h5>
-            <p className="skinnyText">
+            <h5 className="names noMP">RESCOPING THE PROBLEM-SPACE</h5>
+            <p className="noMP">
               I decided to rescope the problem so that I could produce something
               more tenable on the one-week timeframe. I focused on startups,
               specifically those with primarily remote employees from all over
@@ -149,8 +141,8 @@ export default function Assistant() {
             </p>
           </section>
           <section className="textBlock bottomM3">
-            <h5 className="names skinnyText">SECONDARY RESEARCH</h5>
-            <p className="skinnyText">
+            <h5 className="names noMP">SECONDARY RESEARCH</h5>
+            <p className="noMP">
               Because I was working with a limited timeframe and budget, I
               elected to start with secondary research. My main goal here was to
               find what common workplace challenges are, specifically focusing
@@ -171,8 +163,8 @@ export default function Assistant() {
             </p>
           </section>
           <section className="textBlock bottomM3">
-            <h5 className="names skinnyText">PRIMARY RESEARCH</h5>
-            <p className="skinnyText">
+            <h5 className="names noMP">PRIMARY RESEARCH</h5>
+            <p className="noMP">
               After learning more about the problem-space through secondary
               research, I conducted semi-structured interviews with remote
               startup employees. My main goals here were to clarify my research
@@ -250,8 +242,8 @@ export default function Assistant() {
             </p>
           </section>
           <section className="textBlock">
-            <h5 className="names skinnyText">REDEFINING THE PROBLEM</h5>
-            <p className="skinnyText">
+            <h5 className="names noMP">REDEFINING THE PROBLEM</h5>
+            <p className="noMP">
               I decided to tackle the problem of creating a healthy work-life
               balance. Whether it be that they can’t find a proper boundary with
               their employer or simply that the physical space they’re in every
@@ -263,8 +255,8 @@ export default function Assistant() {
         <article className="sectionBreak">
           <h3 className="section">Design</h3>
           <section className="textBlock">
-            <h5 className="names skinnyText">IDEATION</h5>
-            <p className="skinnyText">
+            <h5 className="names noMP">IDEATION</h5>
+            <p className="noMP">
               Oftentimes, employees are told to create a home office or somehow
               separate their work from their home on their own. While this can
               be a great solution, it isn't an option for everyone, and implies
@@ -287,12 +279,12 @@ export default function Assistant() {
           </section>
           <img
             src={sketches}
-            className="landscape4w bottomM3"
+            className="w4 bottomM3"
             alt="Wireframe Sketches"
           />
           <section className="textBlock" id="final">
-            <h5 className="names skinnyText">SOLUTION</h5>
-            <p className="skinnyText">
+            <h5 className="names noMP">SOLUTION</h5>
+            <p className="noMP">
               Based on my sketches, I created some digital mockups of a possible
               product solution.
             </p>
@@ -307,10 +299,10 @@ export default function Assistant() {
             </p>
           </section>
           <div className="bottomM3 topM1">
-            <img src={vm1} className="portrait3w" alt="Virtual Assistant" />
+            <img src={vm1} className="phone" alt="Virtual Assistant" />
           </div>
           <section className="textBlock">
-            <p className="skinnyText">
+            <p className="noMP">
               The app helps users by taking care of any tasks while they're
               away, and also providing the same courtesy to their coworkers. It
               provides a{" "}
@@ -323,8 +315,8 @@ export default function Assistant() {
             </p>
           </section>
           <div className="bottomM3 topM1">
-            <img src={vm2} className="portrait3w" alt="Virtual Assistant" />
-            <img src={vm3} className="portrait3w" alt="Virtual Assistant" />
+            <img src={vm2} className="phone" alt="Virtual Assistant" />
+            <img src={vm3} className="phone" alt="Virtual Assistant" />
           </div>
           <section className="textBlock bottomM3">
             <p>
@@ -335,8 +327,8 @@ export default function Assistant() {
             </p>
           </section>
           <section className="textBlock bottomM3">
-            <h5 className="names skinnyText">NEXT STEPS</h5>
-            <p className="skinnyText">
+            <h5 className="names noMP">NEXT STEPS</h5>
+            <p className="noMP">
               The next steps I would take in this project would be to do
               usability testing on my design, and find out how well it works or
               if this is even the optimal solution. I’d use those results to
@@ -344,8 +336,8 @@ export default function Assistant() {
             </p>
           </section>
           <section className="textBlock">
-            <h5 className="names skinnyText">REFLECTION</h5>
-            <p className="skinnyText">
+            <h5 className="names noMP">REFLECTION</h5>
+            <p className="noMP">
               I really enjoyed this exercise. Here are some of my main
               takeaways:
             </p>

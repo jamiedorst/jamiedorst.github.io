@@ -1,0 +1,36 @@
+@import "../../../assets/sass/global";
+
+.project {
+  position: relative;
+  margin-top: 7vw;
+  @include media(">=tablet") {
+    width: $fourC;
+    display: flex;
+    width: 100vw;
+  }
+  @include media("<tablet") {
+    width: $eightC;
+    display: block;
+  }
+}
+
+.projectText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @include media(">=tablet") {
+    padding-right: $oneC;
+    padding-left: $gutter;
+  }
+  @include media("<tablet") {
+    width: $tenC;
+    padding-left: $oneC + $gutter;
+    padding-top: $gutter;
+    padding-bottom: $oneC;
+  }
+}
+
+.navbarHome {
+  width: 100vw;
+}
