@@ -4,9 +4,15 @@
 .resume {
   display: block;
   margin: auto;
-  width: $eightC;
-  height: 95vh;
   border: none;
+  @include media(">=tablet") {
+    width: $eightC;
+    height: 95vh;
+  }
+  @include media("<tablet") {
+    width: $elevenC;
+    height: 77vh;
+  }
 }
 
 #resumeDate {
