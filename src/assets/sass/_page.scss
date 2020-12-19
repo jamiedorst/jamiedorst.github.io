@@ -148,6 +148,7 @@
   }
   @include media("<tablet") {
     width: $sevenC;
+    height: fit-content;
     position: static;
   }
 }
@@ -158,21 +159,14 @@
 
 .highlightImg {
   z-index: 0;
-  @include media(">=desktop") {
+  @include media(">=tablet") {
     width: $fiveC;
     position: absolute;
     right: $oneC;
   }
-  @include media("<desktop") {
-    width: $sevenC;
-    height: $coverImgHeight;
-    object-fit: cover;
-    position: absolute;
-    right: 0;
-  }
   @include media("<tablet") {
     width: $sevenC;
-    height: $coverImgHeight;
+    // height: $coverImgHeight;
     object-fit: cover;
     position: static;
     margin-bottom: $coverImgHeight;
