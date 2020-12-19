@@ -38,12 +38,12 @@ import { SRLWrapper } from "simple-react-lightbox";
 
 const options = {
   settings: {
-    overlayColor: "rgba(19,21,22, 0.85)",
+    overlayColor: "rgba(0,0,0, 0.85)",
     transitionSpeed: 100,
   },
   buttons: {
-    backgroundColor: "rgba(19,21,22, 0.95)",
-    iconColor: "#E8E9EB",
+    backgroundColor: "rgba(0,0,0, 0.95)",
+    iconColor: "#ffffff",
     iconPadding: "7px",
     showAutoplayButton: false,
     showCloseButton: true,
@@ -54,8 +54,8 @@ const options = {
     size: "40px",
   },
   caption: {
-    captionColor: "#E8E9EB",
-    captionFontFamily: "IBM Plex Serif, serif",
+    captionColor: "#ffffff",
+    captionFontFamily: "IBM Plex Sans, sans",
     captionFontWeight: "400",
   },
   thumbnails: {
