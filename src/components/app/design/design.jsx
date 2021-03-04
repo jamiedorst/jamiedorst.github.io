@@ -10,6 +10,8 @@ import rendering from "../../../assets/images/designImgs/rendering.png";
 import alainplaysguitar from "../../../assets/images/designImgs/alainplaysguitar.png";
 import alainlearnschem from "../../../assets/images/designImgs/alainlearnschem.png";
 import kite from "../../../assets/images/designImgs/kite.png";
+import kitePoster from "../../../assets/images/designImgs/kitePoster.png";
+import mahjong from "../../../assets/images/designImgs/mahjong.png";
 import "./design.scss";
 
 export default function Design() {
@@ -46,7 +48,17 @@ export default function Design() {
             className="flexImg "
             alt="Animation Rendering Poster"
           />
-          <img src={grtCamp} className="flexImg " alt="Robotics Camp Poster" />
+          <img
+            src={kitePoster}
+            className="flexImg "
+            alt="Berkeley Kite Festival Poster"
+          />
+          <img
+            src={mahjong}
+            className="flexImg"
+            id="banner"
+            alt="MCR Mahjong Guide"
+          />
           <img
             src={lowPoly}
             className="flexImg "

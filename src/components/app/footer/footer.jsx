@@ -10,7 +10,7 @@ export default function Footer() {
           <h4 className="more">back to top</h4>
         </HashLink>
         <hr id="footerLine" />
-        <h5 id="credit">© 2020 Jamie Dorst</h5>
+        <h5 id="credit">© 2021 Jamie Dorst</h5>
       </div>
     </>
   );

@@ -14,7 +14,7 @@ export default function Resume() {
       </header>
       <main>
         <div>
-          <h5 id="resumeDate">resume last updated december 2020</h5>
+          <h5 id="resumeDate">last updated march 2021</h5>
           <object className="resume" data={ResumeDoc} type="application/pdf">
             <iframe
               className="resume"
