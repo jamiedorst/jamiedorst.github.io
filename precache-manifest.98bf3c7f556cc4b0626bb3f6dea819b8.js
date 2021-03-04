@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "850657f18ecb4371b29fa998ef9baf52",
+    "revision": "adef62071c9f20c32fa2f6618a1e65e9",
     "url": "/index.html"
   },
   {
-    "revision": "d7a5a685e848149891c7",
+    "revision": "1bbb7c6d23d13ac48fe5",
     "url": "/static/css/main.00f2bba6.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.2f59ea77.chunk.js"
   },
   {
-    "revision": "d7a5a685e848149891c7",
-    "url": "/static/js/main.6543f3a3.chunk.js"
+    "revision": "1bbb7c6d23d13ac48fe5",
+    "url": "/static/js/main.8c6344c6.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -352,8 +352,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/macro.3def8f5b.png"
   },
   {
-    "revision": "7f2aabb60a06c62dbfb3f5ecd661f23c",
-    "url": "/static/media/mahjong.7f2aabb6.png"
+    "revision": "ac3e7af146480ab716568643fe131fea",
+    "url": "/static/media/mahjong.ac3e7af1.png"
   },
   {
     "revision": "f5b8d274ca291fe3fa539c0776be5565",
