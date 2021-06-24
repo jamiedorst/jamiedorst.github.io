@@ -16,8 +16,10 @@ export default function Landing() {
           <h1 id="spotlight">designer, researcher, front-end developer</h1>
         </section>
         <section id="currentTitle">
-          <h2 className="job">UX Research Intern @ VMware</h2>
-          <h2 className="location">Palo Alto, CA</h2>
+          <h2 className="job">
+            Experience Design Intern <br></br>@ Bank of America
+          </h2>
+          <h2 className="location">San Francisco, CA</h2>
         </section>
       </main>
       <footer className="stickyFooter">

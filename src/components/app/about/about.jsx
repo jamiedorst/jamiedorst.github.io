@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../navbar";
 import Footer from "../footer";
-import jamie from "../../../assets/images/aboutImgs/jamie.png";
+import jamie from "../../../assets/images/aboutImgs/jamie.jpg";
 import "./about.scss";
 
 export default function About() {
@@ -22,14 +22,14 @@ export default function About() {
           <hr id="aboutLine" />
           <div id="aboutText">
             <p>
-              I'm currently a{" "}
+              I'm currently an{" "}
               <span className="bold">
-                UX Research Intern at{" "}
-                <a className="linkObvi" href="https://www.vmware.com">
-                  VMware
+                Experience Design Intern at{" "}
+                <a className="linkObvi" href="https://www.bankofamerica.com">
+                  Bank of America
                 </a>
               </span>{" "}
-              in my hometown of Palo Alto, CA.
+              working remotely from my hometown of Palo Alto, CA.
             </p>
             <p>
               I'm pursuing a double major in{" "}
@@ -42,9 +42,9 @@ export default function About() {
               the affordances around us.
             </p>
             <p>
-              Drop me a line if you want to chat about your latest baking
-              endeavors, any NYT crossword puzzle, Animal Crossing (preferably
-              Wild World), or a project I might be able to help with.
+              Say hello if you want to chat about your latest baking endeavors,
+              today's NYT crossword puzzle, Animal Crossing (preferably Wild
+              World), or a project I might be able to help with!
             </p>
           </div>
         </div>
