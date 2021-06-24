@@ -28,11 +28,11 @@ export default function App() {
           <Route path="/cmucourseadvisor" component={CourseAdvisor} />
           <Route path="/resmed" component={Resmed} />
           <Route path="/macroinvertebrates" component={Macroinvertebrates} />
-          <Route path="/designillustration" component={Design} />
           <Route path="/personalitypictures" component={Personality} />
           <Route path="/virtualassistant" component={Assistant} />
           <SimpleReactLightbox>
             <Route path="/photography" component={Photography} />
+            <Route path="/designillustration" component={Design} />
           </SimpleReactLightbox>
         </Switch>
       </Router>
